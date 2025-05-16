@@ -1,0 +1,24 @@
+1747310612: mosquitto version 2.0.21 starting
+1747310612: Config loaded from /mosquitto/config/mosquitto.conf.
+1747310612: Opening ipv4 listen socket on port 1883.
+1747310612: mosquitto version 2.0.21 running
+1747310616: New connection from 172.19.0.4:34220 on port 1883.
+1747310616: New client connected from 172.19.0.4:34220 as a4bed265-7cc7-4b67-badb-984df7bf89b7 (p2, c1, k60, u'admin').
+1747310616: a4bed265-7cc7-4b67-badb-984df7bf89b7 1 vehicle/register
+1747310645: Client a4bed265-7cc7-4b67-badb-984df7bf89b7 closed its connection.
+1747310651: mosquitto version 2.0.21 starting
+1747310651: Config loaded from /mosquitto/config/mosquitto.conf.
+1747310651: Opening ipv4 listen socket on port 1883.
+1747310651: mosquitto version 2.0.21 running
+1747310655: New connection from 172.19.0.4:57614 on port 1883.
+1747310655: New client connected from 172.19.0.4:57614 as 0bdf42c8-06e8-482a-ba26-6245ceab7901 (p2, c1, k60, u'admin').
+1747310655: 0bdf42c8-06e8-482a-ba26-6245ceab7901 1 vehicle/register
+1747310691: Client 0bdf42c8-06e8-482a-ba26-6245ceab7901 closed its connection.
+1747310700: mosquitto version 2.0.21 starting
+1747310700: Config loaded from /mosquitto/config/mosquitto.conf.
+1747310700: Opening ipv4 listen socket on port 1883.
+1747310700: mosquitto version 2.0.21 running
+1747310704: New connection from 172.19.0.4:33748 on port 1883.
+1747310704: New client connected from 172.19.0.4:33748 as eb94cf3f-e490-4e99-baa4-c565dfd4ad28 (p2, c1, k60, u'admin').
+1747310704: eb94cf3f-e490-4e99-baa4-c565dfd4ad28 1 vehicle/register
+1747310733: Client eb94cf3f-e490-4e99-baa4-c565dfd4ad28 closed its connection.

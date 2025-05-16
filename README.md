@@ -1,0 +1,2 @@
+- The system design is located in the PNG attached with this repo
+- The decision_log.md file contains all decisions logged under timestamps

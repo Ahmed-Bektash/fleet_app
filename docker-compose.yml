@@ -1,0 +1,67 @@
+services:
+    mosquitto:
+        image: eclipse-mosquitto:2
+        ports:
+            - 1883:1883
+            - 5000:8883
+            - 9001:9001
+        volumes:
+            - ./app/libs/infrastructure/mqtt/mosquitto/passwd_file:/mosquitto/passwd_file
+            - ./app/libs/infrastructure/mqtt/mosquitto/data:/mosquitto/data
+            - ./app/libs/infrastructure/mqtt/mosquitto/log:/mosquitto/log
+            - ./app/libs/infrastructure/mqtt/mosquitto/config:/mosquitto/config
+
+        command: sh -c " mosquitto_passwd -b /mosquitto/passwd_file/passwd_file.txt fleetdb fleetdb && \
+                        chown 1883:1883 /mosquitto/passwd_file/passwd_file.txt && \
+                        chown 1883:1883 /mosquitto/data && \
+                        chown 1883:1883 /mosquitto/log && \
+                        chown 1883:1883 /mosquitto/log/mosquitto.log && \
+                        chown 1883:1883 /mosquitto/config/mosquitto.conf && \
+                        mosquitto -c /mosquitto/config/mosquitto.conf" 
+    app:
+      build:  # build from Dockerfile in the current directory
+        dockerfile: Dockerfile.dev
+        context: .
+      container_name: car-fleet-backend
+      ports:
+        - "3000:3000"
+      env_file:
+        - .env
+      depends_on:
+        - mosquitto
+        - db
+      # networks:
+      #   - mosquitto
+      develop:
+        watch:
+          - path: ./app
+            target: /app
+            action: sync
+          - path: ./app/package.json
+            action: rebuild 
+          - path: .env
+            action: rebuild
+    db:
+      image: postgres:16
+      ports:
+        - '5003:5432'
+      environment: # for testing purposes can be kept here
+        POSTGRES_DB: 'fleetdb'
+        POSTGRES_USER: 'fleetdb'
+        POSTGRES_PASSWORD: 'fleetdb'
+      volumes:
+        - postgres-data:/var/lib/postgresql/data
+      # networks:
+      #   - mosquitto
+# networks:
+#     mosquitto:
+#         name: mosquitto
+#         driver: bridge
+
+volumes:
+    postgres-data:
+    mosquitto-data:
+    mosquitto-log:
+    mosquitto-config:
+    mosquitto-passwd:
+
