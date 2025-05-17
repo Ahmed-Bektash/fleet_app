@@ -441,3 +441,164 @@
 1747512765: postman-mqtt-client-1747506025843 1 /vehicle/register/response/pm-1747505855012
 1747512770: New connection from 172.19.0.4:59372 on port 1883.
 1747512770: New client connected from 172.19.0.4:59372 as 1f4dd88c-6210-47b2-b72e-fc81216eb115 (p2, c1, k60, u'admin').
+1747513223: postman-mqtt-client-1747506025843 0 /missions
+1747513236: postman-mqtt-client-1747506025843 /missions
+1747513238: postman-mqtt-client-1747506025843 1 /missions
+1747513376: Client 1f4dd88c-6210-47b2-b72e-fc81216eb115 closed its connection.
+1747513376: Client c7238c9b-768f-448f-92d3-a164352ea752 closed its connection.
+1747513376: Client 974b8702-a6d1-4cf4-a76b-613fe9f2c193 closed its connection.
+1747513376: Client 5bd26e57-a715-4c26-8b45-fe8135f1ca09 closed its connection.
+1747513376: Client b8ae172d-ef37-4ec1-9ab7-e6db2b73547b closed its connection.
+1747513376: Client 18b20eed-9d24-470a-a7c3-1bfa6f92f370 closed its connection.
+1747513376: Client 5572f37d-55b9-4286-b50f-02cb45e75f8a closed its connection.
+1747513376: mosquitto version 2.0.21 terminating
+1747513376: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747513386: mosquitto version 2.0.21 starting
+1747513386: Config loaded from /mosquitto/config/mosquitto.conf.
+1747513386: Opening ipv4 listen socket on port 1883.
+1747513386: mosquitto version 2.0.21 running
+1747513387: Expiring client postman-mqtt-client-1747506025843 due to timeout.
+1747513388: New connection from 172.19.0.1:37030 on port 1883.
+1747513388: New client connected from 172.19.0.1:37030 as postman-mqtt-client-1747506025843 (p5, c0, k60, u'admin').
+1747513388: postman-mqtt-client-1747506025843 1 /vehicle/register/response/pm-1747505855012
+1747513388: postman-mqtt-client-1747506025843 1 /missions
+1747513393: New connection from 172.19.0.4:58474 on port 1883.
+1747513393: New client connected from 172.19.0.4:58474 as 3900c755-8886-4dc6-b71e-6454caeee749 (p2, c1, k60, u'admin').
+1747513393: 3900c755-8886-4dc6-b71e-6454caeee749 1 /vehicle/register
+1747513393: 3900c755-8886-4dc6-b71e-6454caeee749 1 /vehicle/health
+1747513393: 3900c755-8886-4dc6-b71e-6454caeee749 0 /telemetry
+1747513393: 3900c755-8886-4dc6-b71e-6454caeee749 1 /missions/status
+1747513616: Client 3900c755-8886-4dc6-b71e-6454caeee749 closed its connection.
+1747513617: mosquitto version 2.0.21 terminating
+1747513617: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747513626: mosquitto version 2.0.21 starting
+1747513626: Config loaded from /mosquitto/config/mosquitto.conf.
+1747513626: Opening ipv4 listen socket on port 1883.
+1747513626: mosquitto version 2.0.21 running
+1747513627: Expiring client postman-mqtt-client-1747506025843 due to timeout.
+1747513629: New connection from 172.19.0.1:52824 on port 1883.
+1747513629: New client connected from 172.19.0.1:52824 as postman-mqtt-client-1747506025843 (p5, c0, k60, u'admin').
+1747513629: postman-mqtt-client-1747506025843 1 /vehicle/register/response/pm-1747505855012
+1747513629: postman-mqtt-client-1747506025843 1 /missions
+1747513633: New connection from 172.19.0.4:34688 on port 1883.
+1747513633: New client connected from 172.19.0.4:34688 as fef19d2b-6e90-4457-8a2e-c55823c22cfa (p2, c1, k60, u'admin').
+1747513633: fef19d2b-6e90-4457-8a2e-c55823c22cfa 1 /vehicle/register
+1747513633: fef19d2b-6e90-4457-8a2e-c55823c22cfa 1 /vehicle/health
+1747513633: fef19d2b-6e90-4457-8a2e-c55823c22cfa 0 /telemetry
+1747513633: fef19d2b-6e90-4457-8a2e-c55823c22cfa 1 /missions/status
+1747513634: New connection from 172.19.0.4:34692 on port 1883.
+1747513634: New client connected from 172.19.0.4:34692 as 47252d55-654b-4bb7-9e17-6df8a5118679 (p2, c1, k60, u'admin').
+1747513868: Client 47252d55-654b-4bb7-9e17-6df8a5118679 closed its connection.
+1747513868: Client fef19d2b-6e90-4457-8a2e-c55823c22cfa closed its connection.
+1747513869: mosquitto version 2.0.21 terminating
+1747513869: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747513877: mosquitto version 2.0.21 starting
+1747513877: Config loaded from /mosquitto/config/mosquitto.conf.
+1747513877: Opening ipv4 listen socket on port 1883.
+1747513877: mosquitto version 2.0.21 running
+1747513878: Expiring client postman-mqtt-client-1747506025843 due to timeout.
+1747513879: New connection from 172.19.0.1:42432 on port 1883.
+1747513879: New client connected from 172.19.0.1:42432 as postman-mqtt-client-1747506025843 (p5, c0, k60, u'admin').
+1747513879: postman-mqtt-client-1747506025843 1 /vehicle/register/response/pm-1747505855012
+1747513879: postman-mqtt-client-1747506025843 1 /missions
+1747513884: New connection from 172.19.0.4:58806 on port 1883.
+1747513884: New client connected from 172.19.0.4:58806 as 94f9a610-f956-43a9-987c-71cacc2ced30 (p2, c1, k60, u'admin').
+1747513884: 94f9a610-f956-43a9-987c-71cacc2ced30 1 /vehicle/register
+1747513884: 94f9a610-f956-43a9-987c-71cacc2ced30 1 /vehicle/health
+1747513884: 94f9a610-f956-43a9-987c-71cacc2ced30 0 /telemetry
+1747513884: 94f9a610-f956-43a9-987c-71cacc2ced30 1 /missions/status
+1747513888: New connection from 172.19.0.4:56360 on port 1883.
+1747513888: New client connected from 172.19.0.4:56360 as 401ac08c-710e-4dcb-b396-782666a92fdb (p2, c1, k60, u'admin').
+1747513921: Client 401ac08c-710e-4dcb-b396-782666a92fdb closed its connection.
+1747513921: Client 94f9a610-f956-43a9-987c-71cacc2ced30 closed its connection.
+1747513922: mosquitto version 2.0.21 terminating
+1747513922: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747513930: mosquitto version 2.0.21 starting
+1747513930: Config loaded from /mosquitto/config/mosquitto.conf.
+1747513930: Opening ipv4 listen socket on port 1883.
+1747513930: mosquitto version 2.0.21 running
+1747513931: Expiring client postman-mqtt-client-1747506025843 due to timeout.
+1747513937: New connection from 172.19.0.4:34170 on port 1883.
+1747513937: New client connected from 172.19.0.4:34170 as ec561c57-7b05-4f00-962a-c1776a71bd99 (p2, c1, k60, u'admin').
+1747513937: ec561c57-7b05-4f00-962a-c1776a71bd99 1 /vehicle/register
+1747513937: ec561c57-7b05-4f00-962a-c1776a71bd99 1 /vehicle/health
+1747513937: ec561c57-7b05-4f00-962a-c1776a71bd99 0 /telemetry
+1747513937: ec561c57-7b05-4f00-962a-c1776a71bd99 1 /missions/status
+1747513941: New connection from 172.19.0.1:46814 on port 1883.
+1747513941: New client connected from 172.19.0.1:46814 as postman-mqtt-client-1747506025843 (p5, c0, k60, u'admin').
+1747513941: postman-mqtt-client-1747506025843 1 /vehicle/register/response/pm-1747505855012
+1747513941: postman-mqtt-client-1747506025843 1 /missions
+1747513943: New connection from 172.19.0.4:33598 on port 1883.
+1747513943: New client connected from 172.19.0.4:33598 as 70428b37-1fbf-42cd-a966-66a54f67e063 (p2, c1, k60, u'admin').
+1747514063: Client 70428b37-1fbf-42cd-a966-66a54f67e063 closed its connection.
+1747514063: Client ec561c57-7b05-4f00-962a-c1776a71bd99 closed its connection.
+1747514064: mosquitto version 2.0.21 terminating
+1747514064: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747514070: mosquitto version 2.0.21 starting
+1747514070: Config loaded from /mosquitto/config/mosquitto.conf.
+1747514070: Opening ipv4 listen socket on port 1883.
+1747514070: mosquitto version 2.0.21 running
+1747514071: Expiring client postman-mqtt-client-1747506025843 due to timeout.
+1747514075: New connection from 172.19.0.1:35710 on port 1883.
+1747514075: New client connected from 172.19.0.1:35710 as postman-mqtt-client-1747506025843 (p5, c0, k60, u'admin').
+1747514075: postman-mqtt-client-1747506025843 1 /vehicle/register/response/pm-1747505855012
+1747514075: postman-mqtt-client-1747506025843 1 /missions
+1747514077: New connection from 172.19.0.4:50512 on port 1883.
+1747514077: New client connected from 172.19.0.4:50512 as 6420b896-d7a4-4864-9309-7ec1e9947612 (p2, c1, k60, u'admin').
+1747514077: 6420b896-d7a4-4864-9309-7ec1e9947612 1 /vehicle/register
+1747514077: 6420b896-d7a4-4864-9309-7ec1e9947612 1 /vehicle/health
+1747514077: 6420b896-d7a4-4864-9309-7ec1e9947612 0 /telemetry
+1747514077: 6420b896-d7a4-4864-9309-7ec1e9947612 1 /missions/status
+1747514125: Client 6420b896-d7a4-4864-9309-7ec1e9947612 closed its connection.
+1747514125: mosquitto version 2.0.21 terminating
+1747514125: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747514133: mosquitto version 2.0.21 starting
+1747514133: Config loaded from /mosquitto/config/mosquitto.conf.
+1747514133: Opening ipv4 listen socket on port 1883.
+1747514133: mosquitto version 2.0.21 running
+1747514134: Expiring client postman-mqtt-client-1747506025843 due to timeout.
+1747514135: New connection from 172.19.0.1:50330 on port 1883.
+1747514135: New client connected from 172.19.0.1:50330 as postman-mqtt-client-1747506025843 (p5, c0, k60, u'admin').
+1747514135: postman-mqtt-client-1747506025843 1 /vehicle/register/response/pm-1747505855012
+1747514135: postman-mqtt-client-1747506025843 1 /missions
+1747514139: New connection from 172.19.0.4:35346 on port 1883.
+1747514139: New client connected from 172.19.0.4:35346 as c699009b-d4f6-4d0e-a3a4-eb7e4fbdfd54 (p2, c1, k60, u'admin').
+1747514139: c699009b-d4f6-4d0e-a3a4-eb7e4fbdfd54 1 /vehicle/register
+1747514139: c699009b-d4f6-4d0e-a3a4-eb7e4fbdfd54 1 /vehicle/health
+1747514139: c699009b-d4f6-4d0e-a3a4-eb7e4fbdfd54 0 /telemetry
+1747514139: c699009b-d4f6-4d0e-a3a4-eb7e4fbdfd54 1 /missions/status
+1747514242: Client c699009b-d4f6-4d0e-a3a4-eb7e4fbdfd54 closed its connection.
+1747514243: mosquitto version 2.0.21 terminating
+1747514243: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747514251: mosquitto version 2.0.21 starting
+1747514251: Config loaded from /mosquitto/config/mosquitto.conf.
+1747514251: Opening ipv4 listen socket on port 1883.
+1747514251: mosquitto version 2.0.21 running
+1747514252: Expiring client postman-mqtt-client-1747506025843 due to timeout.
+1747514256: New connection from 172.19.0.1:59584 on port 1883.
+1747514256: New client connected from 172.19.0.1:59584 as postman-mqtt-client-1747506025843 (p5, c0, k60, u'admin').
+1747514256: postman-mqtt-client-1747506025843 1 /vehicle/register/response/pm-1747505855012
+1747514256: postman-mqtt-client-1747506025843 1 /missions
+1747514258: New connection from 172.19.0.4:51512 on port 1883.
+1747514258: New client connected from 172.19.0.4:51512 as a649c8db-1b65-4be7-bc86-7f83c5956603 (p2, c1, k60, u'admin').
+1747514258: a649c8db-1b65-4be7-bc86-7f83c5956603 1 /vehicle/register
+1747514258: a649c8db-1b65-4be7-bc86-7f83c5956603 1 /vehicle/health
+1747514258: a649c8db-1b65-4be7-bc86-7f83c5956603 0 /telemetry
+1747514258: a649c8db-1b65-4be7-bc86-7f83c5956603 1 /missions/status
+1747514428: Client a649c8db-1b65-4be7-bc86-7f83c5956603 closed its connection.
+1747514444: mosquitto version 2.0.21 starting
+1747514444: Config loaded from /mosquitto/config/mosquitto.conf.
+1747514444: Opening ipv4 listen socket on port 1883.
+1747514444: mosquitto version 2.0.21 running
+1747514445: Expiring client postman-mqtt-client-1747506025843 due to timeout.
+1747514451: New connection from 172.19.0.4:39208 on port 1883.
+1747514451: New client connected from 172.19.0.4:39208 as 4a5b7f54-a50f-45be-816b-8dc7d226548f (p2, c1, k60, u'admin').
+1747514451: 4a5b7f54-a50f-45be-816b-8dc7d226548f 1 /vehicle/register
+1747514451: 4a5b7f54-a50f-45be-816b-8dc7d226548f 1 /vehicle/health
+1747514451: 4a5b7f54-a50f-45be-816b-8dc7d226548f 0 /telemetry
+1747514451: 4a5b7f54-a50f-45be-816b-8dc7d226548f 1 /missions/status
+1747514453: New connection from 172.19.0.1:43808 on port 1883.
+1747514453: New client connected from 172.19.0.1:43808 as postman-mqtt-client-1747506025843 (p5, c0, k60, u'admin').
+1747514453: postman-mqtt-client-1747506025843 1 /vehicle/register/response/pm-1747505855012
+1747514453: postman-mqtt-client-1747506025843 1 /missions
+1747514486: Client 4a5b7f54-a50f-45be-816b-8dc7d226548f closed its connection.

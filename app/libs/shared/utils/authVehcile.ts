@@ -16,7 +16,8 @@ export async function authVehicle(
     error: null,
   };
   //authenticate the message
-  const token = token_input.split(" ")[1];
+  const token =
+    token_input.split(" ").length === 2 ? token_input.split(" ")[1] : token_input;
   let decoded: { vehicleId: string };
   try {
     decoded = jsonwebtoken.verify(token, process.env.JWT_SECRET) as {

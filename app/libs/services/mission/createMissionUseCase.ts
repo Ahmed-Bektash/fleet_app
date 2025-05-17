@@ -28,7 +28,7 @@ export class CreateMissionUseCase implements BaseUseCase<ICreateMission> {
     try {
       //authenticate the vehicle
       const auth = await authVehicle(
-        request.token.split(" ")[1],
+        request.token,
         request.vehicle_id,
         this.vehicleDataHandler,
         this.messageClient

@@ -22,7 +22,7 @@ export class UpdateVehicleUseCase implements BaseUseCase<IUpdateVehicle> {
     try {
       //auth vehicle
       const auth = await authVehicle(
-        message.token.split(" ")[1],
+        message.token,
         message.id,
         this.vehicleDataHandler,
         this.messageClient

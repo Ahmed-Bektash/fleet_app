@@ -26,11 +26,11 @@ export class AddTelemetryUseCase implements BaseUseCase<ITelemetryMessage> {
   }
 
   async execute(message: ITelemetryMessage): Promise<Result> {
+    let result: Result;
     try {
-      let result: Result;
       //authenticate the vehicle
       const auth = await authVehicle(
-        message.token.split(" ")[1],
+        message.token,
         message.vehicleId,
         this.VehicleDataHandler,
         this.messageClient
@@ -45,11 +45,14 @@ export class AddTelemetryUseCase implements BaseUseCase<ITelemetryMessage> {
             details: auth.error?.details,
           },
         };
+        //TODO: publish to auth response topic
       }
       //parse the message
       const data = this.extractTelemetryData(message);
+
       const Telemetry = await this.TelemetryDataHandler.addTelemetryData(data);
-      this.handleResult(Telemetry);
+      result = this.handleResult(Telemetry);
+
       return result;
     } catch (error) {
       return {
@@ -71,11 +74,7 @@ export class AddTelemetryUseCase implements BaseUseCase<ITelemetryMessage> {
         error: null,
       };
     } else {
-      return {
-        state: false,
-        data: null,
-        error: result.error,
-      };
+      throw new Error(result.error?.message || "Internal server error");
     }
   }
 

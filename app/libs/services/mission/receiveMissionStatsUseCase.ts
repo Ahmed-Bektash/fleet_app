@@ -29,7 +29,7 @@ export class ReceiveMissionStatusUseCase
     try {
       //authenticate the vehicle
       const auth = await authVehicle(
-        message.token.split(" ")[1],
+        message.token,
         message.vehicle_id,
         this.vehicleDataHandler,
         this.messageClient
