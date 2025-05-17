@@ -15,12 +15,12 @@ export class TelemetryServiceFactory {
    * @requires: to be called during the application startup
    * @description: this method will create a subscriber to the Telemetry ingestion topic
    */
-  public async makeRegisterTelemetrySubscriber(messageClient:IMqttClient) {
+  public async makeAddTelemetrySubscriber(messageClient:IMqttClient) {
  
       const subscribe = await messageClient.subscribe(
         E_TOPICS.TELEMETRY,
         { qos: E_QOS.AT_MOST_ONCE }, // can handle packet drops
-        this.registerTelemetrySubscriberCallback
+        this.AddTelemetrySubscriberCallback
       );
       if (!subscribe) {
         //TODO: fail gracefully
@@ -48,7 +48,7 @@ export class TelemetryServiceFactory {
    * @param message the message to be broken down for registration details
    * @description: this method will be called when a message is received on the Telemetry topic
    */
-  public async registerTelemetrySubscriberCallback(
+  public async AddTelemetrySubscriberCallback(
     topic: string,
     message: Buffer<ArrayBufferLike>
   ): Promise<void> {
@@ -64,7 +64,7 @@ export class TelemetryServiceFactory {
         // TODO: handle error here
       }
     } catch (error) {
-      console.error("Error in registerTelemetry:", error);
+      console.error("Error in AddTelemetry:", error);
     }
   }
 

@@ -11,11 +11,13 @@ export interface IRegisterVehicle {
     oem: string;
     model: string;
     year: string;
-  }
+  };
 }
 
-export interface IAuthVehicle {
-  vehicleToken: string;
+export interface IUpdateVehicle {
+  id: string;
+  data: Partial<Vehicle>;
+  token: string;
 }
 
 export interface IVehicleDataHandler {
@@ -30,5 +32,8 @@ export interface IVehicleDataHandler {
   ) => Promise<Result<string>>;
   getVehicleByVin(vin: string): Promise<Result<Vehicle>>;
   getVehicleById(vin: string): Promise<Result<Vehicle>>;
-  updateVehicleData(id:string, data: Partial<Vehicle>): Promise<Result<Vehicle>>;
+  updateVehicleData(
+    id: string,
+    data: Partial<Vehicle>
+  ): Promise<Result<Vehicle>>;
 }

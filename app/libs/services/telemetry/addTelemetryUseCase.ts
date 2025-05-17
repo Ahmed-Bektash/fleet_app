@@ -1,15 +1,16 @@
 import { IMqttClient } from "../../Infrastructure/mqtt/mqttTypes";
-import { E_QOS, E_TOPICS } from "../../shared/types/businessTypes";
-import { E_VehicleStatus } from "../../shared/types/entities/vehicle";
 import {
   BaseUseCase,
   E_HttpResponseStatus,
   Result,
 } from "../../shared/types/generalTypes";
 import { IVehicleDataHandler } from "../vehicle/vehicleTypes";
-import * as jsonwebtoken from "jsonwebtoken";
 import { ITelemetryDataHandler, ITelemetryMessage } from "./telemetryTypes";
-import { E_TelemetryType, Telemetry } from "../../shared/types/entities/telemetry";
+import {
+  E_TelemetryType,
+  Telemetry,
+} from "../../shared/types/entities/telemetry";
+import { authVehicle } from "../../shared/utils/authVehcile";
 export class AddTelemetryUseCase implements BaseUseCase<ITelemetryMessage> {
   private readonly TelemetryDataHandler: ITelemetryDataHandler;
   private readonly VehicleDataHandler: IVehicleDataHandler;
@@ -27,58 +28,28 @@ export class AddTelemetryUseCase implements BaseUseCase<ITelemetryMessage> {
   async execute(message: ITelemetryMessage): Promise<Result> {
     try {
       let result: Result;
-      //authenticate the message
-      const token = message.token.split(" ")[1];
-      let decoded: { vehicleId: string };
-      try {
-        
-        decoded = jsonwebtoken.verify(
-          token,
-          process.env.JWT_SECRET
-        ) as { vehicleId: string };
-      } catch (error) {
-        result = {
-          state: false,
-          data: null,
-          error: {
-            code: E_HttpResponseStatus.UNAUTHORIZED,
-            message: "Unauthorized",
-            details: "Invalid token: " + error.message,
-          },
-          
-        }
-        //publish the message to the mqtt broker
-        const publishTopic = `${E_TOPICS.VEHICLE_AUTH_RESPONSE}/${message.vehicleId}`;
-        const publishResult = await this.messageClient.publish(
-          publishTopic,
-          token,
-          { qos: E_QOS.AT_LEAST_ONCE }
-        );
-        if (!publishResult) {
-          throw new Error("Failed to publish unauthorized message to MQTT broker");
-        }
-      }
-      // check if vehicle is already registered and authenticated
-      const vehicle = await this.VehicleDataHandler.getVehicleById(
-        decoded.vehicleId
+      //authenticate the vehicle
+      const auth = await authVehicle(
+        message.token.split(" ")[1],
+        message.vehicleId,
+        this.VehicleDataHandler,
+        this.messageClient
       );
-      if (vehicle.data?.vehicle_status === E_VehicleStatus.INACTIVE) {
-        result = {
+      if (!auth.state) {
+        return {
           state: false,
           data: null,
           error: {
             code: E_HttpResponseStatus.UNAUTHORIZED,
             message: "Unauthorized",
-            details: "Invalid vehicle",
+            details: auth.error?.details,
           },
         };
-        return result;
       }
       //parse the message
       const data = this.extractTelemetryData(message);
       const Telemetry = await this.TelemetryDataHandler.addTelemetryData(data);
       this.handleResult(Telemetry);
-      
       return result;
     } catch (error) {
       return {

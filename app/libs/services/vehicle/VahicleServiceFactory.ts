@@ -27,6 +27,21 @@ export class VehicleServiceFactory {
         );
       }
   }
+  
+  public async makeVehicleHealthSubscriber(messageClient:IMqttClient) {
+      const subscribe = await messageClient.subscribe(
+        E_TOPICS.VEHICLE_HEALTH,
+        { qos: E_QOS.AT_LEAST_ONCE },
+        this.vehicleHealthCallback
+      );
+      if (!subscribe) {
+        //TODO: fail gracefully
+        console.error(
+          "Failed to subscribe to topic:",
+          E_TOPICS.VEHICLE_REGISTER
+        );
+      }
+  }
 
 
   private readonly registerVehicleRequestAdapter = (
@@ -50,6 +65,25 @@ export class VehicleServiceFactory {
    *                and register a vehicle in the db
    */
   public async registerVehicleSubscriberCallback(
+    topic: string,
+    message: Buffer<ArrayBufferLike>
+  ): Promise<void> {
+    try {
+      const messageClient = MQTTServiceFactory.makeMqttService();
+      const usecase = await new RegisterVehicleUseCase(
+        this.vehicleDataHandler,
+        messageClient
+      ).execute(this.registerVehicleRequestAdapter(topic, message));
+
+      if (!usecase.state) {
+        // handle error here
+      }
+    } catch (error) {
+      console.error("Error in registerVehicle:", error);
+    }
+  }
+ 
+  public async vehicleHealthCallback(
     topic: string,
     message: Buffer<ArrayBufferLike>
   ): Promise<void> {

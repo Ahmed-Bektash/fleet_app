@@ -1,25 +1,24 @@
 import express from "express";
 const app = express();
 const port = 3000;
-
-import { router as subscriberRouter } from "./api/subscriber";
-import { router as publisherRouter } from "./api/publisher";
-import { vehicleRouter } from "./api/vehicleRouter";
 import { VehicleServiceFactory } from "./libs/services/vehicle/VahicleServiceFactory";
 
 // handle env file
 import dotenv from "dotenv";
 import { MQTTServiceFactory } from "./libs/Infrastructure/mqtt/mqttServiceFactory";
 import { IMqttClient } from "./libs/Infrastructure/mqtt/mqttTypes";
+import { missionRouter } from "./api/missionRouter";
+import { TelemetryServiceFactory } from "./libs/services/telemetry/TelemetryServiceFactory";
+import { MissionServiceFactory } from "./libs/services/mission/missionServiceFactory";
 dotenv.config();
 
+//TODO: remove after testing
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
-app.use("/subscriber", subscriberRouter);
-app.use("/publisher", publisherRouter);
-app.use("/vehicle", vehicleRouter);
+
+app.use("/missions", missionRouter);
 
 app.listen(port, async () => {
   console.log(`app listening on port ${port}`);
@@ -36,7 +35,6 @@ app.on("error", (err) => {
       err: Error,
       req: express.Request,
       res: express.Response,
-      next: express.NextFunction
     ) => {
       res
         .status(500)
@@ -68,5 +66,11 @@ async function connectToMqttBroker() {
 async function connectAllSubscribers(messageClient: IMqttClient) {
   //connect all subscribers
   const vehicleServiceFactory = new VehicleServiceFactory();
+  const telemetryServiceFactory = new TelemetryServiceFactory();
+  const missionServiceFactory = new MissionServiceFactory();
   await vehicleServiceFactory.makeRegisterVehicleSubscriber(messageClient);
+  await vehicleServiceFactory.makeVehicleHealthSubscriber(messageClient);
+  await telemetryServiceFactory.makeAddTelemetrySubscriber(messageClient);
+  await missionServiceFactory.makeReceiveMissionStatusSubscriber(messageClient);
+
 }

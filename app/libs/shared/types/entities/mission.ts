@@ -4,7 +4,8 @@ export type Mission = {
     mission_type:string;
     mission_description:string;
     mission_status:E_MissionStatus;
-    mission_start_time:number;
+    mission_planned_start_time:number;
+    mission_actual_start_time:number;
     mission_end_time:number;
     mission_location:string;
     created_at:number;
