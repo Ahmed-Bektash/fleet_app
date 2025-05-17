@@ -7,8 +7,8 @@
     "start": "tsc && node dist/app.js",
     "lint": "eslint . --ext .ts",
     "dev": "nodemon dist/app.js",
-    "run_migration": "npx knex migrate:latest  --knexfile ./libs/infrastructure/db/knexfile.ts",
-    "rollback_migration": "npx knex migrate:down  --knexfile ./libs/infrastructure/db/knexfile.ts",
+    "run_migration": "npx knex migrate:latest  --knexfile app/libs/infrastructure/db/knexfile.ts -x ts",
+    "rollback_migration": "npx knex migrate:down  --knexfile app/libs/infrastructure/db/knexfile.ts -x ts",
     "gen_migration": "npx knex migrate:make --knexfile ./libs/infrastructure/db/knexfile.ts -x ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

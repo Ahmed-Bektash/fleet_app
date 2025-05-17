@@ -22,3 +22,27 @@
 1747310704: New client connected from 172.19.0.4:33748 as eb94cf3f-e490-4e99-baa4-c565dfd4ad28 (p2, c1, k60, u'admin').
 1747310704: eb94cf3f-e490-4e99-baa4-c565dfd4ad28 1 vehicle/register
 1747310733: Client eb94cf3f-e490-4e99-baa4-c565dfd4ad28 closed its connection.
+1747497565: mosquitto version 2.0.21 starting
+1747497565: Config loaded from /mosquitto/config/mosquitto.conf.
+1747497565: Opening ipv4 listen socket on port 1883.
+1747497565: mosquitto version 2.0.21 running
+1747497647: mosquitto version 2.0.21 terminating
+1747497647: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747497745: mosquitto version 2.0.21 starting
+1747497745: Config loaded from /mosquitto/config/mosquitto.conf.
+1747497745: Opening ipv4 listen socket on port 1883.
+1747497745: mosquitto version 2.0.21 running
+1747497762: mosquitto version 2.0.21 terminating
+1747497762: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747497801: mosquitto version 2.0.21 starting
+1747497801: Config loaded from /mosquitto/config/mosquitto.conf.
+1747497801: Opening ipv4 listen socket on port 1883.
+1747497801: mosquitto version 2.0.21 running
+1747497815: mosquitto version 2.0.21 terminating
+1747497815: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747497861: mosquitto version 2.0.21 starting
+1747497861: Config loaded from /mosquitto/config/mosquitto.conf.
+1747497861: Opening ipv4 listen socket on port 1883.
+1747497861: mosquitto version 2.0.21 running
+1747497993: mosquitto version 2.0.21 terminating
+1747497993: Saving in-memory database to /mosquitto/data//mosquitto.db.

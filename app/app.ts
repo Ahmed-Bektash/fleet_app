@@ -10,7 +10,7 @@ import { IMqttClient } from "./libs/Infrastructure/mqtt/mqttTypes";
 import { missionRouter } from "./api/missionRouter";
 import { TelemetryServiceFactory } from "./libs/services/telemetry/TelemetryServiceFactory";
 import { MissionServiceFactory } from "./libs/services/mission/missionServiceFactory";
-import { reportsRouter } from "./libs/Infrastructure/api/reportingController";
+import { reportsRouter } from "./libs/Infrastructure/api/reportingRouter";
 dotenv.config();
 
 //TODO: remove after testing
