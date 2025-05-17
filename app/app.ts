@@ -10,6 +10,7 @@ import { IMqttClient } from "./libs/Infrastructure/mqtt/mqttTypes";
 import { missionRouter } from "./api/missionRouter";
 import { TelemetryServiceFactory } from "./libs/services/telemetry/TelemetryServiceFactory";
 import { MissionServiceFactory } from "./libs/services/mission/missionServiceFactory";
+import { reportsRouter } from "./libs/Infrastructure/api/reportingController";
 dotenv.config();
 
 //TODO: remove after testing
@@ -19,6 +20,7 @@ app.get("/", (req, res) => {
 
 
 app.use("/missions", missionRouter);
+app.use("/reports", reportsRouter)
 
 app.listen(port, async () => {
   console.log(`app listening on port ${port}`);
