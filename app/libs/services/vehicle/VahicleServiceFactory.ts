@@ -1,8 +1,6 @@
 import { MQTTServiceFactory } from "../../Infrastructure/mqtt/mqttServiceFactory";
 import { IMqttClient } from "../../Infrastructure/mqtt/mqttTypes";
 import { E_QOS, E_TOPICS } from "../../shared/types/businessTypes";
-import { HttpRequest } from "../../shared/types/generalTypes";
-import { Controller } from "../../shared/utils/Controller";
 import { RegisterVehicleUseCase } from "./registerVehicleUseCase";
 import { VehicleDataHandler } from "./vehicleDataHandler";
 import { IRegisterVehicle } from "./vehicleTypes";
@@ -18,7 +16,7 @@ export class VehicleServiceFactory {
  
       const subscribe = await messageClient.subscribe(
         E_TOPICS.VEHICLE_REGISTER,
-        { qos: E_QOS.AT_LEAST_ONCE }, //TODO: should handle idempotency
+        { qos: E_QOS.AT_LEAST_ONCE },
         this.registerVehicleSubscriberCallback
       );
       if (!subscribe) {
@@ -35,9 +33,12 @@ export class VehicleServiceFactory {
     topic: string,
     message: Buffer<ArrayBufferLike>
   ): IRegisterVehicle => {
+    const messageString = message.toString();
+    const messageJson = JSON.parse(messageString) as IRegisterVehicle['message'];
+    //TODO: validate the messageJson
      return{
       topic: topic,
-      message: message,
+      message: messageJson,
     };
   };
 
@@ -67,5 +68,5 @@ export class VehicleServiceFactory {
     }
   }
 
-  
+
 }

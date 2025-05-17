@@ -7,9 +7,9 @@
     "start": "tsc && node dist/app.js",
     "lint": "eslint . --ext .ts",
     "dev": "nodemon dist/app.js",
-    "run_migration": "npx knex migrate:latest  --knexfile ./app/libs/infrastructure/db/knexfile.ts",
-    "rollback_migration": "npx knex migrate:down  --knexfile ./app/libs/infrastructure/db/knexfile.ts",
-    "gen_migration": "npx knex migrate:make --knexfile ./app/libs/infrastructure/db/knexfile.ts -x ts",
+    "run_migration": "npx knex migrate:latest  --knexfile ./libs/infrastructure/db/knexfile.ts",
+    "rollback_migration": "npx knex migrate:down  --knexfile ./libs/infrastructure/db/knexfile.ts",
+    "gen_migration": "npx knex migrate:make --knexfile ./libs/infrastructure/db/knexfile.ts -x ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -25,6 +25,7 @@
     "mqtt": "^5.13.0",
     "objection": "^3.1.5",
     "pg": "^8.16.0",
+    "ts-node": "^10.9.2",
     "uuid": "^11.1.0"
   },
   "devDependencies": {

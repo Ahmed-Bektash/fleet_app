@@ -5,5 +5,7 @@ export enum E_QOS {
 }
 
 export enum E_TOPICS {
-    VEHICLE_REGISTER = "vehicle/register",
+    VEHICLE_REGISTER = "/vehicle/register",
+    TELEMETRY = "/telemetry",
+    VEHICLE_AUTH_RESPONSE = "/vehicle/auth/response",
 }

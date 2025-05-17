@@ -10,6 +10,7 @@ import { VehicleServiceFactory } from "./libs/services/vehicle/VahicleServiceFac
 // handle env file
 import dotenv from "dotenv";
 import { MQTTServiceFactory } from "./libs/Infrastructure/mqtt/mqttServiceFactory";
+import { IMqttClient } from "./libs/Infrastructure/mqtt/mqttTypes";
 dotenv.config();
 
 app.get("/", (req, res) => {
@@ -21,22 +22,9 @@ app.use("/publisher", publisherRouter);
 app.use("/vehicle", vehicleRouter);
 
 app.listen(port, async () => {
-  console.log(`Example app listening on port ${port}`);
-  //TODO: add health check
-  //connect all subscribers
-     const messageClient = MQTTServiceFactory.makeMqttService();
-
-    //await connection to mqtt broker by list of relevant topics
-    const connection = await messageClient.connect();
-    if(connection){
-      console.log("Connected to MQTT broker");
-      //connect all subscribers
-      const vehicleServiceFactory = new VehicleServiceFactory();
-      await vehicleServiceFactory.makeRegisterVehicleSubscriber(messageClient);
-    }else{
-      console.error("Failed to connect to MQTT broker");
-      throw new Error("Failed to connect to MQTT broker"); //TODO: handle errors
-    }
+  console.log(`app listening on port ${port}`);
+  const messageClient = await connectToMqttBroker();
+  await connectAllSubscribers(messageClient);
 });
 
 //TODO handle graceful shutdown
@@ -64,3 +52,21 @@ app.on("error", (err) => {
 //TODO handle env
 //TODO handle cors
 //TODO handle security
+
+async function connectToMqttBroker() {
+  const mqttService = MQTTServiceFactory.makeMqttService();
+  const connection = await mqttService.connect();
+  if (connection) {
+    console.log("Connected to MQTT broker");
+    return mqttService;
+  } else {
+    console.error("Failed to connect to MQTT broker");
+    throw new Error("Failed to connect to MQTT broker");
+  }
+}
+
+async function connectAllSubscribers(messageClient: IMqttClient) {
+  //connect all subscribers
+  const vehicleServiceFactory = new VehicleServiceFactory();
+  await vehicleServiceFactory.makeRegisterVehicleSubscriber(messageClient);
+}
