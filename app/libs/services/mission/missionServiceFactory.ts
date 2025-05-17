@@ -11,7 +11,7 @@ import { ReceiveMissionStatusUseCase } from "./receiveMissionStatsUseCase";
 
 export class MissionServiceFactory {
   private readonly MissionDataHandler = MissionDataHandler.getInstance();
-  private readonly messageClient = MQTTServiceFactory.makeMqttService();
+  private readonly messageClient = new MQTTServiceFactory().makeMqttService();
   private readonly VehicleDataHandler = VehicleDataHandler.getInstance();
 
   /**
@@ -25,13 +25,7 @@ export class MissionServiceFactory {
         { qos: E_QOS.AT_LEAST_ONCE },
         this.createMissionSubscriberCallback
       );
-      if (!subscribe) {
-        //TODO: fail gracefully
-        console.error(
-          "Failed to subscribe to topic:",
-          E_TOPICS.MISSION_STATUS
-        );
-      }
+      return subscribe;
   }
 
   public async makeCreateMissionController() {
@@ -45,16 +39,6 @@ export class MissionServiceFactory {
       return controller;
   }
 
-
-  private readonly receiveMissionStatusRequestAdapter = (
-    topic: string,
-    message: Buffer<ArrayBufferLike>
-  ): IReceiveMissionStatus => {
-    const messageString = message.toString();
-    const messageJson = JSON.parse(messageString) as IReceiveMissionStatus;
-    //TODO: validate the messageJson
-     return messageJson;
-  };
 
   private readonly createMissionRequestAdapter = (
     HttpRequest:HttpRequest,
@@ -70,12 +54,22 @@ export class MissionServiceFactory {
     topic: string,
     message: Buffer<ArrayBufferLike>
   ): Promise<void> {
+    const receiveMissionStatusRequestAdapter = (
+    topic: string,
+    message: Buffer<ArrayBufferLike>
+  ): IReceiveMissionStatus => {
+    const messageString = message.toString();
+    const messageJson = JSON.parse(messageString) as IReceiveMissionStatus;
+    //TODO: validate the messageJson
+     return messageJson;
+  };
     try {
+      const messageClient = new MQTTServiceFactory().makeMqttService();
       const usecase = await new ReceiveMissionStatusUseCase(
-        this.VehicleDataHandler,
-        this.MissionDataHandler,
-        this.messageClient
-      ).execute(this.receiveMissionStatusRequestAdapter(topic, message));
+        VehicleDataHandler.getInstance(),
+        MissionDataHandler.getInstance(),
+        messageClient
+      ).execute(receiveMissionStatusRequestAdapter(topic, message));
 
       if (!usecase.state) {
         // handle error here

@@ -32,7 +32,7 @@ export class RegisterVehicleUseCase implements BaseUseCase<IRegisterVehicle> {
         const vehicleId = vehicle.data.id;
         const updateVehicleResult =
           await this.vehicleDataHandler.updateVehicleData(vehicleId, {
-            Vehicle_client_Id: clientId,
+            vehicle_client_id: clientId,
             vehicle_status: E_VehicleStatus.READY,
           });
         result = this.handleResult(updateVehicleResult);
@@ -71,21 +71,10 @@ export class RegisterVehicleUseCase implements BaseUseCase<IRegisterVehicle> {
           result.data = null;
           result.error = null;
         } else {
-          result.state = false;
-          result.data = null;
-          result.error = {
-            code: E_HttpResponseStatus.SERVER_ERROR,
-            message: "Failed to publish registration response to MQTT broker",
-            details: "Failed to publish registration response to MQTT broker",
-          };
+          throw new Error("Failed to publish vehicle registration response");
         }
       } else {
-        result.state = false;
-        result.data = null;
-        result.error = {
-          code: E_HttpResponseStatus.SERVER_ERROR,
-          message: "Failed to register vehicle",
-        };
+        throw new Error("Failed to register vehicle");
       }
 
       return result;
@@ -109,11 +98,7 @@ export class RegisterVehicleUseCase implements BaseUseCase<IRegisterVehicle> {
         error: null,
       };
     } else {
-      return {
-        state: false,
-        data: null,
-        error: result.error,
-      };
+      throw new Error(result.error?.message || "Internal server error");
     }
   }
 }

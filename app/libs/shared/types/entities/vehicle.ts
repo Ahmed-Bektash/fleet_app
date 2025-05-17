@@ -7,7 +7,7 @@ export type Vehicle = {
     model: string;
     vehicle_year: string;
     vehicle_status: E_VehicleStatus;
-    Vehicle_client_Id: string;
+    vehicle_client_id: string;
     created_at: number;
     updated_at: number;
     deleted_at: number | null;

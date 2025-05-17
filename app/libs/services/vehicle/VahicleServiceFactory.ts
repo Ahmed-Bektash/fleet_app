@@ -2,11 +2,11 @@ import { MQTTServiceFactory } from "../../Infrastructure/mqtt/mqttServiceFactory
 import { IMqttClient } from "../../Infrastructure/mqtt/mqttTypes";
 import { E_QOS, E_TOPICS } from "../../shared/types/businessTypes";
 import { RegisterVehicleUseCase } from "./registerVehicleUseCase";
+import { UpdateVehicleUseCase } from "./updateVehicleUseCase";
 import { VehicleDataHandler } from "./vehicleDataHandler";
-import { IRegisterVehicle } from "./vehicleTypes";
+import { IRegisterVehicle, IUpdateVehicle } from "./vehicleTypes";
 
 export class VehicleServiceFactory {
-  private readonly vehicleDataHandler = VehicleDataHandler.getInstance();
 
   /**
    * @requires: to be called during the application startup
@@ -19,13 +19,7 @@ export class VehicleServiceFactory {
         { qos: E_QOS.AT_LEAST_ONCE },
         this.registerVehicleSubscriberCallback
       );
-      if (!subscribe) {
-        //TODO: fail gracefully
-        console.error(
-          "Failed to subscribe to topic:",
-          E_TOPICS.VEHICLE_REGISTER
-        );
-      }
+      return subscribe;
   }
   
   public async makeVehicleHealthSubscriber(messageClient:IMqttClient) {
@@ -34,28 +28,8 @@ export class VehicleServiceFactory {
         { qos: E_QOS.AT_LEAST_ONCE },
         this.vehicleHealthCallback
       );
-      if (!subscribe) {
-        //TODO: fail gracefully
-        console.error(
-          "Failed to subscribe to topic:",
-          E_TOPICS.VEHICLE_REGISTER
-        );
-      }
+      return subscribe;
   }
-
-
-  private readonly registerVehicleRequestAdapter = (
-    topic: string,
-    message: Buffer<ArrayBufferLike>
-  ): IRegisterVehicle => {
-    const messageString = message.toString();
-    const messageJson = JSON.parse(messageString) as IRegisterVehicle['message'];
-    //TODO: validate the messageJson
-     return{
-      topic: topic,
-      message: messageJson,
-    };
-  };
 
   /**
    * 
@@ -68,12 +42,24 @@ export class VehicleServiceFactory {
     topic: string,
     message: Buffer<ArrayBufferLike>
   ): Promise<void> {
+    const registerVehicleRequestAdapter = (
+    topic: string,
+    message: Buffer<ArrayBufferLike>
+  ): IRegisterVehicle => {
+    const messageString = message.toString();
+    const messageJson = JSON.parse(messageString) as IRegisterVehicle['message'];
+    //TODO: validate the messageJson
+     return{
+      topic: topic,
+      message: messageJson,
+    };
+  };
     try {
-      const messageClient = MQTTServiceFactory.makeMqttService();
+      const messageClient = new MQTTServiceFactory().makeMqttService();
       const usecase = await new RegisterVehicleUseCase(
-        this.vehicleDataHandler,
+        VehicleDataHandler.getInstance(),
         messageClient
-      ).execute(this.registerVehicleRequestAdapter(topic, message));
+      ).execute(registerVehicleRequestAdapter(topic, message));
 
       if (!usecase.state) {
         // handle error here
@@ -87,12 +73,21 @@ export class VehicleServiceFactory {
     topic: string,
     message: Buffer<ArrayBufferLike>
   ): Promise<void> {
+    const updateVehicleRequestAdapter = (
+    topic: string,
+    message: Buffer<ArrayBufferLike>
+  ): IUpdateVehicle => {
+    const messageString = message.toString();
+    const messageJson = JSON.parse(messageString) as IUpdateVehicle;
+    //TODO: validate the messageJson
+     return messageJson;
+  };
     try {
-      const messageClient = MQTTServiceFactory.makeMqttService();
-      const usecase = await new RegisterVehicleUseCase(
-        this.vehicleDataHandler,
+      const messageClient = new MQTTServiceFactory().makeMqttService();
+      const usecase = await new UpdateVehicleUseCase(
+        VehicleDataHandler.getInstance(),
         messageClient
-      ).execute(this.registerVehicleRequestAdapter(topic, message));
+      ).execute(updateVehicleRequestAdapter(topic, message));
 
       if (!usecase.state) {
         // handle error here

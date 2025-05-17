@@ -1,10 +1,8 @@
 import { ClientPublishOptionsInterface, ClientSubscribeOptionsInterface, IMqttClient } from "./mqttTypes";
 
 export class MqttService implements IMqttClient {
-  private readonly host: string;
   private readonly mqttAdapter: IMqttClient;
-  constructor(host: string, mqttAdapter: IMqttClient) {
-    this.host = host;
+  constructor(mqttAdapter: IMqttClient) {
     this.mqttAdapter = mqttAdapter;
   }
 

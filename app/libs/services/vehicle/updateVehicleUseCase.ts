@@ -31,7 +31,7 @@ export class UpdateVehicleUseCase implements BaseUseCase<IUpdateVehicle> {
         const { id, data } = message;
         const result = await this.vehicleDataHandler.updateVehicleData(id, {
           vehicle_status: data.vehicle_status,
-          Vehicle_client_Id: data.Vehicle_client_Id,
+          vehicle_client_id: data.vehicle_client_id,
           updated_at: Date.now(),
         });
         if (result.state) {

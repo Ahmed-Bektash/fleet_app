@@ -1,6 +1,6 @@
 import { Model } from "objection";
 import { E_FleetStatus, Fleet } from "../../../shared/types/entities/fleet";
-
+import { v4 as uuidv4 } from 'uuid';
 export class FleetModel extends Model implements Fleet {
   id!: string;
   fleet_name!: string;
@@ -19,7 +19,7 @@ export class FleetModel extends Model implements Fleet {
   }
 
   override $beforeInsert() {
-    this.id = crypto.randomUUID();
+    this.id = uuidv4();
     this.created_at = Date.now();
   }
 

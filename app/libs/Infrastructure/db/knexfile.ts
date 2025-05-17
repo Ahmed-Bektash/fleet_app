@@ -20,10 +20,6 @@ const knexConfig: Knex.Config = {
     extension: 'ts',
     tableName: 'knex_migrations',
   },
-  seeds: {
-    extension: 'ts',
-    directory: './seeds', //for example data during development
-  },
   acquireConnectionTimeout: 10000,
   ...knexSnakeCaseMappers,
 };

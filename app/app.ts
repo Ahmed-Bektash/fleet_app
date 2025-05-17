@@ -54,7 +54,7 @@ app.on("error", (err) => {
 //TODO handle security
 
 async function connectToMqttBroker() {
-  const mqttService = MQTTServiceFactory.makeMqttService();
+  const mqttService = new MQTTServiceFactory().makeMqttService();
   const connection = await mqttService.connect();
   if (connection) {
     console.log("Connected to MQTT broker");
@@ -70,9 +70,14 @@ async function connectAllSubscribers(messageClient: IMqttClient) {
   const vehicleServiceFactory = new VehicleServiceFactory();
   const telemetryServiceFactory = new TelemetryServiceFactory();
   const missionServiceFactory = new MissionServiceFactory();
-  await vehicleServiceFactory.makeRegisterVehicleSubscriber(messageClient);
-  await vehicleServiceFactory.makeVehicleHealthSubscriber(messageClient);
-  await telemetryServiceFactory.makeAddTelemetrySubscriber(messageClient);
-  await missionServiceFactory.makeReceiveMissionStatusSubscriber(messageClient);
-
+  const register = await vehicleServiceFactory.makeRegisterVehicleSubscriber(messageClient);
+  const health = await vehicleServiceFactory.makeVehicleHealthSubscriber(messageClient);
+  const telemtry = await telemetryServiceFactory.makeAddTelemetrySubscriber(messageClient);
+  const mission = await missionServiceFactory.makeReceiveMissionStatusSubscriber(messageClient);
+  if(register && health && telemtry && mission) {
+    console.log("All subscribers connected");
+  }else{
+    console.error(`Failed to connect to all subscribers: registration: ${register}, health: ${health}, telemetry:${telemtry}, mission: ${mission}`);
+    throw new Error("Failed to connect to all subscribers");
+  }
 }

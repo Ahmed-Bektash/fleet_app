@@ -1,5 +1,6 @@
 import { Model } from "objection";
 import { E_TelemetryType, Telemetry } from "../../../shared/types/entities/telemetry";
+import { v4 as uuidv4 } from 'uuid';
 
 export class TelemetryModel extends Model implements Telemetry {
   id!: string;
@@ -21,7 +22,7 @@ export class TelemetryModel extends Model implements Telemetry {
   }
 
   override $beforeInsert() {
-    this.id = crypto.randomUUID();
+    this.id = uuidv4();
     this.created_at = Date.now();
   }
 

@@ -3,6 +3,7 @@ import {
   E_VehicleStatus,
   Vehicle,
 } from "../../../shared/types/entities/vehicle";
+import { v4 as uuidv4 } from 'uuid';
 
 export class VehicleModel extends Model implements Vehicle {
   id!: string;
@@ -13,7 +14,7 @@ export class VehicleModel extends Model implements Vehicle {
   vehicle_year!: string;
   vehicle_type!: string;
   vehicle_status!: E_VehicleStatus;
-  Vehicle_client_Id!: string;
+  vehicle_client_id!: string;
   created_at!: number;
   updated_at!: number;
   deleted_at!: number | null;
@@ -28,7 +29,7 @@ export class VehicleModel extends Model implements Vehicle {
   }
 
   override $beforeInsert() {
-    this.id = crypto.randomUUID();
+    this.id = uuidv4();
     this.created_at = Date.now();
   }
 

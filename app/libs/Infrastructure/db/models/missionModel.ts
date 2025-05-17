@@ -1,5 +1,6 @@
 import { Model } from "objection";
 import { E_MissionStatus, Mission } from "../../../shared/types/entities/mission";
+import { v4 as uuidv4 } from 'uuid';
 
 export class MissionModel extends Model implements Mission{
     id!:string;
@@ -23,7 +24,7 @@ export class MissionModel extends Model implements Mission{
     }
     
     override $beforeInsert() {
-        this.id = crypto.randomUUID();
+        this.id = uuidv4();
         this.created_at = Date.now();
     }
     

@@ -31,7 +31,7 @@ export class VehicleDataHandler
     try {
       // Simulate a successful registration
       const registered_vehicle = await VehicleModel.query().insert({
-        Vehicle_client_Id: clientId,
+        vehicle_client_id: clientId,
         fleet_id: fleetId,
         vin: vin,
         vehicle_type: vehicleType,

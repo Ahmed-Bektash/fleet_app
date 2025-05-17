@@ -8,8 +8,6 @@ import { ITelemetryMessage } from "./telemetryTypes";
 
 
 export class TelemetryServiceFactory {
-  private readonly TelemetryDataHandler = TelemetryDataHandler.getInstance();
-  private readonly VehicleDataHandler = VehicleDataHandler.getInstance();
 
   /**
    * @requires: to be called during the application startup
@@ -22,25 +20,9 @@ export class TelemetryServiceFactory {
         { qos: E_QOS.AT_MOST_ONCE }, // can handle packet drops
         this.AddTelemetrySubscriberCallback
       );
-      if (!subscribe) {
-        //TODO: fail gracefully
-        console.error(
-          "Failed to subscribe to topic:",
-          E_TOPICS.TELEMETRY
-        );
-      }
+      return subscribe;
   }
 
-
-  private readonly addTelemetryRequestAdapter = (
-    topic: string,
-    message: Buffer<ArrayBufferLike>
-  ): ITelemetryMessage => {
-    const messageString = message.toString();
-    const messageJson = JSON.parse(messageString) as ITelemetryMessage;
-    //TODO: validate the messageJson
-     return messageJson;
-  };
 
   /**
    * 
@@ -52,13 +34,22 @@ export class TelemetryServiceFactory {
     topic: string,
     message: Buffer<ArrayBufferLike>
   ): Promise<void> {
+    const addTelemetryRequestAdapter = (
+    topic: string,
+    message: Buffer<ArrayBufferLike>
+  ): ITelemetryMessage => {
+    const messageString = message.toString();
+    const messageJson = JSON.parse(messageString) as ITelemetryMessage;
+    //TODO: validate the messageJson
+     return messageJson;
+  };
     try {
-      const messageClient = MQTTServiceFactory.makeMqttService();
+      const messageClient = new MQTTServiceFactory().makeMqttService();
       const usecase = await new AddTelemetryUseCase(
-        this.TelemetryDataHandler,
-        this.VehicleDataHandler,
+        TelemetryDataHandler.getInstance(),
+        VehicleDataHandler.getInstance(),
         messageClient,
-      ).execute(this.addTelemetryRequestAdapter(topic, message));
+      ).execute(addTelemetryRequestAdapter(topic, message));
 
       if (!usecase.state) {
         // TODO: handle error here
