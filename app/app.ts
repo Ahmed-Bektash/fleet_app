@@ -15,9 +15,9 @@ dotenv.config();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-//TODO: remove after testing
+// liveness probe
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("App is running");
 });
 
 
@@ -50,10 +50,7 @@ app.on("error", (err) => {
   process.exit(1); // Exit the process if needed
 });
 //TODO handle logging
-//TODO handle config
-//TODO handle env
-//TODO handle cors
-//TODO handle security
+
 
 async function connectToMqttBroker() {
   const mqttService = new MQTTServiceFactory().makeMqttService();

@@ -49,6 +49,20 @@ services:
         POSTGRES_PASSWORD: 'fleetdb'
       volumes:
         - postgres-data:/var/lib/postgresql/data
+    test:
+      build:  # build from Dockerfile in the current directory
+        dockerfile: Dockerfile.test
+        context: .
+      container_name: car-fleet-backend-test
+      env_file:
+        - .env
+      depends_on:
+        - mosquitto
+        - db
+        - app
+      volumes:
+        - ./test:/test
+        - ./app:/app
 
 volumes:
     postgres-data:
