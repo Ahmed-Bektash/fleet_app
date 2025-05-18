@@ -41,16 +41,7 @@ export class UpdateVehicleUseCase implements BaseUseCase<IUpdateVehicle> {
             error: null,
           };
         } else {
-            //TODO: handle errors
-          return {
-            state: false,
-            data: null,
-            error: {
-              code: E_HttpResponseStatus.SERVER_ERROR,
-              message: "Internal server error",
-              details: result.error?.details,
-            },
-          };
+           throw result.error;
         }
       }
     } catch (error) {
