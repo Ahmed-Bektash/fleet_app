@@ -1,6 +1,6 @@
 import express from "express";
-import { Dictionary, E_httpMethod, HttpRequest } from "../../shared/types/generalTypes";
-import { ReportingServiceFactory } from "../../services/reporting/reportingServiceFactory";
+import { Dictionary, E_httpMethod, HttpRequest } from "../libs/shared/types/generalTypes";
+import { ReportingServiceFactory } from "../libs/services/reporting/reportingServiceFactory";
 export const reportsRouter = express.Router();
 
 reportsRouter.get("/", async function (req, res) {

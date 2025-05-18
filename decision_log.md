@@ -8,7 +8,7 @@ Authentication flow works in many ways as well. The previous assumption will not
 There are 2 ways to authenticate given the previous points: JWT auth in the app or session based auth in the app. I chose JWT based auth with the following assumptions (since i would be building the whole design): 
 - JWT would be better for many clients/vehicles and a single app config as we have here 
 - The client contains an sdk developed by us to disconnect itself if the auth token is rejected due to timeout or wrong credentials and attempt to re-register again. This effectively means the app will not have to manage client disconnections as it will not be able to block the clients from spamming the broker but it will trust the on-client sdk to handle it accordinly.
-
+- The app itself will not have authentication with the front end, it is implied that this would be necessary but would not be implemented for this task since it was not specifically required. 
 A better way:
 - To have ACLs on the broker level with a JWT authenticator to quickly invalidate the vehicle request before it makes it to the system, then when it expires, the vehicle can re-login with its refresh token which would be authenticated using the registration record in a cache which would match the DB records. The JWT and cache combination allow vehicles to scale without overloading the system db at run time. I chose the simpler way for this task's timeline while explaining the future design i would make.
 # 10.5.25 

@@ -23,7 +23,7 @@ export class MissionServiceFactory {
       const subscribe = await messageClient.subscribe(
         E_TOPICS.MISSION_STATUS,
         { qos: E_QOS.AT_LEAST_ONCE },
-        this.createMissionSubscriberCallback
+        this.receiveMissionStatsSubscriberCallback
       );
       return subscribe;
   }
@@ -50,7 +50,7 @@ export class MissionServiceFactory {
   };
 
   
-  public async createMissionSubscriberCallback(
+  public async receiveMissionStatsSubscriberCallback(
     topic: string,
     message: Buffer<ArrayBufferLike>
   ): Promise<void> {

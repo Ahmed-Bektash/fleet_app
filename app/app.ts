@@ -7,11 +7,13 @@ import { VehicleServiceFactory } from "./libs/services/vehicle/VahicleServiceFac
 import dotenv from "dotenv";
 import { MQTTServiceFactory } from "./libs/Infrastructure/mqtt/mqttServiceFactory";
 import { IMqttClient } from "./libs/Infrastructure/mqtt/mqttTypes";
-import { missionRouter } from "./api/missionRouter";
 import { TelemetryServiceFactory } from "./libs/services/telemetry/TelemetryServiceFactory";
 import { MissionServiceFactory } from "./libs/services/mission/missionServiceFactory";
-import { reportsRouter } from "./libs/Infrastructure/api/reportingRouter";
+import { reportsRouter } from "./api/reportingRouter";
+import { missionsRouter } from "./api/missionsRouter";
 dotenv.config();
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 //TODO: remove after testing
 app.get("/", (req, res) => {
@@ -19,7 +21,7 @@ app.get("/", (req, res) => {
 });
 
 
-app.use("/missions", missionRouter);
+app.use("/missions", missionsRouter);
 app.use("/reports", reportsRouter)
 
 app.listen(port, async () => {

@@ -3,24 +3,25 @@ import { E_VehicleStatus } from "../../shared/types/entities/vehicle";
 import { Result } from "../../shared/types/generalTypes";
 
 export interface IGetMissionsReport {
-    start_time_ms: number;
-    end_time_ms: number;
-    limit: number;
-    offset: number;
+    start_time_ms: number | null;
+    end_time_ms: number | null;
+    limit: number | null;
+    offset: number | null;
 }
 
 export interface IReportingDataHandler {
     getMissionsReport(
-        start_time_ms: number,
-        end_time_ms: number,
-        limit: number,
-        offset: number
+        start_time_ms?: number,
+        end_time_ms?: number,
+        limit?: number,
+        offset?: number
     ): Promise<Result<MissionsReport[]>>;
 }
 
 export type MissionsReport = {
     mission_id: string;
-    mission_start_time: number;
+    mission_planned_start_time: number;
+    mission_actual_start_time: number;
     mission_end_time: number;
     mission_status: E_MissionStatus;
     vehicle_id: string;

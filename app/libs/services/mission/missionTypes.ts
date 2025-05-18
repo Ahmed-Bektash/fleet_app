@@ -1,13 +1,12 @@
-import { E_MissionStatus, Mission } from "../../shared/types/entities/mission";
+import { Mission } from "../../shared/types/entities/mission";
 import { Result } from "../../shared/types/generalTypes";
 
 export interface ICreateMission {
   vehicle_id: string;
+  mission_name: string;
   mission_type: string;
   mission_description: string;
-  mission_status: E_MissionStatus;
   mission_start_time: number;
-  mission_end_time: number;
   mission_location: string;
   token: string;
 }

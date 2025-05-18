@@ -1,6 +1,6 @@
 import express from "express";
-import { MissionServiceFactory } from "../../services/mission/missionServiceFactory";
-import { Dictionary, E_httpMethod, HttpRequest } from "../../shared/types/generalTypes";
+import { MissionServiceFactory } from "../libs/services/mission/missionServiceFactory";
+import { Dictionary, E_httpMethod, HttpRequest } from "../libs/shared/types/generalTypes";
 export const missionsRouter = express.Router();
 
 missionsRouter.post("/", async function (req, res) {

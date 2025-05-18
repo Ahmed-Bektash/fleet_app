@@ -33,6 +33,8 @@ export class MissionDataHandler
     try {
       const mission = await MissionModel.query().insert({
         ...data,
+        updated_at: Date.now(),
+        created_at: Date.now(),
       });
       return {
         state: true,

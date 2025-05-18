@@ -56,10 +56,11 @@ export class CreateMissionUseCase implements BaseUseCase<ICreateMission> {
       > = {
         id: uuidv4(),
         vehicle_id: request.vehicle_id,
+        mission_name: request.mission_name,
         mission_description: request.mission_description,
         mission_type: request.mission_type,
         mission_planned_start_time: request.mission_start_time,
-        mission_location: request.mission_location,
+        mission_start_location: request.mission_location,
         mission_status: E_MissionStatus.PENDING,
       };
 

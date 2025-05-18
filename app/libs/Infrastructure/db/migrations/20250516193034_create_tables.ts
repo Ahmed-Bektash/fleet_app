@@ -62,13 +62,14 @@ export async function up(knex: Knex): Promise<void> {
     table.string("mission_status").notNullable();
     table.string("mission_type").notNullable();
     table
-      .uuid("mission_vehicle_id")
+      .uuid("vehicle_id")
       .notNullable()
       .references("id")
       .inTable("vehicle")
       .onDelete("CASCADE");
-    table.string("mission_start_time").notNullable();
-    table.string("mission_end_time").notNullable();
+    table.string("mission_planned_start_time").notNullable();
+    table.string("mission_actual_start_time").nullable();
+    table.string("mission_end_time").nullable();
     table.string("mission_start_location").notNullable();
     table.bigInteger("created_at").notNullable();
     table.bigInteger("updated_at").notNullable();
