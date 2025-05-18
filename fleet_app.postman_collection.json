@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "0be7691d-8627-40e2-b446-89e640d334b6",
+		"name": "fleet_app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14086842"
+	},
+	"item": [
+		{
+			"name": "create_mission",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"vehicle_id\" :\"becd5114-4137-4a84-983c-7f571f0eaa5a\",\r\n \"mission_name\":\"m100\",\r\n \"mission_type\": \"delivery\",\r\n \"mission_description\": \"deliver ite a to place b\",\r\n \"mission_start_time\": \"1747513029000\",\r\n \"mission_location\": \"dubai\",\r\n\"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZWhpY2xlSWQiOiJiZWNkNTExNC00MTM3LTRhODQtOTgzYy03ZjU3MWYwZWFhNWEiLCJpYXQiOjE3NDc1MTI3NzAsImV4cCI6MTc0NzU5OTE3MH0.njWzJJ0GITxovd1tc17VT6VCyrKmGeN4zmCkEW-dS44\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/missions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"missions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "generate_report",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/reports",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"reports"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

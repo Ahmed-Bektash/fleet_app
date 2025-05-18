@@ -1,0 +1,45 @@
+	test data:
+		register: {
+			"clientId": "pm-1747505855012",
+			"vin": "test-vin-1",
+			"fleetId": "820b3ecf-588e-43a5-835b-18dfae0d7bfa",
+			"vehicleType": "car",
+			"oem": "bmw",
+			"model": "x5",
+			"year": "2023"
+		}
+		telemetry: {
+				"vehicleId":"becd5114-4137-4a84-983c-7f571f0eaa5a",
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZWhpY2xlSWQiOiJiZWNkNTExNC00MTM3LTRhODQtOTgzYy03ZjU3MWYwZWFhNWEiLCJpYXQiOjE3NDc1MTI3NzAsImV4cCI6MTc0NzU5OTE3MH0.njWzJJ0GITxovd1tc17VT6VCyrKmGeN4zmCkEW-dS44",
+				"timestamp_ms":"1747513029000",
+				"telemetryData":{
+					"speed":"50",
+					"location":"cairo",
+					"engine_status":"ok",
+					"heater_status":"nok"
+				}
+			}
+		create mission: {
+				 "vehicle_id" :"becd5114-4137-4a84-983c-7f571f0eaa5a",
+				 "mission_name":"m100",
+				 "mission_type": "delivery",
+				 "mission_description": "deliver ite a to place b",
+				 "mission_start_time": "1747513029000",
+				 "mission_location": "dubai",
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZWhpY2xlSWQiOiJiZWNkNTExNC00MTM3LTRhODQtOTgzYy03ZjU3MWYwZWFhNWEiLCJpYXQiOjE3NDc1MTI3NzAsImV4cCI6MTc0NzU5OTE3MH0.njWzJJ0GITxovd1tc17VT6VCyrKmGeN4zmCkEW-dS44"
+				}
+		mission_status: {
+						"mission_id": "bdd33555-73bb-4fbb-975a-06662ac1b469",
+						"status": "ACCEPTED",
+						"timestamp": "1747559533000",
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZWhpY2xlSWQiOiJiZWNkNTExNC00MTM3LTRhODQtOTgzYy03ZjU3MWYwZWFhNWEiLCJpYXQiOjE3NDc1MTI3NzAsImV4cCI6MTc0NzU5OTE3MH0.njWzJJ0GITxovd1tc17VT6VCyrKmGeN4zmCkEW-dS44",
+						"vehicle_id": "becd5114-4137-4a84-983c-7f571f0eaa5a"
+					}
+		vehicle_health:{
+						"data": {
+							"vehicle_status": "BUSY"
+						},
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZWhpY2xlSWQiOiJiZWNkNTExNC00MTM3LTRhODQtOTgzYy03ZjU3MWYwZWFhNWEiLCJpYXQiOjE3NDc1MTI3NzAsImV4cCI6MTc0NzU5OTE3MH0.njWzJJ0GITxovd1tc17VT6VCyrKmGeN4zmCkEW-dS44",
+						"id": "becd5114-4137-4a84-983c-7f571f0eaa5a"
+					}
+	

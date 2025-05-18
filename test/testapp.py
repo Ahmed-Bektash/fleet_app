@@ -8,10 +8,8 @@ from mqtt.publisher import publish
 from mqtt.subscriber import subscribe
 from mqtt.connect import connect_mqtt
 from test_types import DB_NAME, DB_HOST, DB_USER, DB_PASSWORD, DB_PORT
-
 from telemetry_test import telemetry_tests
-    
-    
+from mission_tests import create_mission_tests
 
 
 HEALTH = {
@@ -100,6 +98,12 @@ def main():
         print("Telemetry test passed.")
     else:
         print("Telemetry test failed.")
+    print("Running mission tests...")
+    mission_test_result = create_mission_tests(client, cursor)
+    if mission_test_result:
+        print("Mission test passed.")
+    else:
+        print("Mission test failed.")
     client.disconnect()
     client.loop_stop()
     db.close()

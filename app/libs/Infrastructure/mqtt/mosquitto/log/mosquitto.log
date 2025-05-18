@@ -800,3 +800,2413 @@
 1747560026: 7f6774f6-5338-471e-aba5-b63c3ab549af 1 /vehicle/health
 1747560026: 7f6774f6-5338-471e-aba5-b63c3ab549af 0 /telemetry
 1747560026: 7f6774f6-5338-471e-aba5-b63c3ab549af 1 /missions/status
+1747560137: Client 7f6774f6-5338-471e-aba5-b63c3ab549af closed its connection.
+1747560138: mosquitto version 2.0.21 terminating
+1747560138: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747562740: mosquitto version 2.0.21 starting
+1747562740: Config loaded from /mosquitto/config/mosquitto.conf.
+1747562740: Opening ipv4 listen socket on port 1883.
+1747562740: mosquitto version 2.0.21 running
+1747562741: Expiring client postman-mqtt-client-1747506025843 due to timeout.
+1747562751: New connection from 172.19.0.5:48100 on port 1883.
+1747562751: New client connected from 172.19.0.5:48100 as a92f57b2-fd85-4024-874b-2030ceb5375d (p2, c1, k60, u'admin').
+1747562751: a92f57b2-fd85-4024-874b-2030ceb5375d 1 /vehicle/register
+1747562751: a92f57b2-fd85-4024-874b-2030ceb5375d 1 /vehicle/health
+1747562751: a92f57b2-fd85-4024-874b-2030ceb5375d 0 /telemetry
+1747562751: a92f57b2-fd85-4024-874b-2030ceb5375d 1 /missions/status
+1747562877: Client a92f57b2-fd85-4024-874b-2030ceb5375d closed its connection.
+1747562878: mosquitto version 2.0.21 terminating
+1747562878: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747562889: mosquitto version 2.0.21 starting
+1747562889: Config loaded from /mosquitto/config/mosquitto.conf.
+1747562889: Opening ipv4 listen socket on port 1883.
+1747562889: mosquitto version 2.0.21 running
+1747562900: New connection from 172.19.0.5:42266 on port 1883.
+1747562900: New client connected from 172.19.0.5:42266 as cb880fa8-c55b-451c-a5e1-0e8deb06c27b (p2, c1, k60, u'admin').
+1747562900: cb880fa8-c55b-451c-a5e1-0e8deb06c27b 1 /vehicle/register
+1747562900: cb880fa8-c55b-451c-a5e1-0e8deb06c27b 1 /vehicle/health
+1747562900: cb880fa8-c55b-451c-a5e1-0e8deb06c27b 0 /telemetry
+1747562900: cb880fa8-c55b-451c-a5e1-0e8deb06c27b 1 /missions/status
+1747562936: Client cb880fa8-c55b-451c-a5e1-0e8deb06c27b closed its connection.
+1747562937: mosquitto version 2.0.21 terminating
+1747562937: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747562952: mosquitto version 2.0.21 starting
+1747562952: Config loaded from /mosquitto/config/mosquitto.conf.
+1747562952: Opening ipv4 listen socket on port 1883.
+1747562952: mosquitto version 2.0.21 running
+1747562953: New connection from 172.19.0.4:43873 on port 1883.
+1747562953: New client connected from 172.19.0.4:43873 as test_client (p2, c1, k60, u'admin').
+1747562953: New connection from 172.19.0.4:52315 on port 1883.
+1747562953: Client test_client already connected, closing old connection.
+1747562953: New client connected from 172.19.0.4:52315 as test_client (p2, c1, k60, u'admin').
+1747562953: Client test_client closed its connection.
+1747562964: New connection from 172.19.0.5:48536 on port 1883.
+1747562964: New client connected from 172.19.0.5:48536 as 61a57def-17fe-48c2-8183-96983b7bd77e (p2, c1, k60, u'admin').
+1747562964: 61a57def-17fe-48c2-8183-96983b7bd77e 1 /vehicle/register
+1747562964: 61a57def-17fe-48c2-8183-96983b7bd77e 1 /vehicle/health
+1747562964: 61a57def-17fe-48c2-8183-96983b7bd77e 0 /telemetry
+1747562964: 61a57def-17fe-48c2-8183-96983b7bd77e 1 /missions/status
+1747562985: Client 61a57def-17fe-48c2-8183-96983b7bd77e closed its connection.
+1747562986: mosquitto version 2.0.21 terminating
+1747562986: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747564191: mosquitto version 2.0.21 starting
+1747564191: Config loaded from /mosquitto/config/mosquitto.conf.
+1747564191: Opening ipv4 listen socket on port 1883.
+1747564191: mosquitto version 2.0.21 running
+1747564192: New connection from 172.19.0.5:53723 on port 1883.
+1747564192: New client connected from 172.19.0.5:53723 as test_client (p2, c1, k60, u'admin').
+1747564192: New connection from 172.19.0.5:40479 on port 1883.
+1747564192: Client test_client already connected, closing old connection.
+1747564192: New client connected from 172.19.0.5:40479 as test_client (p2, c1, k60, u'admin').
+1747564192: Client test_client closed its connection.
+1747564206: New connection from 172.19.0.4:55378 on port 1883.
+1747564206: New client connected from 172.19.0.4:55378 as f45363db-076e-4ecb-aa3b-7b8e14287a23 (p2, c1, k60, u'admin').
+1747564206: f45363db-076e-4ecb-aa3b-7b8e14287a23 1 /vehicle/register
+1747564206: f45363db-076e-4ecb-aa3b-7b8e14287a23 1 /vehicle/health
+1747564206: f45363db-076e-4ecb-aa3b-7b8e14287a23 0 /telemetry
+1747564206: f45363db-076e-4ecb-aa3b-7b8e14287a23 1 /missions/status
+1747564312: Client f45363db-076e-4ecb-aa3b-7b8e14287a23 closed its connection.
+1747564313: mosquitto version 2.0.21 terminating
+1747564313: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747564330: mosquitto version 2.0.21 starting
+1747564330: Config loaded from /mosquitto/config/mosquitto.conf.
+1747564330: Opening ipv4 listen socket on port 1883.
+1747564330: mosquitto version 2.0.21 running
+1747564343: New connection from 172.19.0.4:47604 on port 1883.
+1747564343: New client connected from 172.19.0.4:47604 as 2e07380a-5f06-4bc3-beaf-94aa8542883d (p2, c1, k60, u'admin').
+1747564343: 2e07380a-5f06-4bc3-beaf-94aa8542883d 1 /vehicle/register
+1747564343: 2e07380a-5f06-4bc3-beaf-94aa8542883d 1 /vehicle/health
+1747564343: 2e07380a-5f06-4bc3-beaf-94aa8542883d 0 /telemetry
+1747564343: 2e07380a-5f06-4bc3-beaf-94aa8542883d 1 /missions/status
+1747564345: Client 2e07380a-5f06-4bc3-beaf-94aa8542883d closed its connection.
+1747564346: mosquitto version 2.0.21 terminating
+1747564346: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747564364: mosquitto version 2.0.21 starting
+1747564364: Config loaded from /mosquitto/config/mosquitto.conf.
+1747564364: Opening ipv4 listen socket on port 1883.
+1747564364: mosquitto version 2.0.21 running
+1747564365: New connection from 172.19.0.5:54621 on port 1883.
+1747564365: New client connected from 172.19.0.5:54621 as test_client (p2, c1, k60, u'admin').
+1747564365: New connection from 172.19.0.5:47353 on port 1883.
+1747564365: Client test_client already connected, closing old connection.
+1747564365: New client connected from 172.19.0.5:47353 as test_client (p2, c1, k60, u'admin').
+1747564365: Client test_client closed its connection.
+1747564377: New connection from 172.19.0.4:38574 on port 1883.
+1747564377: New client connected from 172.19.0.4:38574 as 65b43ddb-9875-4f8a-a07c-c4e1189883be (p2, c1, k60, u'admin').
+1747564377: 65b43ddb-9875-4f8a-a07c-c4e1189883be 1 /vehicle/register
+1747564377: 65b43ddb-9875-4f8a-a07c-c4e1189883be 1 /vehicle/health
+1747564377: 65b43ddb-9875-4f8a-a07c-c4e1189883be 0 /telemetry
+1747564377: 65b43ddb-9875-4f8a-a07c-c4e1189883be 1 /missions/status
+1747565913: Client 65b43ddb-9875-4f8a-a07c-c4e1189883be closed its connection.
+1747565915: mosquitto version 2.0.21 terminating
+1747565915: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747568345: mosquitto version 2.0.21 starting
+1747568345: Config loaded from /mosquitto/config/mosquitto.conf.
+1747568345: Opening ipv4 listen socket on port 1883.
+1747568345: mosquitto version 2.0.21 running
+1747568353: New connection from 172.19.0.4:33484 on port 1883.
+1747568353: New client connected from 172.19.0.4:33484 as 9e358835-f2a5-46ff-9ffe-0b8226bd88c5 (p2, c1, k60, u'admin').
+1747568353: 9e358835-f2a5-46ff-9ffe-0b8226bd88c5 1 /vehicle/register
+1747568353: 9e358835-f2a5-46ff-9ffe-0b8226bd88c5 1 /vehicle/health
+1747568353: 9e358835-f2a5-46ff-9ffe-0b8226bd88c5 0 /telemetry
+1747568353: 9e358835-f2a5-46ff-9ffe-0b8226bd88c5 1 /missions/status
+1747568481: Client 9e358835-f2a5-46ff-9ffe-0b8226bd88c5 closed its connection.
+1747568482: mosquitto version 2.0.21 terminating
+1747568482: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747568495: mosquitto version 2.0.21 starting
+1747568495: Config loaded from /mosquitto/config/mosquitto.conf.
+1747568495: Opening ipv4 listen socket on port 1883.
+1747568495: mosquitto version 2.0.21 running
+1747568502: New connection from 172.19.0.4:53388 on port 1883.
+1747568502: New client connected from 172.19.0.4:53388 as 72779cdc-d567-4103-ba2b-38b68296bb39 (p2, c1, k60, u'admin').
+1747568502: 72779cdc-d567-4103-ba2b-38b68296bb39 1 /vehicle/register
+1747568502: 72779cdc-d567-4103-ba2b-38b68296bb39 1 /vehicle/health
+1747568502: 72779cdc-d567-4103-ba2b-38b68296bb39 0 /telemetry
+1747568502: 72779cdc-d567-4103-ba2b-38b68296bb39 1 /missions/status
+1747568593: Client 72779cdc-d567-4103-ba2b-38b68296bb39 closed its connection.
+1747568594: mosquitto version 2.0.21 terminating
+1747568594: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747568605: mosquitto version 2.0.21 starting
+1747568605: Config loaded from /mosquitto/config/mosquitto.conf.
+1747568605: Opening ipv4 listen socket on port 1883.
+1747568605: mosquitto version 2.0.21 running
+1747568606: New connection from 172.19.0.5:39129 on port 1883.
+1747568606: New client connected from 172.19.0.5:39129 as test_client (p2, c1, k60, u'admin').
+1747568606: Client test_client closed its connection.
+1747568613: New connection from 172.19.0.4:57800 on port 1883.
+1747568613: New client connected from 172.19.0.4:57800 as 6d1874fd-fc3f-4e4d-a91b-c1fb0d67058f (p2, c1, k60, u'admin').
+1747568613: 6d1874fd-fc3f-4e4d-a91b-c1fb0d67058f 1 /vehicle/register
+1747568613: 6d1874fd-fc3f-4e4d-a91b-c1fb0d67058f 1 /vehicle/health
+1747568613: 6d1874fd-fc3f-4e4d-a91b-c1fb0d67058f 0 /telemetry
+1747568613: 6d1874fd-fc3f-4e4d-a91b-c1fb0d67058f 1 /missions/status
+1747568747: Client 6d1874fd-fc3f-4e4d-a91b-c1fb0d67058f closed its connection.
+1747568748: mosquitto version 2.0.21 terminating
+1747568748: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747568760: mosquitto version 2.0.21 starting
+1747568760: Config loaded from /mosquitto/config/mosquitto.conf.
+1747568760: Opening ipv4 listen socket on port 1883.
+1747568760: mosquitto version 2.0.21 running
+1747568761: New connection from 172.19.0.5:57405 on port 1883.
+1747568761: New client connected from 172.19.0.5:57405 as test_client (p2, c1, k60, u'admin').
+1747568761: New connection from 172.19.0.5:37365 on port 1883.
+1747568761: Client test_client already connected, closing old connection.
+1747568761: New client connected from 172.19.0.5:37365 as test_client (p2, c1, k60, u'admin').
+1747568762: Client test_client closed its connection.
+1747568768: New connection from 172.19.0.4:38446 on port 1883.
+1747568768: New client connected from 172.19.0.4:38446 as f3a3673b-448d-453b-bfe0-ab255a8e8f40 (p2, c1, k60, u'admin').
+1747568768: f3a3673b-448d-453b-bfe0-ab255a8e8f40 1 /vehicle/register
+1747568768: f3a3673b-448d-453b-bfe0-ab255a8e8f40 1 /vehicle/health
+1747568768: f3a3673b-448d-453b-bfe0-ab255a8e8f40 0 /telemetry
+1747568768: f3a3673b-448d-453b-bfe0-ab255a8e8f40 1 /missions/status
+1747568842: Client f3a3673b-448d-453b-bfe0-ab255a8e8f40 closed its connection.
+1747568843: mosquitto version 2.0.21 terminating
+1747568843: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747569403: mosquitto version 2.0.21 starting
+1747569403: Config loaded from /mosquitto/config/mosquitto.conf.
+1747569403: Opening ipv4 listen socket on port 1883.
+1747569403: mosquitto version 2.0.21 running
+1747569410: New connection from 172.19.0.4:44822 on port 1883.
+1747569410: New client connected from 172.19.0.4:44822 as e60ffd57-bc56-4d4c-8695-fcecb9f3017c (p2, c1, k60, u'admin').
+1747569410: e60ffd57-bc56-4d4c-8695-fcecb9f3017c 1 /vehicle/register
+1747569410: e60ffd57-bc56-4d4c-8695-fcecb9f3017c 1 /vehicle/health
+1747569410: e60ffd57-bc56-4d4c-8695-fcecb9f3017c 0 /telemetry
+1747569410: e60ffd57-bc56-4d4c-8695-fcecb9f3017c 1 /missions/status
+1747569431: Client e60ffd57-bc56-4d4c-8695-fcecb9f3017c closed its connection.
+1747569432: mosquitto version 2.0.21 terminating
+1747569432: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747569484: mosquitto version 2.0.21 starting
+1747569484: Config loaded from /mosquitto/config/mosquitto.conf.
+1747569484: Opening ipv4 listen socket on port 1883.
+1747569484: mosquitto version 2.0.21 running
+1747569485: New connection from 172.19.0.5:54665 on port 1883.
+1747569485: New client connected from 172.19.0.5:54665 as test_client (p2, c1, k60, u'admin').
+1747569485: New connection from 172.19.0.5:33839 on port 1883.
+1747569485: Client test_client already connected, closing old connection.
+1747569485: New client connected from 172.19.0.5:33839 as test_client (p2, c1, k60, u'admin').
+1747569485: test_client 1 /vehicle/register/response/test_client
+1747569485: New connection from 172.19.0.5:59637 on port 1883.
+1747569485: Client test_client already connected, closing old connection.
+1747569485: New client connected from 172.19.0.5:59637 as test_client (p2, c1, k60, u'admin').
+1747569485: New connection from 172.19.0.5:59583 on port 1883.
+1747569485: Client test_client already connected, closing old connection.
+1747569485: New client connected from 172.19.0.5:59583 as test_client (p2, c1, k60, u'admin').
+1747569486: Client test_client closed its connection.
+1747569492: New connection from 172.19.0.4:58106 on port 1883.
+1747569492: New client connected from 172.19.0.4:58106 as a3d9f628-e443-431a-a3ea-f674cca7fd7d (p2, c1, k60, u'admin').
+1747569492: a3d9f628-e443-431a-a3ea-f674cca7fd7d 1 /vehicle/register
+1747569492: a3d9f628-e443-431a-a3ea-f674cca7fd7d 1 /vehicle/health
+1747569492: a3d9f628-e443-431a-a3ea-f674cca7fd7d 0 /telemetry
+1747569492: a3d9f628-e443-431a-a3ea-f674cca7fd7d 1 /missions/status
+1747569583: Client a3d9f628-e443-431a-a3ea-f674cca7fd7d closed its connection.
+1747569584: mosquitto version 2.0.21 terminating
+1747569584: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747569601: mosquitto version 2.0.21 starting
+1747569601: Config loaded from /mosquitto/config/mosquitto.conf.
+1747569601: Opening ipv4 listen socket on port 1883.
+1747569601: mosquitto version 2.0.21 running
+1747569602: New connection from 172.19.0.5:39091 on port 1883.
+1747569602: New client connected from 172.19.0.5:39091 as test_client (p2, c1, k60, u'admin').
+1747569602: New connection from 172.19.0.5:44685 on port 1883.
+1747569602: Client test_client already connected, closing old connection.
+1747569602: New client connected from 172.19.0.5:44685 as test_client (p2, c1, k60, u'admin').
+1747569602: test_client 1 /vehicle/register/response/test_client
+1747569602: New connection from 172.19.0.5:52063 on port 1883.
+1747569602: Client test_client already connected, closing old connection.
+1747569602: New client connected from 172.19.0.5:52063 as test_client (p2, c1, k60, u'admin').
+1747569602: New connection from 172.19.0.5:38535 on port 1883.
+1747569602: Client test_client already connected, closing old connection.
+1747569602: New client connected from 172.19.0.5:38535 as test_client (p2, c1, k60, u'admin').
+1747569603: Client test_client closed its connection.
+1747569609: New connection from 172.19.0.4:36652 on port 1883.
+1747569609: New client connected from 172.19.0.4:36652 as 62315810-949d-4dab-ae97-03d458b89d74 (p2, c1, k60, u'admin').
+1747569609: 62315810-949d-4dab-ae97-03d458b89d74 1 /vehicle/register
+1747569609: 62315810-949d-4dab-ae97-03d458b89d74 1 /vehicle/health
+1747569609: 62315810-949d-4dab-ae97-03d458b89d74 0 /telemetry
+1747569609: 62315810-949d-4dab-ae97-03d458b89d74 1 /missions/status
+1747569660: Client 62315810-949d-4dab-ae97-03d458b89d74 closed its connection.
+1747569661: mosquitto version 2.0.21 terminating
+1747569661: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747569673: mosquitto version 2.0.21 starting
+1747569673: Config loaded from /mosquitto/config/mosquitto.conf.
+1747569673: Opening ipv4 listen socket on port 1883.
+1747569673: mosquitto version 2.0.21 running
+1747569674: New connection from 172.19.0.5:49857 on port 1883.
+1747569674: New client connected from 172.19.0.5:49857 as test_client (p2, c1, k60, u'admin').
+1747569674: New connection from 172.19.0.5:39631 on port 1883.
+1747569674: Client test_client already connected, closing old connection.
+1747569674: New client connected from 172.19.0.5:39631 as test_client (p2, c1, k60, u'admin').
+1747569674: test_client 1 /vehicle/register/response/test_client
+1747569674: New connection from 172.19.0.5:55215 on port 1883.
+1747569674: Client test_client already connected, closing old connection.
+1747569674: New client connected from 172.19.0.5:55215 as test_client (p2, c1, k60, u'admin').
+1747569674: New connection from 172.19.0.5:47959 on port 1883.
+1747569674: Client test_client already connected, closing old connection.
+1747569674: New client connected from 172.19.0.5:47959 as test_client (p2, c1, k60, u'admin').
+1747569675: Client test_client closed its connection.
+1747569681: New connection from 172.19.0.4:41636 on port 1883.
+1747569681: New client connected from 172.19.0.4:41636 as dfd1d5ba-5c7e-40b8-ad0c-fe5a9d559f87 (p2, c1, k60, u'admin').
+1747569681: dfd1d5ba-5c7e-40b8-ad0c-fe5a9d559f87 1 /vehicle/register
+1747569681: dfd1d5ba-5c7e-40b8-ad0c-fe5a9d559f87 1 /vehicle/health
+1747569681: dfd1d5ba-5c7e-40b8-ad0c-fe5a9d559f87 0 /telemetry
+1747569681: dfd1d5ba-5c7e-40b8-ad0c-fe5a9d559f87 1 /missions/status
+1747570413: Client dfd1d5ba-5c7e-40b8-ad0c-fe5a9d559f87 closed its connection.
+1747570414: mosquitto version 2.0.21 terminating
+1747570414: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747570557: mosquitto version 2.0.21 starting
+1747570557: Config loaded from /mosquitto/config/mosquitto.conf.
+1747570557: Opening ipv4 listen socket on port 1883.
+1747570557: mosquitto version 2.0.21 running
+1747570558: New connection from 172.19.0.5:57255 on port 1883.
+1747570558: New client connected from 172.19.0.5:57255 as test_client (p2, c1, k60, u'admin').
+1747570558: New connection from 172.19.0.5:43383 on port 1883.
+1747570558: Client test_client already connected, closing old connection.
+1747570558: New client connected from 172.19.0.5:43383 as test_client (p2, c1, k60, u'admin').
+1747570558: test_client 1 /vehicle/register/response/test_client
+1747570558: New connection from 172.19.0.5:35003 on port 1883.
+1747570558: Client test_client already connected, closing old connection.
+1747570558: New client connected from 172.19.0.5:35003 as test_client (p2, c1, k60, u'admin').
+1747570558: New connection from 172.19.0.5:42529 on port 1883.
+1747570558: Client test_client already connected, closing old connection.
+1747570558: New client connected from 172.19.0.5:42529 as test_client (p2, c1, k60, u'admin').
+1747570559: Client test_client closed its connection.
+1747570565: New connection from 172.19.0.4:53922 on port 1883.
+1747570565: New client connected from 172.19.0.4:53922 as 7dba0458-e9f5-4a52-9f24-29db517563fb (p2, c1, k60, u'admin').
+1747570565: 7dba0458-e9f5-4a52-9f24-29db517563fb 1 /vehicle/register
+1747570565: 7dba0458-e9f5-4a52-9f24-29db517563fb 1 /vehicle/health
+1747570565: 7dba0458-e9f5-4a52-9f24-29db517563fb 0 /telemetry
+1747570565: 7dba0458-e9f5-4a52-9f24-29db517563fb 1 /missions/status
+1747570573: Client 7dba0458-e9f5-4a52-9f24-29db517563fb closed its connection.
+1747570574: mosquitto version 2.0.21 terminating
+1747570574: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747571003: mosquitto version 2.0.21 starting
+1747571003: Config loaded from /mosquitto/config/mosquitto.conf.
+1747571003: Opening ipv4 listen socket on port 1883.
+1747571003: mosquitto version 2.0.21 running
+1747571012: New connection from 172.19.0.4:47844 on port 1883.
+1747571012: New client connected from 172.19.0.4:47844 as 3fe75330-0cb8-422b-854a-18f26b705dc7 (p2, c1, k60, u'admin').
+1747571012: 3fe75330-0cb8-422b-854a-18f26b705dc7 1 /vehicle/register
+1747571012: 3fe75330-0cb8-422b-854a-18f26b705dc7 1 /vehicle/health
+1747571012: 3fe75330-0cb8-422b-854a-18f26b705dc7 0 /telemetry
+1747571012: 3fe75330-0cb8-422b-854a-18f26b705dc7 1 /missions/status
+1747571099: Client 3fe75330-0cb8-422b-854a-18f26b705dc7 closed its connection.
+1747571100: mosquitto version 2.0.21 terminating
+1747571100: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747571122: mosquitto version 2.0.21 starting
+1747571122: Config loaded from /mosquitto/config/mosquitto.conf.
+1747571122: Opening ipv4 listen socket on port 1883.
+1747571122: mosquitto version 2.0.21 running
+1747571122: New connection from 172.19.0.5:53577 on port 1883.
+1747571122: New client connected from 172.19.0.5:53577 as test_client (p2, c1, k60, u'admin').
+1747571123: New connection from 172.19.0.5:52607 on port 1883.
+1747571123: Client test_client already connected, closing old connection.
+1747571123: New client connected from 172.19.0.5:52607 as test_client (p2, c1, k60, u'admin').
+1747571124: New connection from 172.19.0.5:48903 on port 1883.
+1747571124: Client test_client already connected, closing old connection.
+1747571124: New client connected from 172.19.0.5:48903 as test_client (p2, c1, k60, u'admin').
+1747571124: New connection from 172.19.0.5:34203 on port 1883.
+1747571124: Client test_client already connected, closing old connection.
+1747571124: New client connected from 172.19.0.5:34203 as test_client (p2, c1, k60, u'admin').
+1747571125: New connection from 172.19.0.5:41003 on port 1883.
+1747571125: Client test_client already connected, closing old connection.
+1747571125: New client connected from 172.19.0.5:41003 as test_client (p2, c1, k60, u'admin').
+1747571125: New connection from 172.19.0.5:52871 on port 1883.
+1747571125: Client test_client already connected, closing old connection.
+1747571125: New client connected from 172.19.0.5:52871 as test_client (p2, c1, k60, u'admin').
+1747571125: New connection from 172.19.0.5:44589 on port 1883.
+1747571125: Client test_client already connected, closing old connection.
+1747571125: New client connected from 172.19.0.5:44589 as test_client (p2, c1, k60, u'admin').
+1747571126: New connection from 172.19.0.5:53379 on port 1883.
+1747571126: Client test_client already connected, closing old connection.
+1747571126: New client connected from 172.19.0.5:53379 as test_client (p2, c1, k60, u'admin').
+1747571126: New connection from 172.19.0.5:56677 on port 1883.
+1747571126: Client test_client already connected, closing old connection.
+1747571126: New client connected from 172.19.0.5:56677 as test_client (p2, c1, k60, u'admin').
+1747571126: New connection from 172.19.0.5:55215 on port 1883.
+1747571126: Client test_client already connected, closing old connection.
+1747571126: New client connected from 172.19.0.5:55215 as test_client (p2, c1, k60, u'admin').
+1747571126: New connection from 172.19.0.5:54035 on port 1883.
+1747571126: Client test_client already connected, closing old connection.
+1747571126: New client connected from 172.19.0.5:54035 as test_client (p2, c1, k60, u'admin').
+1747571127: New connection from 172.19.0.5:56091 on port 1883.
+1747571127: Client test_client already connected, closing old connection.
+1747571127: New client connected from 172.19.0.5:56091 as test_client (p2, c1, k60, u'admin').
+1747571127: New connection from 172.19.0.5:45743 on port 1883.
+1747571127: Client test_client already connected, closing old connection.
+1747571127: New client connected from 172.19.0.5:45743 as test_client (p2, c1, k60, u'admin').
+1747571127: New connection from 172.19.0.5:49247 on port 1883.
+1747571127: Client test_client already connected, closing old connection.
+1747571127: New client connected from 172.19.0.5:49247 as test_client (p2, c1, k60, u'admin').
+1747571127: New connection from 172.19.0.5:42349 on port 1883.
+1747571127: Client test_client already connected, closing old connection.
+1747571127: New client connected from 172.19.0.5:42349 as test_client (p2, c1, k60, u'admin').
+1747571127: New connection from 172.19.0.5:42147 on port 1883.
+1747571127: Client test_client already connected, closing old connection.
+1747571127: New client connected from 172.19.0.5:42147 as test_client (p2, c1, k60, u'admin').
+1747571127: New connection from 172.19.0.5:48707 on port 1883.
+1747571127: Client test_client already connected, closing old connection.
+1747571127: New client connected from 172.19.0.5:48707 as test_client (p2, c1, k60, u'admin').
+1747571127: New connection from 172.19.0.5:50701 on port 1883.
+1747571127: Client test_client already connected, closing old connection.
+1747571127: New client connected from 172.19.0.5:50701 as test_client (p2, c1, k60, u'admin').
+1747571127: test_client 1 /vehicle/register/response/test_client
+1747571127: New connection from 172.19.0.5:39035 on port 1883.
+1747571127: Client test_client already connected, closing old connection.
+1747571127: New client connected from 172.19.0.5:39035 as test_client (p2, c1, k60, u'admin').
+1747571127: New connection from 172.19.0.5:42999 on port 1883.
+1747571127: Client test_client already connected, closing old connection.
+1747571127: New client connected from 172.19.0.5:42999 as test_client (p2, c1, k60, u'admin').
+1747571128: New connection from 172.19.0.5:34807 on port 1883.
+1747571128: Client test_client already connected, closing old connection.
+1747571128: New client connected from 172.19.0.5:34807 as test_client (p2, c1, k60, u'admin').
+1747571128: New connection from 172.19.0.5:35113 on port 1883.
+1747571128: Client test_client already connected, closing old connection.
+1747571128: New client connected from 172.19.0.5:35113 as test_client (p2, c1, k60, u'admin').
+1747571128: New connection from 172.19.0.5:45311 on port 1883.
+1747571128: Client test_client already connected, closing old connection.
+1747571128: New client connected from 172.19.0.5:45311 as test_client (p2, c1, k60, u'admin').
+1747571128: New connection from 172.19.0.5:42821 on port 1883.
+1747571128: Client test_client already connected, closing old connection.
+1747571128: New client connected from 172.19.0.5:42821 as test_client (p2, c1, k60, u'admin').
+1747571128: New connection from 172.19.0.5:35761 on port 1883.
+1747571128: Client test_client already connected, closing old connection.
+1747571128: New client connected from 172.19.0.5:35761 as test_client (p2, c1, k60, u'admin').
+1747571128: New connection from 172.19.0.5:43751 on port 1883.
+1747571128: Client test_client already connected, closing old connection.
+1747571128: New client connected from 172.19.0.5:43751 as test_client (p2, c1, k60, u'admin').
+1747571128: Client test_client closed its connection.
+1747571129: New connection from 172.19.0.4:60390 on port 1883.
+1747571129: New client connected from 172.19.0.4:60390 as 06fd7e49-7ae8-43dd-ab38-7f3564c896a3 (p2, c1, k60, u'admin').
+1747571129: 06fd7e49-7ae8-43dd-ab38-7f3564c896a3 1 /vehicle/register
+1747571129: 06fd7e49-7ae8-43dd-ab38-7f3564c896a3 1 /vehicle/health
+1747571129: 06fd7e49-7ae8-43dd-ab38-7f3564c896a3 0 /telemetry
+1747571129: 06fd7e49-7ae8-43dd-ab38-7f3564c896a3 1 /missions/status
+1747571416: Client 06fd7e49-7ae8-43dd-ab38-7f3564c896a3 closed its connection.
+1747571417: mosquitto version 2.0.21 terminating
+1747571417: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747571429: mosquitto version 2.0.21 starting
+1747571429: Config loaded from /mosquitto/config/mosquitto.conf.
+1747571429: Opening ipv4 listen socket on port 1883.
+1747571429: mosquitto version 2.0.21 running
+1747571430: New connection from 172.19.0.5:52321 on port 1883.
+1747571430: New client connected from 172.19.0.5:52321 as test_client (p2, c1, k60, u'admin').
+1747571435: Client test_client closed its connection.
+1747571438: New connection from 172.19.0.4:46988 on port 1883.
+1747571438: New client connected from 172.19.0.4:46988 as e92bf7c1-4ea4-4584-a208-0e578366ea06 (p2, c1, k60, u'admin').
+1747571438: e92bf7c1-4ea4-4584-a208-0e578366ea06 1 /vehicle/register
+1747571438: e92bf7c1-4ea4-4584-a208-0e578366ea06 1 /vehicle/health
+1747571438: e92bf7c1-4ea4-4584-a208-0e578366ea06 0 /telemetry
+1747571438: e92bf7c1-4ea4-4584-a208-0e578366ea06 1 /missions/status
+1747571656: Client e92bf7c1-4ea4-4584-a208-0e578366ea06 closed its connection.
+1747571656: mosquitto version 2.0.21 terminating
+1747571656: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747571668: mosquitto version 2.0.21 starting
+1747571668: Config loaded from /mosquitto/config/mosquitto.conf.
+1747571668: Opening ipv4 listen socket on port 1883.
+1747571668: mosquitto version 2.0.21 running
+1747571674: New connection from 172.19.0.5:34877 on port 1883.
+1747571674: New client connected from 172.19.0.5:34877 as test_client (p2, c1, k60, u'admin').
+1747571676: New connection from 172.19.0.4:41402 on port 1883.
+1747571676: New client connected from 172.19.0.4:41402 as ab1287a3-9b8d-46b8-9f94-70e32ad377a7 (p2, c1, k60, u'admin').
+1747571676: ab1287a3-9b8d-46b8-9f94-70e32ad377a7 1 /vehicle/register
+1747571676: ab1287a3-9b8d-46b8-9f94-70e32ad377a7 1 /vehicle/health
+1747571676: ab1287a3-9b8d-46b8-9f94-70e32ad377a7 0 /telemetry
+1747571676: ab1287a3-9b8d-46b8-9f94-70e32ad377a7 1 /missions/status
+1747571704: Client test_client closed its connection.
+1747571859: Client ab1287a3-9b8d-46b8-9f94-70e32ad377a7 closed its connection.
+1747571859: mosquitto version 2.0.21 terminating
+1747571859: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747571872: mosquitto version 2.0.21 starting
+1747571872: Config loaded from /mosquitto/config/mosquitto.conf.
+1747571872: Opening ipv4 listen socket on port 1883.
+1747571872: mosquitto version 2.0.21 running
+1747571878: New connection from 172.19.0.5:45841 on port 1883.
+1747571878: New client connected from 172.19.0.5:45841 as test_client (p2, c1, k60, u'admin').
+1747571879: New connection from 172.19.0.4:55024 on port 1883.
+1747571879: New client connected from 172.19.0.4:55024 as e493daaf-266a-4009-b1c3-c50dd9c67d73 (p2, c1, k60, u'admin').
+1747571879: e493daaf-266a-4009-b1c3-c50dd9c67d73 1 /vehicle/register
+1747571879: e493daaf-266a-4009-b1c3-c50dd9c67d73 1 /vehicle/health
+1747571879: e493daaf-266a-4009-b1c3-c50dd9c67d73 0 /telemetry
+1747571879: e493daaf-266a-4009-b1c3-c50dd9c67d73 1 /missions/status
+1747571908: Client test_client closed its connection.
+1747571944: Client e493daaf-266a-4009-b1c3-c50dd9c67d73 closed its connection.
+1747571945: mosquitto version 2.0.21 terminating
+1747571945: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747571957: mosquitto version 2.0.21 starting
+1747571957: Config loaded from /mosquitto/config/mosquitto.conf.
+1747571957: Opening ipv4 listen socket on port 1883.
+1747571957: mosquitto version 2.0.21 running
+1747571962: New connection from 172.19.0.5:40491 on port 1883.
+1747571962: New client connected from 172.19.0.5:40491 as test_client (p2, c1, k60, u'admin').
+1747571964: New connection from 172.19.0.4:32968 on port 1883.
+1747571964: New client connected from 172.19.0.4:32968 as 52a0a27c-d71d-4b4a-a1b0-e31d466fefa1 (p2, c1, k60, u'admin').
+1747571964: 52a0a27c-d71d-4b4a-a1b0-e31d466fefa1 1 /vehicle/register
+1747571964: 52a0a27c-d71d-4b4a-a1b0-e31d466fefa1 1 /vehicle/health
+1747571964: 52a0a27c-d71d-4b4a-a1b0-e31d466fefa1 0 /telemetry
+1747571964: 52a0a27c-d71d-4b4a-a1b0-e31d466fefa1 1 /missions/status
+1747571967: Client test_client closed its connection.
+1747572095: Client 52a0a27c-d71d-4b4a-a1b0-e31d466fefa1 closed its connection.
+1747572095: mosquitto version 2.0.21 terminating
+1747572095: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747572107: mosquitto version 2.0.21 starting
+1747572107: Config loaded from /mosquitto/config/mosquitto.conf.
+1747572107: Opening ipv4 listen socket on port 1883.
+1747572107: mosquitto version 2.0.21 running
+1747572113: New connection from 172.19.0.5:52079 on port 1883.
+1747572113: New client connected from 172.19.0.5:52079 as test_client (p2, c1, k60, u'admin').
+1747572115: New connection from 172.19.0.4:44584 on port 1883.
+1747572115: New client connected from 172.19.0.4:44584 as 85275048-e42d-4b73-833e-9e15de3a1756 (p2, c1, k60, u'admin').
+1747572115: 85275048-e42d-4b73-833e-9e15de3a1756 1 /vehicle/register
+1747572115: 85275048-e42d-4b73-833e-9e15de3a1756 1 /vehicle/health
+1747572115: 85275048-e42d-4b73-833e-9e15de3a1756 0 /telemetry
+1747572115: 85275048-e42d-4b73-833e-9e15de3a1756 1 /missions/status
+1747572118: Client test_client closed its connection.
+1747572121: Client 85275048-e42d-4b73-833e-9e15de3a1756 closed its connection.
+1747572122: mosquitto version 2.0.21 terminating
+1747572122: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747572235: mosquitto version 2.0.21 starting
+1747572235: Config loaded from /mosquitto/config/mosquitto.conf.
+1747572235: Opening ipv4 listen socket on port 1883.
+1747572235: mosquitto version 2.0.21 running
+1747572241: New connection from 172.19.0.5:58423 on port 1883.
+1747572241: New client connected from 172.19.0.5:58423 as test_client (p2, c1, k60, u'admin').
+1747572243: New connection from 172.19.0.4:53628 on port 1883.
+1747572243: New client connected from 172.19.0.4:53628 as 0cade8f0-6da8-4bde-b425-3f21fc4ff211 (p2, c1, k60, u'admin').
+1747572243: 0cade8f0-6da8-4bde-b425-3f21fc4ff211 1 /vehicle/register
+1747572243: 0cade8f0-6da8-4bde-b425-3f21fc4ff211 1 /vehicle/health
+1747572243: 0cade8f0-6da8-4bde-b425-3f21fc4ff211 0 /telemetry
+1747572243: 0cade8f0-6da8-4bde-b425-3f21fc4ff211 1 /missions/status
+1747572246: Client test_client closed its connection.
+1747572573: Client 0cade8f0-6da8-4bde-b425-3f21fc4ff211 closed its connection.
+1747572574: mosquitto version 2.0.21 terminating
+1747572574: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747572587: mosquitto version 2.0.21 starting
+1747572587: Config loaded from /mosquitto/config/mosquitto.conf.
+1747572587: Opening ipv4 listen socket on port 1883.
+1747572587: mosquitto version 2.0.21 running
+1747572593: New connection from 172.19.0.5:53659 on port 1883.
+1747572593: New client connected from 172.19.0.5:53659 as test_client (p2, c1, k60, u'admin').
+1747572594: New connection from 172.19.0.4:57828 on port 1883.
+1747572594: New client connected from 172.19.0.4:57828 as 1d0d67f2-d876-4244-847a-4d5d4cd6c178 (p2, c1, k60, u'admin').
+1747572594: 1d0d67f2-d876-4244-847a-4d5d4cd6c178 1 /vehicle/register
+1747572594: 1d0d67f2-d876-4244-847a-4d5d4cd6c178 1 /vehicle/health
+1747572594: 1d0d67f2-d876-4244-847a-4d5d4cd6c178 0 /telemetry
+1747572594: 1d0d67f2-d876-4244-847a-4d5d4cd6c178 1 /missions/status
+1747572595: New connection from 172.19.0.5:50733 on port 1883.
+1747572595: Client test_client already connected, closing old connection.
+1747572595: New client connected from 172.19.0.5:50733 as test_client (p2, c1, k60, u'admin').
+1747572595: New connection from 172.19.0.5:48465 on port 1883.
+1747572595: Client test_client already connected, closing old connection.
+1747572595: New client connected from 172.19.0.5:48465 as test_client (p2, c1, k60, u'admin').
+1747572595: test_client 1 /vehicle/register/response/test_client
+1747572595: New connection from 172.19.0.5:40765 on port 1883.
+1747572595: Client test_client already connected, closing old connection.
+1747572595: New client connected from 172.19.0.5:40765 as test_client (p2, c1, k60, u'admin').
+1747572595: New connection from 172.19.0.5:46499 on port 1883.
+1747572595: Client test_client already connected, closing old connection.
+1747572595: New client connected from 172.19.0.5:46499 as test_client (p2, c1, k60, u'admin').
+1747572596: New connection from 172.19.0.5:35441 on port 1883.
+1747572596: Client test_client already connected, closing old connection.
+1747572596: New client connected from 172.19.0.5:35441 as test_client (p2, c1, k60, u'admin').
+1747572596: Client test_client closed its connection.
+1747573012: Client 1d0d67f2-d876-4244-847a-4d5d4cd6c178 closed its connection.
+1747573013: mosquitto version 2.0.21 terminating
+1747573013: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747573027: mosquitto version 2.0.21 starting
+1747573027: Config loaded from /mosquitto/config/mosquitto.conf.
+1747573027: Opening ipv4 listen socket on port 1883.
+1747573027: mosquitto version 2.0.21 running
+1747573035: New connection from 172.19.0.4:40106 on port 1883.
+1747573035: New client connected from 172.19.0.4:40106 as 02b305cc-4e93-4378-a329-eb8ac72c940c (p2, c1, k60, u'admin').
+1747573035: 02b305cc-4e93-4378-a329-eb8ac72c940c 1 /vehicle/register
+1747573035: 02b305cc-4e93-4378-a329-eb8ac72c940c 1 /vehicle/health
+1747573035: 02b305cc-4e93-4378-a329-eb8ac72c940c 0 /telemetry
+1747573035: 02b305cc-4e93-4378-a329-eb8ac72c940c 1 /missions/status
+1747573038: New connection from 172.19.0.5:39157 on port 1883.
+1747573038: New client connected from 172.19.0.5:39157 as test_client (p2, c1, k60, u'admin').
+1747573038: New connection from 172.19.0.5:38159 on port 1883.
+1747573038: Client test_client already connected, closing old connection.
+1747573038: New client connected from 172.19.0.5:38159 as test_client (p2, c1, k60, u'admin').
+1747573038: New connection from 172.19.0.5:46371 on port 1883.
+1747573038: Client test_client already connected, closing old connection.
+1747573038: New client connected from 172.19.0.5:46371 as test_client (p2, c1, k60, u'admin').
+1747573038: test_client 1 /vehicle/register/response/test_client
+1747573038: New connection from 172.19.0.5:45601 on port 1883.
+1747573038: Client test_client already connected, closing old connection.
+1747573038: New client connected from 172.19.0.5:45601 as test_client (p2, c1, k60, u'admin').
+1747573038: New connection from 172.19.0.5:51329 on port 1883.
+1747573038: Client test_client already connected, closing old connection.
+1747573038: New client connected from 172.19.0.5:51329 as test_client (p2, c1, k60, u'admin').
+1747573039: New connection from 172.19.0.5:40329 on port 1883.
+1747573039: Client test_client already connected, closing old connection.
+1747573039: New client connected from 172.19.0.5:40329 as test_client (p2, c1, k60, u'admin').
+1747573039: Client test_client closed its connection.
+1747574261: Client 02b305cc-4e93-4378-a329-eb8ac72c940c closed its connection.
+1747574262: mosquitto version 2.0.21 terminating
+1747574262: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747574286: mosquitto version 2.0.21 starting
+1747574286: Config loaded from /mosquitto/config/mosquitto.conf.
+1747574286: Opening ipv4 listen socket on port 1883.
+1747574286: mosquitto version 2.0.21 running
+1747574294: New connection from 172.19.0.4:48180 on port 1883.
+1747574294: New client connected from 172.19.0.4:48180 as c25d188d-0bac-4239-86ec-2295a90cfef3 (p2, c1, k60, u'admin').
+1747574294: c25d188d-0bac-4239-86ec-2295a90cfef3 1 /vehicle/register
+1747574294: c25d188d-0bac-4239-86ec-2295a90cfef3 1 /vehicle/health
+1747574294: c25d188d-0bac-4239-86ec-2295a90cfef3 0 /telemetry
+1747574294: c25d188d-0bac-4239-86ec-2295a90cfef3 1 /missions/status
+1747574317: New connection from 172.19.0.5:36641 on port 1883.
+1747574317: New client connected from 172.19.0.5:36641 as test_client (p2, c1, k60, u'admin').
+1747574317: New connection from 172.19.0.5:34841 on port 1883.
+1747574317: Client test_client already connected, closing old connection.
+1747574317: New client connected from 172.19.0.5:34841 as test_client (p2, c1, k60, u'admin').
+1747574317: New connection from 172.19.0.5:44881 on port 1883.
+1747574317: Client test_client already connected, closing old connection.
+1747574317: New client connected from 172.19.0.5:44881 as test_client (p2, c1, k60, u'admin').
+1747574317: test_client 1 /vehicle/register/response/test_client
+1747574317: New connection from 172.19.0.5:43891 on port 1883.
+1747574317: Client test_client already connected, closing old connection.
+1747574317: New client connected from 172.19.0.5:43891 as test_client (p2, c1, k60, u'admin').
+1747574317: New connection from 172.19.0.5:51697 on port 1883.
+1747574317: Client test_client already connected, closing old connection.
+1747574317: New client connected from 172.19.0.5:51697 as test_client (p2, c1, k60, u'admin').
+1747574317: New connection from 172.19.0.4:60806 on port 1883.
+1747574317: New client connected from 172.19.0.4:60806 as 1f281531-917e-4af4-8181-45715077c61a (p2, c1, k60, u'admin').
+1747574318: New connection from 172.19.0.5:56067 on port 1883.
+1747574318: Client <unknown> closed its connection.
+1747574318: Client test_client closed its connection.
+1747574458: Client 1f281531-917e-4af4-8181-45715077c61a closed its connection.
+1747574458: Client c25d188d-0bac-4239-86ec-2295a90cfef3 closed its connection.
+1747574459: mosquitto version 2.0.21 terminating
+1747574459: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747574472: mosquitto version 2.0.21 starting
+1747574472: Config loaded from /mosquitto/config/mosquitto.conf.
+1747574472: Opening ipv4 listen socket on port 1883.
+1747574472: mosquitto version 2.0.21 running
+1747574479: New connection from 172.19.0.4:35708 on port 1883.
+1747574479: New client connected from 172.19.0.4:35708 as 7eb4aae7-786c-4e49-8d8b-9ddfdda07fbc (p2, c1, k60, u'admin').
+1747574479: 7eb4aae7-786c-4e49-8d8b-9ddfdda07fbc 1 /vehicle/register
+1747574479: 7eb4aae7-786c-4e49-8d8b-9ddfdda07fbc 1 /vehicle/health
+1747574479: 7eb4aae7-786c-4e49-8d8b-9ddfdda07fbc 0 /telemetry
+1747574479: 7eb4aae7-786c-4e49-8d8b-9ddfdda07fbc 1 /missions/status
+1747574503: New connection from 172.19.0.5:60613 on port 1883.
+1747574503: New client connected from 172.19.0.5:60613 as test_client (p2, c1, k60, u'admin').
+1747574503: New connection from 172.19.0.5:37801 on port 1883.
+1747574503: Client test_client already connected, closing old connection.
+1747574503: New client connected from 172.19.0.5:37801 as test_client (p2, c1, k60, u'admin').
+1747574503: New connection from 172.19.0.5:45993 on port 1883.
+1747574503: Client test_client already connected, closing old connection.
+1747574503: New client connected from 172.19.0.5:45993 as test_client (p2, c1, k60, u'admin').
+1747574503: test_client 1 /vehicle/register/response/test_client
+1747574503: New connection from 172.19.0.5:40315 on port 1883.
+1747574503: Client test_client already connected, closing old connection.
+1747574503: New client connected from 172.19.0.5:40315 as test_client (p2, c1, k60, u'admin').
+1747574503: New connection from 172.19.0.5:49885 on port 1883.
+1747574503: Client test_client already connected, closing old connection.
+1747574503: New client connected from 172.19.0.5:49885 as test_client (p2, c1, k60, u'admin').
+1747574503: New connection from 172.19.0.4:34788 on port 1883.
+1747574503: New client connected from 172.19.0.4:34788 as 9c881843-d7dc-4b9d-acfc-30307c38d891 (p2, c1, k60, u'admin').
+1747574503: New connection from 172.19.0.4:34800 on port 1883.
+1747574503: New client connected from 172.19.0.4:34800 as f7e98c95-6380-4c26-8dd2-9cc2a0dc58bf (p2, c1, k60, u'admin').
+1747574504: New connection from 172.19.0.5:36067 on port 1883.
+1747574504: Client test_client closed its connection.
+1747574504: Client <unknown> closed its connection.
+1747575714: Client f7e98c95-6380-4c26-8dd2-9cc2a0dc58bf closed its connection.
+1747575714: Client 9c881843-d7dc-4b9d-acfc-30307c38d891 closed its connection.
+1747575714: Client 7eb4aae7-786c-4e49-8d8b-9ddfdda07fbc closed its connection.
+1747575715: mosquitto version 2.0.21 terminating
+1747575715: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747575728: mosquitto version 2.0.21 starting
+1747575728: Config loaded from /mosquitto/config/mosquitto.conf.
+1747575728: Opening ipv4 listen socket on port 1883.
+1747575728: mosquitto version 2.0.21 running
+1747575736: New connection from 172.19.0.4:45802 on port 1883.
+1747575736: New client connected from 172.19.0.4:45802 as 8850bb8d-9275-4a6b-bae1-01f2e54bb9ef (p2, c1, k60, u'admin').
+1747575736: 8850bb8d-9275-4a6b-bae1-01f2e54bb9ef 1 /vehicle/register
+1747575736: 8850bb8d-9275-4a6b-bae1-01f2e54bb9ef 1 /vehicle/health
+1747575736: 8850bb8d-9275-4a6b-bae1-01f2e54bb9ef 0 /telemetry
+1747575736: 8850bb8d-9275-4a6b-bae1-01f2e54bb9ef 1 /missions/status
+1747575759: New connection from 172.19.0.5:58101 on port 1883.
+1747575759: New client connected from 172.19.0.5:58101 as test_client (p2, c1, k60, u'admin').
+1747575759: New connection from 172.19.0.5:49725 on port 1883.
+1747575759: Client test_client already connected, closing old connection.
+1747575759: New client connected from 172.19.0.5:49725 as test_client (p2, c1, k60, u'admin').
+1747575759: Client test_client closed its connection.
+1747575759: New connection from 172.19.0.4:35940 on port 1883.
+1747575759: New client connected from 172.19.0.4:35940 as dac8100c-bb2c-4f06-a9fd-1af3bdddc2a7 (p2, c1, k60, u'admin').
+1747575842: Client dac8100c-bb2c-4f06-a9fd-1af3bdddc2a7 closed its connection.
+1747575842: Client 8850bb8d-9275-4a6b-bae1-01f2e54bb9ef closed its connection.
+1747575842: mosquitto version 2.0.21 terminating
+1747575842: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747575856: mosquitto version 2.0.21 starting
+1747575856: Config loaded from /mosquitto/config/mosquitto.conf.
+1747575856: Opening ipv4 listen socket on port 1883.
+1747575856: mosquitto version 2.0.21 running
+1747575864: New connection from 172.19.0.4:55336 on port 1883.
+1747575864: New client connected from 172.19.0.4:55336 as ba8ff755-0021-4de4-abf9-fa8498ce2acb (p2, c1, k60, u'admin').
+1747575864: ba8ff755-0021-4de4-abf9-fa8498ce2acb 1 /vehicle/register
+1747575864: ba8ff755-0021-4de4-abf9-fa8498ce2acb 1 /vehicle/health
+1747575864: ba8ff755-0021-4de4-abf9-fa8498ce2acb 0 /telemetry
+1747575864: ba8ff755-0021-4de4-abf9-fa8498ce2acb 1 /missions/status
+1747575887: New connection from 172.19.0.5:51029 on port 1883.
+1747575887: New client connected from 172.19.0.5:51029 as test_client (p2, c1, k60, u'admin').
+1747575887: New connection from 172.19.0.5:58929 on port 1883.
+1747575887: Client test_client already connected, closing old connection.
+1747575887: New client connected from 172.19.0.5:58929 as test_client (p2, c1, k60, u'admin').
+1747575887: test_client 1 /vehicle/register/response/f43683ea-32c3-4c56-bae9-562890d9136e
+1747575887: Client test_client disconnected.
+1747575887: New connection from 172.19.0.4:45338 on port 1883.
+1747575887: New client connected from 172.19.0.4:45338 as 182ca2d8-0510-4bc1-b819-24e75c970a61 (p2, c1, k60, u'admin').
+1747575888: New connection from 172.19.0.4:45342 on port 1883.
+1747575888: New client connected from 172.19.0.4:45342 as a8bf3b5f-28a4-4bf1-b181-d84f48946ccc (p2, c1, k60, u'admin').
+1747575920: Client a8bf3b5f-28a4-4bf1-b181-d84f48946ccc closed its connection.
+1747575920: Client 182ca2d8-0510-4bc1-b819-24e75c970a61 closed its connection.
+1747575920: Client ba8ff755-0021-4de4-abf9-fa8498ce2acb closed its connection.
+1747575921: mosquitto version 2.0.21 terminating
+1747575921: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747575937: mosquitto version 2.0.21 starting
+1747575937: Config loaded from /mosquitto/config/mosquitto.conf.
+1747575937: Opening ipv4 listen socket on port 1883.
+1747575937: mosquitto version 2.0.21 running
+1747575946: New connection from 172.19.0.4:45818 on port 1883.
+1747575946: New client connected from 172.19.0.4:45818 as 3aa32781-8397-455c-b09c-ae3004979003 (p2, c1, k60, u'admin').
+1747575946: 3aa32781-8397-455c-b09c-ae3004979003 1 /vehicle/register
+1747575946: 3aa32781-8397-455c-b09c-ae3004979003 1 /vehicle/health
+1747575946: 3aa32781-8397-455c-b09c-ae3004979003 0 /telemetry
+1747575946: 3aa32781-8397-455c-b09c-ae3004979003 1 /missions/status
+1747575968: New connection from 172.19.0.5:51513 on port 1883.
+1747575968: New client connected from 172.19.0.5:51513 as test_client (p2, c1, k60, u'admin').
+1747575968: New connection from 172.19.0.5:51485 on port 1883.
+1747575968: Client test_client already connected, closing old connection.
+1747575968: New client connected from 172.19.0.5:51485 as test_client (p2, c1, k60, u'admin').
+1747575968: test_client 1 /vehicle/register/response/f43683ea-32c3-4c56-bae9-562890d9136e
+1747575968: Client test_client disconnected.
+1747575968: New connection from 172.19.0.4:43328 on port 1883.
+1747575968: New client connected from 172.19.0.4:43328 as eefa456a-c01e-42c6-ad37-0d2292ac40d9 (p2, c1, k60, u'admin').
+1747575968: New connection from 172.19.0.4:43330 on port 1883.
+1747575968: New client connected from 172.19.0.4:43330 as dbb4ac82-70c7-411a-9e2e-d260aee570bd (p2, c1, k60, u'admin').
+1747576014: Client dbb4ac82-70c7-411a-9e2e-d260aee570bd closed its connection.
+1747576014: Client eefa456a-c01e-42c6-ad37-0d2292ac40d9 closed its connection.
+1747576014: Client 3aa32781-8397-455c-b09c-ae3004979003 closed its connection.
+1747576015: mosquitto version 2.0.21 terminating
+1747576015: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747576033: mosquitto version 2.0.21 starting
+1747576033: Config loaded from /mosquitto/config/mosquitto.conf.
+1747576033: Opening ipv4 listen socket on port 1883.
+1747576033: mosquitto version 2.0.21 running
+1747576041: New connection from 172.19.0.4:38638 on port 1883.
+1747576041: New client connected from 172.19.0.4:38638 as 535ca216-75df-4e01-804b-59ea9cd7f604 (p2, c1, k60, u'admin').
+1747576041: 535ca216-75df-4e01-804b-59ea9cd7f604 1 /vehicle/register
+1747576041: 535ca216-75df-4e01-804b-59ea9cd7f604 1 /vehicle/health
+1747576041: 535ca216-75df-4e01-804b-59ea9cd7f604 0 /telemetry
+1747576041: 535ca216-75df-4e01-804b-59ea9cd7f604 1 /missions/status
+1747576064: New connection from 172.19.0.5:56527 on port 1883.
+1747576064: New client connected from 172.19.0.5:56527 as test_client (p2, c1, k60, u'admin').
+1747576064: New connection from 172.19.0.5:55995 on port 1883.
+1747576064: Client test_client already connected, closing old connection.
+1747576064: New client connected from 172.19.0.5:55995 as test_client (p2, c1, k60, u'admin').
+1747576064: test_client 1 /vehicle/register/response/test-vin-0
+1747576064: Client test_client disconnected.
+1747576064: New connection from 172.19.0.4:43088 on port 1883.
+1747576064: New client connected from 172.19.0.4:43088 as a3c54edf-89d6-4067-b7f2-02fb15b6c0e4 (p2, c1, k60, u'admin').
+1747576064: New connection from 172.19.0.4:43104 on port 1883.
+1747576064: New client connected from 172.19.0.4:43104 as c6f63ea7-3e62-4a1f-a5c5-7451aec61132 (p2, c1, k60, u'admin').
+1747576131: Client c6f63ea7-3e62-4a1f-a5c5-7451aec61132 closed its connection.
+1747576131: Client a3c54edf-89d6-4067-b7f2-02fb15b6c0e4 closed its connection.
+1747576131: Client 535ca216-75df-4e01-804b-59ea9cd7f604 closed its connection.
+1747576132: mosquitto version 2.0.21 terminating
+1747576132: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747576144: mosquitto version 2.0.21 starting
+1747576144: Config loaded from /mosquitto/config/mosquitto.conf.
+1747576144: Opening ipv4 listen socket on port 1883.
+1747576144: mosquitto version 2.0.21 running
+1747576152: New connection from 172.19.0.4:53098 on port 1883.
+1747576152: New client connected from 172.19.0.4:53098 as 02eb8616-6a26-4968-a046-75d3ed71e6d5 (p2, c1, k60, u'admin').
+1747576152: 02eb8616-6a26-4968-a046-75d3ed71e6d5 1 /vehicle/register
+1747576152: 02eb8616-6a26-4968-a046-75d3ed71e6d5 1 /vehicle/health
+1747576152: 02eb8616-6a26-4968-a046-75d3ed71e6d5 0 /telemetry
+1747576152: 02eb8616-6a26-4968-a046-75d3ed71e6d5 1 /missions/status
+1747576175: New connection from 172.19.0.5:52717 on port 1883.
+1747576175: New client connected from 172.19.0.5:52717 as test_client (p2, c1, k60, u'admin').
+1747576175: New connection from 172.19.0.5:59155 on port 1883.
+1747576175: Client test_client already connected, closing old connection.
+1747576175: New client connected from 172.19.0.5:59155 as test_client (p2, c1, k60, u'admin').
+1747576175: test_client 1 /vehicle/register/response/vehicle-0
+1747576175: Client test_client disconnected.
+1747576175: New connection from 172.19.0.4:49966 on port 1883.
+1747576175: New client connected from 172.19.0.4:49966 as fd87f4b7-ab75-4d4d-b86f-e76fadbbd813 (p2, c1, k60, u'admin').
+1747576175: New connection from 172.19.0.4:49980 on port 1883.
+1747576175: New client connected from 172.19.0.4:49980 as 744ea713-4263-4266-a317-2b1d2b86f717 (p2, c1, k60, u'admin').
+1747577138: Client 744ea713-4263-4266-a317-2b1d2b86f717 closed its connection.
+1747577138: Client fd87f4b7-ab75-4d4d-b86f-e76fadbbd813 closed its connection.
+1747577138: Client 02eb8616-6a26-4968-a046-75d3ed71e6d5 closed its connection.
+1747577139: mosquitto version 2.0.21 terminating
+1747577139: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747577151: mosquitto version 2.0.21 starting
+1747577151: Config loaded from /mosquitto/config/mosquitto.conf.
+1747577151: Opening ipv4 listen socket on port 1883.
+1747577151: mosquitto version 2.0.21 running
+1747577159: New connection from 172.19.0.4:44610 on port 1883.
+1747577159: New client connected from 172.19.0.4:44610 as f21b9c43-0b02-4bed-81c8-c325f7a7d936 (p2, c1, k60, u'admin').
+1747577159: f21b9c43-0b02-4bed-81c8-c325f7a7d936 1 /vehicle/register
+1747577159: f21b9c43-0b02-4bed-81c8-c325f7a7d936 1 /vehicle/health
+1747577159: f21b9c43-0b02-4bed-81c8-c325f7a7d936 0 /telemetry
+1747577159: f21b9c43-0b02-4bed-81c8-c325f7a7d936 1 /missions/status
+1747577172: New connection from 172.19.0.5:56891 on port 1883.
+1747577172: New client connected from 172.19.0.5:56891 as test_client (p2, c1, k60, u'admin').
+1747577172: New connection from 172.19.0.5:36283 on port 1883.
+1747577172: Client test_client already connected, closing old connection.
+1747577172: New client connected from 172.19.0.5:36283 as test_client (p2, c1, k60, u'admin').
+1747577172: test_client 1 /vehicle/register/response/vehicle-0
+1747577172: Client test_client disconnected.
+1747577172: New connection from 172.19.0.4:59194 on port 1883.
+1747577172: New client connected from 172.19.0.4:59194 as 9f5ee5c2-2792-4a0d-8d17-cd8c9ae1c82f (p2, c1, k60, u'admin').
+1747577173: New connection from 172.19.0.4:59200 on port 1883.
+1747577173: New client connected from 172.19.0.4:59200 as b2df545a-5d83-48e4-ba08-ac91c7f87be3 (p2, c1, k60, u'admin').
+1747577234: Client b2df545a-5d83-48e4-ba08-ac91c7f87be3 closed its connection.
+1747577234: Client 9f5ee5c2-2792-4a0d-8d17-cd8c9ae1c82f closed its connection.
+1747577234: Client f21b9c43-0b02-4bed-81c8-c325f7a7d936 closed its connection.
+1747577235: mosquitto version 2.0.21 terminating
+1747577235: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747577251: mosquitto version 2.0.21 starting
+1747577251: Config loaded from /mosquitto/config/mosquitto.conf.
+1747577251: Opening ipv4 listen socket on port 1883.
+1747577251: mosquitto version 2.0.21 running
+1747577259: New connection from 172.19.0.4:47210 on port 1883.
+1747577259: New client connected from 172.19.0.4:47210 as 65ed6248-6e2c-4326-b1bb-d9c2ac34c05b (p2, c1, k60, u'admin').
+1747577259: 65ed6248-6e2c-4326-b1bb-d9c2ac34c05b 1 /vehicle/register
+1747577259: 65ed6248-6e2c-4326-b1bb-d9c2ac34c05b 1 /vehicle/health
+1747577259: 65ed6248-6e2c-4326-b1bb-d9c2ac34c05b 0 /telemetry
+1747577259: 65ed6248-6e2c-4326-b1bb-d9c2ac34c05b 1 /missions/status
+1747577272: New connection from 172.19.0.5:49527 on port 1883.
+1747577272: New client connected from 172.19.0.5:49527 as test_client (p2, c1, k60, u'admin').
+1747577272: New connection from 172.19.0.5:58957 on port 1883.
+1747577272: Client test_client already connected, closing old connection.
+1747577272: New client connected from 172.19.0.5:58957 as test_client (p2, c1, k60, u'admin').
+1747577272: test_client 1 /vehicle/register/response/vehicle-0
+1747577272: Client test_client disconnected.
+1747577272: New connection from 172.19.0.4:59480 on port 1883.
+1747577272: New client connected from 172.19.0.4:59480 as 265bee3f-d0e7-4736-b58c-48b0f9b127c2 (p2, c1, k60, u'admin').
+1747577272: New connection from 172.19.0.4:59488 on port 1883.
+1747577272: New client connected from 172.19.0.4:59488 as da5d13d8-5d42-4a21-843c-15387b709a10 (p2, c1, k60, u'admin').
+1747577338: New connection from 172.19.0.1:37560 on port 1883.
+1747577338: New client connected from 172.19.0.1:37560 as postman-mqtt-client-1747506025843 (p5, c0, k60, u'admin').
+1747577338: postman-mqtt-client-1747506025843 1 /vehicle/register/response/pm-1747505855012
+1747577338: postman-mqtt-client-1747506025843 1 /missions
+1747577339: New connection from 172.19.0.4:45612 on port 1883.
+1747577339: New client connected from 172.19.0.4:45612 as e040a365-0db6-4e74-a178-b1ad4e060c48 (p2, c1, k60, u'admin').
+1747577415: Client e040a365-0db6-4e74-a178-b1ad4e060c48 closed its connection.
+1747577415: Client da5d13d8-5d42-4a21-843c-15387b709a10 closed its connection.
+1747577415: Client 265bee3f-d0e7-4736-b58c-48b0f9b127c2 closed its connection.
+1747577415: Client 65ed6248-6e2c-4326-b1bb-d9c2ac34c05b closed its connection.
+1747577416: mosquitto version 2.0.21 terminating
+1747577416: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747577429: mosquitto version 2.0.21 starting
+1747577429: Config loaded from /mosquitto/config/mosquitto.conf.
+1747577429: Opening ipv4 listen socket on port 1883.
+1747577429: mosquitto version 2.0.21 running
+1747577430: Expiring client postman-mqtt-client-1747506025843 due to timeout.
+1747577437: New connection from 172.19.0.4:43004 on port 1883.
+1747577437: New client connected from 172.19.0.4:43004 as 3af54fa7-b700-48d6-b92d-067d9656c594 (p2, c1, k60, u'admin').
+1747577437: 3af54fa7-b700-48d6-b92d-067d9656c594 1 /vehicle/register
+1747577437: 3af54fa7-b700-48d6-b92d-067d9656c594 1 /vehicle/health
+1747577437: 3af54fa7-b700-48d6-b92d-067d9656c594 0 /telemetry
+1747577437: 3af54fa7-b700-48d6-b92d-067d9656c594 1 /missions/status
+1747577450: New connection from 172.19.0.5:43463 on port 1883.
+1747577450: New client connected from 172.19.0.5:43463 as test_client (p2, c1, k60, u'admin').
+1747577450: New connection from 172.19.0.5:48967 on port 1883.
+1747577450: Client test_client already connected, closing old connection.
+1747577450: New client connected from 172.19.0.5:48967 as test_client (p2, c1, k60, u'admin').
+1747577450: test_client 1 /vehicle/register/response/vehicle-0
+1747577450: Client test_client disconnected.
+1747577450: New connection from 172.19.0.4:50086 on port 1883.
+1747577450: New client connected from 172.19.0.4:50086 as 44223569-c2bb-43f2-bf62-a30b9b27492c (p2, c1, k60, u'admin').
+1747577497: Client 44223569-c2bb-43f2-bf62-a30b9b27492c closed its connection.
+1747577497: Client 3af54fa7-b700-48d6-b92d-067d9656c594 closed its connection.
+1747577498: mosquitto version 2.0.21 terminating
+1747577498: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747577532: mosquitto version 2.0.21 starting
+1747577532: Config loaded from /mosquitto/config/mosquitto.conf.
+1747577532: Opening ipv4 listen socket on port 1883.
+1747577532: mosquitto version 2.0.21 running
+1747577540: New connection from 172.19.0.4:37160 on port 1883.
+1747577540: New client connected from 172.19.0.4:37160 as c2463535-3da0-4a33-9019-b91fcd9a7c2f (p2, c1, k60, u'admin').
+1747577540: c2463535-3da0-4a33-9019-b91fcd9a7c2f 1 /vehicle/register
+1747577540: c2463535-3da0-4a33-9019-b91fcd9a7c2f 1 /vehicle/health
+1747577540: c2463535-3da0-4a33-9019-b91fcd9a7c2f 0 /telemetry
+1747577540: c2463535-3da0-4a33-9019-b91fcd9a7c2f 1 /missions/status
+1747577553: New connection from 172.19.0.5:35513 on port 1883.
+1747577553: New client connected from 172.19.0.5:35513 as test_client (p2, c1, k60, u'admin').
+1747577553: New connection from 172.19.0.5:45779 on port 1883.
+1747577553: Client test_client already connected, closing old connection.
+1747577553: New client connected from 172.19.0.5:45779 as test_client (p2, c1, k60, u'admin').
+1747577553: New connection from 172.19.0.4:53176 on port 1883.
+1747577553: New client connected from 172.19.0.4:53176 as 1880daf3-ea29-4681-934d-5611119a1fe7 (p2, c1, k60, u'admin').
+1747577553: test_client 1 /vehicle/register/response/vehicle-0
+1747577554: New connection from 172.19.0.5:37601 on port 1883.
+1747577554: Client test_client already connected, closing old connection.
+1747577554: New client connected from 172.19.0.5:37601 as test_client (p2, c1, k60, u'admin').
+1747577555: New connection from 172.19.0.5:38315 on port 1883.
+1747577555: Client test_client already connected, closing old connection.
+1747577555: New client connected from 172.19.0.5:38315 as test_client (p2, c1, k60, u'admin').
+1747577556: New connection from 172.19.0.5:43165 on port 1883.
+1747577556: Client test_client already connected, closing old connection.
+1747577556: New client connected from 172.19.0.5:43165 as test_client (p2, c1, k60, u'admin').
+1747577557: New connection from 172.19.0.5:53253 on port 1883.
+1747577557: Client test_client already connected, closing old connection.
+1747577557: New client connected from 172.19.0.5:53253 as test_client (p2, c1, k60, u'admin').
+1747577558: New connection from 172.19.0.5:39565 on port 1883.
+1747577558: Client test_client already connected, closing old connection.
+1747577558: New client connected from 172.19.0.5:39565 as test_client (p2, c1, k60, u'admin').
+1747577559: New connection from 172.19.0.5:37447 on port 1883.
+1747577559: Client test_client already connected, closing old connection.
+1747577559: New client connected from 172.19.0.5:37447 as test_client (p2, c1, k60, u'admin').
+1747577560: New connection from 172.19.0.5:35581 on port 1883.
+1747577560: Client test_client already connected, closing old connection.
+1747577560: New client connected from 172.19.0.5:35581 as test_client (p2, c1, k60, u'admin').
+1747577561: New connection from 172.19.0.5:46631 on port 1883.
+1747577561: Client test_client already connected, closing old connection.
+1747577561: New client connected from 172.19.0.5:46631 as test_client (p2, c1, k60, u'admin').
+1747577562: New connection from 172.19.0.5:36781 on port 1883.
+1747577562: Client test_client already connected, closing old connection.
+1747577562: New client connected from 172.19.0.5:36781 as test_client (p2, c1, k60, u'admin').
+1747577563: New connection from 172.19.0.5:49811 on port 1883.
+1747577563: Client test_client already connected, closing old connection.
+1747577563: New client connected from 172.19.0.5:49811 as test_client (p2, c1, k60, u'admin').
+1747577564: New connection from 172.19.0.5:52109 on port 1883.
+1747577564: Client test_client already connected, closing old connection.
+1747577564: New client connected from 172.19.0.5:52109 as test_client (p2, c1, k60, u'admin').
+1747577565: New connection from 172.19.0.5:52807 on port 1883.
+1747577565: Client test_client already connected, closing old connection.
+1747577565: New client connected from 172.19.0.5:52807 as test_client (p2, c1, k60, u'admin').
+1747577566: New connection from 172.19.0.5:60255 on port 1883.
+1747577566: Client test_client already connected, closing old connection.
+1747577566: New client connected from 172.19.0.5:60255 as test_client (p2, c1, k60, u'admin').
+1747577567: New connection from 172.19.0.5:54419 on port 1883.
+1747577567: Client test_client already connected, closing old connection.
+1747577567: New client connected from 172.19.0.5:54419 as test_client (p2, c1, k60, u'admin').
+1747577568: New connection from 172.19.0.5:53629 on port 1883.
+1747577568: Client test_client already connected, closing old connection.
+1747577568: New client connected from 172.19.0.5:53629 as test_client (p2, c1, k60, u'admin').
+1747577569: New connection from 172.19.0.5:56229 on port 1883.
+1747577569: Client test_client already connected, closing old connection.
+1747577569: New client connected from 172.19.0.5:56229 as test_client (p2, c1, k60, u'admin').
+1747577570: New connection from 172.19.0.5:55705 on port 1883.
+1747577570: Client test_client already connected, closing old connection.
+1747577570: New client connected from 172.19.0.5:55705 as test_client (p2, c1, k60, u'admin').
+1747577571: New connection from 172.19.0.5:32821 on port 1883.
+1747577571: Client test_client already connected, closing old connection.
+1747577571: New client connected from 172.19.0.5:32821 as test_client (p2, c1, k60, u'admin').
+1747577572: New connection from 172.19.0.5:33149 on port 1883.
+1747577572: Client test_client already connected, closing old connection.
+1747577572: New client connected from 172.19.0.5:33149 as test_client (p2, c1, k60, u'admin').
+1747577573: New connection from 172.19.0.5:46269 on port 1883.
+1747577573: Client test_client already connected, closing old connection.
+1747577573: New client connected from 172.19.0.5:46269 as test_client (p2, c1, k60, u'admin').
+1747577574: New connection from 172.19.0.5:51025 on port 1883.
+1747577574: Client test_client already connected, closing old connection.
+1747577574: New client connected from 172.19.0.5:51025 as test_client (p2, c1, k60, u'admin').
+1747577575: New connection from 172.19.0.5:49061 on port 1883.
+1747577575: Client test_client already connected, closing old connection.
+1747577575: New client connected from 172.19.0.5:49061 as test_client (p2, c1, k60, u'admin').
+1747577576: New connection from 172.19.0.5:39863 on port 1883.
+1747577576: Client test_client already connected, closing old connection.
+1747577576: New client connected from 172.19.0.5:39863 as test_client (p2, c1, k60, u'admin').
+1747577577: New connection from 172.19.0.5:57475 on port 1883.
+1747577577: Client test_client already connected, closing old connection.
+1747577577: New client connected from 172.19.0.5:57475 as test_client (p2, c1, k60, u'admin').
+1747577578: New connection from 172.19.0.5:47297 on port 1883.
+1747577578: Client test_client already connected, closing old connection.
+1747577578: New client connected from 172.19.0.5:47297 as test_client (p2, c1, k60, u'admin').
+1747577579: New connection from 172.19.0.5:40007 on port 1883.
+1747577579: Client test_client already connected, closing old connection.
+1747577579: New client connected from 172.19.0.5:40007 as test_client (p2, c1, k60, u'admin').
+1747577580: New connection from 172.19.0.5:43673 on port 1883.
+1747577580: Client test_client already connected, closing old connection.
+1747577580: New client connected from 172.19.0.5:43673 as test_client (p2, c1, k60, u'admin').
+1747577581: New connection from 172.19.0.5:44195 on port 1883.
+1747577581: Client test_client already connected, closing old connection.
+1747577581: New client connected from 172.19.0.5:44195 as test_client (p2, c1, k60, u'admin').
+1747577582: New connection from 172.19.0.5:39213 on port 1883.
+1747577582: Client test_client already connected, closing old connection.
+1747577582: New client connected from 172.19.0.5:39213 as test_client (p2, c1, k60, u'admin').
+1747577583: Client test_client closed its connection.
+1747577679: Client 1880daf3-ea29-4681-934d-5611119a1fe7 closed its connection.
+1747577679: Client c2463535-3da0-4a33-9019-b91fcd9a7c2f closed its connection.
+1747577680: mosquitto version 2.0.21 terminating
+1747577680: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747577692: mosquitto version 2.0.21 starting
+1747577692: Config loaded from /mosquitto/config/mosquitto.conf.
+1747577692: Opening ipv4 listen socket on port 1883.
+1747577692: mosquitto version 2.0.21 running
+1747577700: New connection from 172.19.0.4:54180 on port 1883.
+1747577700: New client connected from 172.19.0.4:54180 as 33f533c5-6ef4-46c2-befb-8b788626424b (p2, c1, k60, u'admin').
+1747577700: 33f533c5-6ef4-46c2-befb-8b788626424b 1 /vehicle/register
+1747577700: 33f533c5-6ef4-46c2-befb-8b788626424b 1 /vehicle/health
+1747577700: 33f533c5-6ef4-46c2-befb-8b788626424b 0 /telemetry
+1747577700: 33f533c5-6ef4-46c2-befb-8b788626424b 1 /missions/status
+1747577713: New connection from 172.19.0.5:47333 on port 1883.
+1747577713: New client connected from 172.19.0.5:47333 as test_client (p2, c1, k60, u'admin').
+1747577713: New connection from 172.19.0.5:40589 on port 1883.
+1747577713: Client test_client already connected, closing old connection.
+1747577713: New client connected from 172.19.0.5:40589 as test_client (p2, c1, k60, u'admin').
+1747577713: New connection from 172.19.0.5:52451 on port 1883.
+1747577713: Client test_client already connected, closing old connection.
+1747577713: New client connected from 172.19.0.5:52451 as test_client (p2, c1, k60, u'admin').
+1747577713: test_client 1 /vehicle/register/response/vehicle-0
+1747577714: New connection from 172.19.0.5:42461 on port 1883.
+1747577714: Client test_client already connected, closing old connection.
+1747577714: New client connected from 172.19.0.5:42461 as test_client (p2, c1, k60, u'admin').
+1747577714: New connection from 172.19.0.5:39769 on port 1883.
+1747577714: Client test_client already connected, closing old connection.
+1747577714: New client connected from 172.19.0.5:39769 as test_client (p2, c1, k60, u'admin').
+1747577715: New connection from 172.19.0.5:52947 on port 1883.
+1747577715: Client test_client already connected, closing old connection.
+1747577715: New client connected from 172.19.0.5:52947 as test_client (p2, c1, k60, u'admin').
+1747577715: New connection from 172.19.0.5:50669 on port 1883.
+1747577715: Client test_client already connected, closing old connection.
+1747577715: New client connected from 172.19.0.5:50669 as test_client (p2, c1, k60, u'admin').
+1747577716: New connection from 172.19.0.5:51577 on port 1883.
+1747577716: Client test_client already connected, closing old connection.
+1747577716: New client connected from 172.19.0.5:51577 as test_client (p2, c1, k60, u'admin').
+1747577716: New connection from 172.19.0.5:55653 on port 1883.
+1747577716: Client test_client already connected, closing old connection.
+1747577716: New client connected from 172.19.0.5:55653 as test_client (p2, c1, k60, u'admin').
+1747577717: New connection from 172.19.0.5:55229 on port 1883.
+1747577717: Client test_client already connected, closing old connection.
+1747577717: New client connected from 172.19.0.5:55229 as test_client (p2, c1, k60, u'admin').
+1747577717: New connection from 172.19.0.5:57265 on port 1883.
+1747577717: Client test_client already connected, closing old connection.
+1747577717: New client connected from 172.19.0.5:57265 as test_client (p2, c1, k60, u'admin').
+1747577718: New connection from 172.19.0.5:52359 on port 1883.
+1747577718: Client test_client already connected, closing old connection.
+1747577718: New client connected from 172.19.0.5:52359 as test_client (p2, c1, k60, u'admin').
+1747577718: New connection from 172.19.0.5:40363 on port 1883.
+1747577718: Client test_client already connected, closing old connection.
+1747577718: New client connected from 172.19.0.5:40363 as test_client (p2, c1, k60, u'admin').
+1747577719: New connection from 172.19.0.5:43345 on port 1883.
+1747577719: Client test_client already connected, closing old connection.
+1747577719: New client connected from 172.19.0.5:43345 as test_client (p2, c1, k60, u'admin').
+1747577719: New connection from 172.19.0.5:34441 on port 1883.
+1747577719: Client test_client already connected, closing old connection.
+1747577719: New client connected from 172.19.0.5:34441 as test_client (p2, c1, k60, u'admin').
+1747577720: New connection from 172.19.0.5:55021 on port 1883.
+1747577720: Client test_client already connected, closing old connection.
+1747577720: New client connected from 172.19.0.5:55021 as test_client (p2, c1, k60, u'admin').
+1747577720: New connection from 172.19.0.5:47077 on port 1883.
+1747577720: Client test_client already connected, closing old connection.
+1747577720: New client connected from 172.19.0.5:47077 as test_client (p2, c1, k60, u'admin').
+1747577721: New connection from 172.19.0.5:59103 on port 1883.
+1747577721: Client test_client already connected, closing old connection.
+1747577721: New client connected from 172.19.0.5:59103 as test_client (p2, c1, k60, u'admin').
+1747577721: New connection from 172.19.0.5:36361 on port 1883.
+1747577721: Client test_client already connected, closing old connection.
+1747577721: New client connected from 172.19.0.5:36361 as test_client (p2, c1, k60, u'admin').
+1747577722: New connection from 172.19.0.5:58431 on port 1883.
+1747577722: New connection from 172.19.0.5:55925 on port 1883.
+1747577722: Client test_client already connected, closing old connection.
+1747577722: New client connected from 172.19.0.5:58431 as test_client (p2, c1, k60, u'admin').
+1747577722: Client test_client already connected, closing old connection.
+1747577722: New client connected from 172.19.0.5:55925 as test_client (p2, c1, k60, u'admin').
+1747577723: New connection from 172.19.0.5:58553 on port 1883.
+1747577723: New connection from 172.19.0.5:54337 on port 1883.
+1747577723: Client test_client already connected, closing old connection.
+1747577723: New client connected from 172.19.0.5:58553 as test_client (p2, c1, k60, u'admin').
+1747577723: Client test_client already connected, closing old connection.
+1747577723: New client connected from 172.19.0.5:54337 as test_client (p2, c1, k60, u'admin').
+1747577724: New connection from 172.19.0.5:50147 on port 1883.
+1747577724: Client test_client already connected, closing old connection.
+1747577724: New client connected from 172.19.0.5:50147 as test_client (p2, c1, k60, u'admin').
+1747577724: New connection from 172.19.0.5:47333 on port 1883.
+1747577724: Client test_client already connected, closing old connection.
+1747577724: New client connected from 172.19.0.5:47333 as test_client (p2, c1, k60, u'admin').
+1747577725: New connection from 172.19.0.5:48187 on port 1883.
+1747577725: New connection from 172.19.0.5:33369 on port 1883.
+1747577725: Client test_client already connected, closing old connection.
+1747577725: New client connected from 172.19.0.5:48187 as test_client (p2, c1, k60, u'admin').
+1747577725: Client test_client already connected, closing old connection.
+1747577725: New client connected from 172.19.0.5:33369 as test_client (p2, c1, k60, u'admin').
+1747577726: New connection from 172.19.0.5:53439 on port 1883.
+1747577726: Client test_client already connected, closing old connection.
+1747577726: New client connected from 172.19.0.5:53439 as test_client (p2, c1, k60, u'admin').
+1747577726: New connection from 172.19.0.5:57183 on port 1883.
+1747577726: Client test_client already connected, closing old connection.
+1747577726: New client connected from 172.19.0.5:57183 as test_client (p2, c1, k60, u'admin').
+1747577727: New connection from 172.19.0.5:51807 on port 1883.
+1747577727: New connection from 172.19.0.5:52319 on port 1883.
+1747577727: Client test_client already connected, closing old connection.
+1747577727: New client connected from 172.19.0.5:51807 as test_client (p2, c1, k60, u'admin').
+1747577727: Client test_client already connected, closing old connection.
+1747577727: New client connected from 172.19.0.5:52319 as test_client (p2, c1, k60, u'admin').
+1747577728: New connection from 172.19.0.5:33233 on port 1883.
+1747577728: New connection from 172.19.0.5:33495 on port 1883.
+1747577728: Client test_client already connected, closing old connection.
+1747577728: New client connected from 172.19.0.5:33233 as test_client (p2, c1, k60, u'admin').
+1747577728: Client test_client already connected, closing old connection.
+1747577728: New client connected from 172.19.0.5:33495 as test_client (p2, c1, k60, u'admin').
+1747577729: New connection from 172.19.0.5:57247 on port 1883.
+1747577729: Client test_client already connected, closing old connection.
+1747577729: New client connected from 172.19.0.5:57247 as test_client (p2, c1, k60, u'admin').
+1747577729: New connection from 172.19.0.5:57871 on port 1883.
+1747577729: Client test_client already connected, closing old connection.
+1747577729: New client connected from 172.19.0.5:57871 as test_client (p2, c1, k60, u'admin').
+1747577730: New connection from 172.19.0.5:57895 on port 1883.
+1747577730: New connection from 172.19.0.5:44695 on port 1883.
+1747577730: Client test_client already connected, closing old connection.
+1747577730: New client connected from 172.19.0.5:57895 as test_client (p2, c1, k60, u'admin').
+1747577730: Client test_client already connected, closing old connection.
+1747577730: New client connected from 172.19.0.5:44695 as test_client (p2, c1, k60, u'admin').
+1747577731: New connection from 172.19.0.5:57399 on port 1883.
+1747577731: New connection from 172.19.0.5:39453 on port 1883.
+1747577731: Client test_client already connected, closing old connection.
+1747577731: New client connected from 172.19.0.5:57399 as test_client (p2, c1, k60, u'admin').
+1747577731: Client test_client already connected, closing old connection.
+1747577731: New client connected from 172.19.0.5:39453 as test_client (p2, c1, k60, u'admin').
+1747577732: New connection from 172.19.0.5:50227 on port 1883.
+1747577732: Client test_client already connected, closing old connection.
+1747577732: New client connected from 172.19.0.5:50227 as test_client (p2, c1, k60, u'admin').
+1747577732: New connection from 172.19.0.5:34311 on port 1883.
+1747577732: Client test_client already connected, closing old connection.
+1747577732: New client connected from 172.19.0.5:34311 as test_client (p2, c1, k60, u'admin').
+1747577733: New connection from 172.19.0.5:42499 on port 1883.
+1747577733: New connection from 172.19.0.5:50947 on port 1883.
+1747577733: Client test_client already connected, closing old connection.
+1747577733: New client connected from 172.19.0.5:42499 as test_client (p2, c1, k60, u'admin').
+1747577733: Client test_client already connected, closing old connection.
+1747577733: New client connected from 172.19.0.5:50947 as test_client (p2, c1, k60, u'admin').
+1747577734: New connection from 172.19.0.5:54437 on port 1883.
+1747577734: Client test_client already connected, closing old connection.
+1747577734: New client connected from 172.19.0.5:54437 as test_client (p2, c1, k60, u'admin').
+1747577734: New connection from 172.19.0.5:60853 on port 1883.
+1747577734: Client test_client already connected, closing old connection.
+1747577734: New client connected from 172.19.0.5:60853 as test_client (p2, c1, k60, u'admin').
+1747577735: New connection from 172.19.0.5:38703 on port 1883.
+1747577735: Client test_client already connected, closing old connection.
+1747577735: New client connected from 172.19.0.5:38703 as test_client (p2, c1, k60, u'admin').
+1747577735: New connection from 172.19.0.5:33485 on port 1883.
+1747577735: Client test_client already connected, closing old connection.
+1747577735: New client connected from 172.19.0.5:33485 as test_client (p2, c1, k60, u'admin').
+1747577736: New connection from 172.19.0.5:38405 on port 1883.
+1747577736: Client test_client already connected, closing old connection.
+1747577736: New client connected from 172.19.0.5:38405 as test_client (p2, c1, k60, u'admin').
+1747577736: New connection from 172.19.0.5:59503 on port 1883.
+1747577736: Client test_client already connected, closing old connection.
+1747577736: New client connected from 172.19.0.5:59503 as test_client (p2, c1, k60, u'admin').
+1747577737: New connection from 172.19.0.5:50155 on port 1883.
+1747577737: Client test_client already connected, closing old connection.
+1747577737: New client connected from 172.19.0.5:50155 as test_client (p2, c1, k60, u'admin').
+1747577737: New connection from 172.19.0.5:45269 on port 1883.
+1747577737: Client test_client already connected, closing old connection.
+1747577737: New client connected from 172.19.0.5:45269 as test_client (p2, c1, k60, u'admin').
+1747577738: New connection from 172.19.0.5:46471 on port 1883.
+1747577738: Client test_client already connected, closing old connection.
+1747577738: New client connected from 172.19.0.5:46471 as test_client (p2, c1, k60, u'admin').
+1747577738: New connection from 172.19.0.5:45523 on port 1883.
+1747577738: Client test_client already connected, closing old connection.
+1747577738: New client connected from 172.19.0.5:45523 as test_client (p2, c1, k60, u'admin').
+1747577739: New connection from 172.19.0.5:56131 on port 1883.
+1747577739: Client test_client already connected, closing old connection.
+1747577739: New client connected from 172.19.0.5:56131 as test_client (p2, c1, k60, u'admin').
+1747577739: New connection from 172.19.0.5:39445 on port 1883.
+1747577739: Client test_client already connected, closing old connection.
+1747577739: New client connected from 172.19.0.5:39445 as test_client (p2, c1, k60, u'admin').
+1747577740: New connection from 172.19.0.5:59779 on port 1883.
+1747577740: Client test_client already connected, closing old connection.
+1747577740: New client connected from 172.19.0.5:59779 as test_client (p2, c1, k60, u'admin').
+1747577740: New connection from 172.19.0.5:49589 on port 1883.
+1747577740: Client test_client already connected, closing old connection.
+1747577740: New client connected from 172.19.0.5:49589 as test_client (p2, c1, k60, u'admin').
+1747577741: New connection from 172.19.0.5:47679 on port 1883.
+1747577741: Client test_client already connected, closing old connection.
+1747577741: New client connected from 172.19.0.5:47679 as test_client (p2, c1, k60, u'admin').
+1747577741: New connection from 172.19.0.5:57315 on port 1883.
+1747577741: Client test_client already connected, closing old connection.
+1747577741: New client connected from 172.19.0.5:57315 as test_client (p2, c1, k60, u'admin').
+1747577742: New connection from 172.19.0.5:45681 on port 1883.
+1747577742: New connection from 172.19.0.5:36011 on port 1883.
+1747577742: Client test_client already connected, closing old connection.
+1747577742: New client connected from 172.19.0.5:45681 as test_client (p2, c1, k60, u'admin').
+1747577742: Client test_client already connected, closing old connection.
+1747577742: New client connected from 172.19.0.5:36011 as test_client (p2, c1, k60, u'admin').
+1747577743: New connection from 172.19.0.5:48959 on port 1883.
+1747577743: Client test_client already connected, closing old connection.
+1747577743: New client connected from 172.19.0.5:48959 as test_client (p2, c1, k60, u'admin').
+1747577743: New connection from 172.19.0.4:42974 on port 1883.
+1747577743: New client connected from 172.19.0.4:42974 as 48588cdd-c48d-4ed9-84eb-b932f8e4dff0 (p2, c1, k60, u'admin').
+1747577743: Client test_client closed its connection.
+1747577878: Client 48588cdd-c48d-4ed9-84eb-b932f8e4dff0 closed its connection.
+1747577878: Client 33f533c5-6ef4-46c2-befb-8b788626424b closed its connection.
+1747577879: mosquitto version 2.0.21 terminating
+1747577879: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747577891: mosquitto version 2.0.21 starting
+1747577891: Config loaded from /mosquitto/config/mosquitto.conf.
+1747577891: Opening ipv4 listen socket on port 1883.
+1747577891: mosquitto version 2.0.21 running
+1747577899: New connection from 172.19.0.4:54170 on port 1883.
+1747577899: New client connected from 172.19.0.4:54170 as 05169512-57be-4791-ac72-54276006bddc (p2, c1, k60, u'admin').
+1747577899: 05169512-57be-4791-ac72-54276006bddc 1 /vehicle/register
+1747577899: 05169512-57be-4791-ac72-54276006bddc 1 /vehicle/health
+1747577899: 05169512-57be-4791-ac72-54276006bddc 0 /telemetry
+1747577899: 05169512-57be-4791-ac72-54276006bddc 1 /missions/status
+1747577912: New connection from 172.19.0.5:47165 on port 1883.
+1747577912: New client connected from 172.19.0.5:47165 as test_client (p2, c1, k60, u'admin').
+1747577912: New connection from 172.19.0.5:57533 on port 1883.
+1747577912: Client test_client already connected, closing old connection.
+1747577912: New client connected from 172.19.0.5:57533 as test_client (p2, c1, k60, u'admin').
+1747577912: Client test_client closed its connection.
+1747577913: New connection from 172.19.0.5:33045 on port 1883.
+1747577913: New connection from 172.19.0.5:40971 on port 1883.
+1747577913: New client connected from 172.19.0.5:33045 as test_client (p2, c1, k60, u'admin').
+1747577913: Client test_client already connected, closing old connection.
+1747577913: New client connected from 172.19.0.5:40971 as test_client (p2, c1, k60, u'admin').
+1747577914: New connection from 172.19.0.5:47681 on port 1883.
+1747577914: Client test_client closed its connection.
+1747577914: New client connected from 172.19.0.5:47681 as test_client (p2, c1, k60, u'admin').
+1747577914: New connection from 172.19.0.5:42393 on port 1883.
+1747577914: Client test_client already connected, closing old connection.
+1747577914: New client connected from 172.19.0.5:42393 as test_client (p2, c1, k60, u'admin').
+1747577915: New connection from 172.19.0.5:48911 on port 1883.
+1747577915: Client test_client already connected, closing old connection.
+1747577915: New client connected from 172.19.0.5:48911 as test_client (p2, c1, k60, u'admin').
+1747577916: New connection from 172.19.0.5:45737 on port 1883.
+1747577916: Client test_client closed its connection.
+1747577916: New client connected from 172.19.0.5:45737 as test_client (p2, c1, k60, u'admin').
+1747577916: New connection from 172.19.0.5:51425 on port 1883.
+1747577916: Client test_client already connected, closing old connection.
+1747577916: New client connected from 172.19.0.5:51425 as test_client (p2, c1, k60, u'admin').
+1747577917: New connection from 172.19.0.5:35345 on port 1883.
+1747577917: Client test_client already connected, closing old connection.
+1747577917: New client connected from 172.19.0.5:35345 as test_client (p2, c1, k60, u'admin').
+1747577918: New connection from 172.19.0.5:36373 on port 1883.
+1747577918: Client test_client closed its connection.
+1747577918: New client connected from 172.19.0.5:36373 as test_client (p2, c1, k60, u'admin').
+1747577918: New connection from 172.19.0.5:57629 on port 1883.
+1747577918: Client test_client already connected, closing old connection.
+1747577918: New client connected from 172.19.0.5:57629 as test_client (p2, c1, k60, u'admin').
+1747577919: New connection from 172.19.0.5:52197 on port 1883.
+1747577919: Client test_client already connected, closing old connection.
+1747577919: New client connected from 172.19.0.5:52197 as test_client (p2, c1, k60, u'admin').
+1747577920: New connection from 172.19.0.5:44091 on port 1883.
+1747577920: Client test_client closed its connection.
+1747577920: New client connected from 172.19.0.5:44091 as test_client (p2, c1, k60, u'admin').
+1747577920: New connection from 172.19.0.5:55123 on port 1883.
+1747577920: Client test_client already connected, closing old connection.
+1747577920: New client connected from 172.19.0.5:55123 as test_client (p2, c1, k60, u'admin').
+1747577921: New connection from 172.19.0.5:40425 on port 1883.
+1747577921: Client test_client already connected, closing old connection.
+1747577921: New client connected from 172.19.0.5:40425 as test_client (p2, c1, k60, u'admin').
+1747577922: New connection from 172.19.0.5:53025 on port 1883.
+1747577922: Client test_client closed its connection.
+1747577922: New client connected from 172.19.0.5:53025 as test_client (p2, c1, k60, u'admin').
+1747577922: New connection from 172.19.0.5:34925 on port 1883.
+1747577922: Client test_client already connected, closing old connection.
+1747577922: New client connected from 172.19.0.5:34925 as test_client (p2, c1, k60, u'admin').
+1747577923: New connection from 172.19.0.5:47157 on port 1883.
+1747577923: Client test_client already connected, closing old connection.
+1747577923: New client connected from 172.19.0.5:47157 as test_client (p2, c1, k60, u'admin').
+1747577924: New connection from 172.19.0.5:55151 on port 1883.
+1747577924: Client test_client closed its connection.
+1747577924: New client connected from 172.19.0.5:55151 as test_client (p2, c1, k60, u'admin').
+1747577924: New connection from 172.19.0.5:59565 on port 1883.
+1747577924: Client test_client already connected, closing old connection.
+1747577924: New client connected from 172.19.0.5:59565 as test_client (p2, c1, k60, u'admin').
+1747577925: New connection from 172.19.0.5:33945 on port 1883.
+1747577925: Client test_client already connected, closing old connection.
+1747577925: New client connected from 172.19.0.5:33945 as test_client (p2, c1, k60, u'admin').
+1747577926: New connection from 172.19.0.5:53261 on port 1883.
+1747577926: Client test_client already connected, closing old connection.
+1747577926: New client connected from 172.19.0.5:53261 as test_client (p2, c1, k60, u'admin').
+1747577926: New connection from 172.19.0.5:36613 on port 1883.
+1747577926: Client test_client already connected, closing old connection.
+1747577926: New client connected from 172.19.0.5:36613 as test_client (p2, c1, k60, u'admin').
+1747577927: New connection from 172.19.0.5:45529 on port 1883.
+1747577927: Client test_client already connected, closing old connection.
+1747577927: New client connected from 172.19.0.5:45529 as test_client (p2, c1, k60, u'admin').
+1747577928: New connection from 172.19.0.5:50897 on port 1883.
+1747577928: Client test_client already connected, closing old connection.
+1747577928: New client connected from 172.19.0.5:50897 as test_client (p2, c1, k60, u'admin').
+1747577928: New connection from 172.19.0.5:50713 on port 1883.
+1747577928: Client test_client already connected, closing old connection.
+1747577928: New client connected from 172.19.0.5:50713 as test_client (p2, c1, k60, u'admin').
+1747577929: New connection from 172.19.0.5:48213 on port 1883.
+1747577929: Client test_client already connected, closing old connection.
+1747577929: New client connected from 172.19.0.5:48213 as test_client (p2, c1, k60, u'admin').
+1747577930: New connection from 172.19.0.5:48187 on port 1883.
+1747577930: Client test_client already connected, closing old connection.
+1747577930: New client connected from 172.19.0.5:48187 as test_client (p2, c1, k60, u'admin').
+1747577930: New connection from 172.19.0.5:56847 on port 1883.
+1747577930: Client test_client already connected, closing old connection.
+1747577930: New client connected from 172.19.0.5:56847 as test_client (p2, c1, k60, u'admin').
+1747577931: New connection from 172.19.0.5:44433 on port 1883.
+1747577931: Client test_client already connected, closing old connection.
+1747577931: New client connected from 172.19.0.5:44433 as test_client (p2, c1, k60, u'admin').
+1747577932: New connection from 172.19.0.5:43127 on port 1883.
+1747577932: Client test_client already connected, closing old connection.
+1747577932: New client connected from 172.19.0.5:43127 as test_client (p2, c1, k60, u'admin').
+1747577932: New connection from 172.19.0.5:48871 on port 1883.
+1747577932: Client test_client already connected, closing old connection.
+1747577932: New client connected from 172.19.0.5:48871 as test_client (p2, c1, k60, u'admin').
+1747577933: New connection from 172.19.0.5:52669 on port 1883.
+1747577933: Client test_client already connected, closing old connection.
+1747577933: New client connected from 172.19.0.5:52669 as test_client (p2, c1, k60, u'admin').
+1747577934: New connection from 172.19.0.5:56755 on port 1883.
+1747577934: Client test_client already connected, closing old connection.
+1747577934: New client connected from 172.19.0.5:56755 as test_client (p2, c1, k60, u'admin').
+1747577934: New connection from 172.19.0.5:52661 on port 1883.
+1747577934: Client test_client closed its connection.
+1747577934: New client connected from 172.19.0.5:52661 as test_client (p2, c1, k60, u'admin').
+1747577935: New connection from 172.19.0.5:49805 on port 1883.
+1747577935: Client test_client already connected, closing old connection.
+1747577935: New client connected from 172.19.0.5:49805 as test_client (p2, c1, k60, u'admin').
+1747577936: New connection from 172.19.0.5:38233 on port 1883.
+1747577936: Client test_client already connected, closing old connection.
+1747577936: New client connected from 172.19.0.5:38233 as test_client (p2, c1, k60, u'admin').
+1747577936: New connection from 172.19.0.5:58133 on port 1883.
+1747577936: Client test_client already connected, closing old connection.
+1747577936: New client connected from 172.19.0.5:58133 as test_client (p2, c1, k60, u'admin').
+1747577937: New connection from 172.19.0.5:37693 on port 1883.
+1747577937: Client test_client already connected, closing old connection.
+1747577937: New client connected from 172.19.0.5:37693 as test_client (p2, c1, k60, u'admin').
+1747577938: New connection from 172.19.0.5:50077 on port 1883.
+1747577938: Client test_client already connected, closing old connection.
+1747577938: New client connected from 172.19.0.5:50077 as test_client (p2, c1, k60, u'admin').
+1747577938: New connection from 172.19.0.5:49925 on port 1883.
+1747577938: Client test_client already connected, closing old connection.
+1747577938: New client connected from 172.19.0.5:49925 as test_client (p2, c1, k60, u'admin').
+1747577939: New connection from 172.19.0.5:59073 on port 1883.
+1747577939: Client test_client already connected, closing old connection.
+1747577939: New client connected from 172.19.0.5:59073 as test_client (p2, c1, k60, u'admin').
+1747577940: New connection from 172.19.0.5:44783 on port 1883.
+1747577940: Client test_client already connected, closing old connection.
+1747577940: New client connected from 172.19.0.5:44783 as test_client (p2, c1, k60, u'admin').
+1747577940: New connection from 172.19.0.5:45389 on port 1883.
+1747577940: Client test_client already connected, closing old connection.
+1747577940: New client connected from 172.19.0.5:45389 as test_client (p2, c1, k60, u'admin').
+1747577941: New connection from 172.19.0.5:34757 on port 1883.
+1747577941: Client test_client already connected, closing old connection.
+1747577941: New client connected from 172.19.0.5:34757 as test_client (p2, c1, k60, u'admin').
+1747577942: New connection from 172.19.0.5:52165 on port 1883.
+1747577942: Client test_client already connected, closing old connection.
+1747577942: New client connected from 172.19.0.5:52165 as test_client (p2, c1, k60, u'admin').
+1747577942: New connection from 172.19.0.5:58455 on port 1883.
+1747577942: Client test_client already connected, closing old connection.
+1747577942: New client connected from 172.19.0.5:58455 as test_client (p2, c1, k60, u'admin').
+1747577943: New connection from 172.19.0.5:46495 on port 1883.
+1747577943: Client test_client already connected, closing old connection.
+1747577943: New client connected from 172.19.0.5:46495 as test_client (p2, c1, k60, u'admin').
+1747577944: New connection from 172.19.0.5:46673 on port 1883.
+1747577944: Client test_client already connected, closing old connection.
+1747577944: New client connected from 172.19.0.5:46673 as test_client (p2, c1, k60, u'admin').
+1747577944: New connection from 172.19.0.5:35219 on port 1883.
+1747577944: Client test_client already connected, closing old connection.
+1747577944: New client connected from 172.19.0.5:35219 as test_client (p2, c1, k60, u'admin').
+1747577945: New connection from 172.19.0.5:40365 on port 1883.
+1747577945: Client test_client already connected, closing old connection.
+1747577945: New client connected from 172.19.0.5:40365 as test_client (p2, c1, k60, u'admin').
+1747577946: New connection from 172.19.0.5:48373 on port 1883.
+1747577946: Client test_client already connected, closing old connection.
+1747577946: New client connected from 172.19.0.5:48373 as test_client (p2, c1, k60, u'admin').
+1747577946: New connection from 172.19.0.5:49617 on port 1883.
+1747577946: Client test_client already connected, closing old connection.
+1747577946: New client connected from 172.19.0.5:49617 as test_client (p2, c1, k60, u'admin').
+1747577947: New connection from 172.19.0.5:33561 on port 1883.
+1747577947: Client test_client already connected, closing old connection.
+1747577947: New client connected from 172.19.0.5:33561 as test_client (p2, c1, k60, u'admin').
+1747577948: New connection from 172.19.0.5:48023 on port 1883.
+1747577948: New connection from 172.19.0.5:43573 on port 1883.
+1747577948: Client test_client closed its connection.
+1747577948: New client connected from 172.19.0.5:48023 as test_client (p2, c1, k60, u'admin').
+1747577948: Client test_client already connected, closing old connection.
+1747577948: New client connected from 172.19.0.5:43573 as test_client (p2, c1, k60, u'admin').
+1747577949: New connection from 172.19.0.5:41203 on port 1883.
+1747577949: Client test_client already connected, closing old connection.
+1747577949: New client connected from 172.19.0.5:41203 as test_client (p2, c1, k60, u'admin').
+1747577950: New connection from 172.19.0.5:55271 on port 1883.
+1747577950: Client test_client already connected, closing old connection.
+1747577950: New client connected from 172.19.0.5:55271 as test_client (p2, c1, k60, u'admin').
+1747577950: New connection from 172.19.0.5:56981 on port 1883.
+1747577950: Client test_client already connected, closing old connection.
+1747577950: New client connected from 172.19.0.5:56981 as test_client (p2, c1, k60, u'admin').
+1747577951: New connection from 172.19.0.5:49821 on port 1883.
+1747577951: Client test_client already connected, closing old connection.
+1747577951: New client connected from 172.19.0.5:49821 as test_client (p2, c1, k60, u'admin').
+1747577952: New connection from 172.19.0.5:48923 on port 1883.
+1747577952: Client test_client already connected, closing old connection.
+1747577952: New client connected from 172.19.0.5:48923 as test_client (p2, c1, k60, u'admin').
+1747577952: New connection from 172.19.0.5:44003 on port 1883.
+1747577952: Client test_client closed its connection.
+1747577952: New client connected from 172.19.0.5:44003 as test_client (p2, c1, k60, u'admin').
+1747577953: New connection from 172.19.0.5:38103 on port 1883.
+1747577953: Client test_client already connected, closing old connection.
+1747577953: New client connected from 172.19.0.5:38103 as test_client (p2, c1, k60, u'admin').
+1747577954: New connection from 172.19.0.5:50579 on port 1883.
+1747577954: Client test_client closed its connection.
+1747577954: New client connected from 172.19.0.5:50579 as test_client (p2, c1, k60, u'admin').
+1747577954: New connection from 172.19.0.5:49397 on port 1883.
+1747577954: Client test_client already connected, closing old connection.
+1747577954: New client connected from 172.19.0.5:49397 as test_client (p2, c1, k60, u'admin').
+1747577955: New connection from 172.19.0.5:51023 on port 1883.
+1747577955: Client test_client already connected, closing old connection.
+1747577955: New client connected from 172.19.0.5:51023 as test_client (p2, c1, k60, u'admin').
+1747577956: New connection from 172.19.0.5:53539 on port 1883.
+1747577956: Client test_client closed its connection.
+1747577956: New client connected from 172.19.0.5:53539 as test_client (p2, c1, k60, u'admin').
+1747577956: Client test_client closed its connection.
+1747577956: New connection from 172.19.0.5:57717 on port 1883.
+1747577956: New client connected from 172.19.0.5:57717 as test_client (p2, c1, k60, u'admin').
+1747577957: New connection from 172.19.0.5:44609 on port 1883.
+1747577957: Client test_client already connected, closing old connection.
+1747577957: New client connected from 172.19.0.5:44609 as test_client (p2, c1, k60, u'admin').
+1747577958: New connection from 172.19.0.5:55925 on port 1883.
+1747577958: Client test_client closed its connection.
+1747577958: New client connected from 172.19.0.5:55925 as test_client (p2, c1, k60, u'admin').
+1747577958: New connection from 172.19.0.5:57641 on port 1883.
+1747577958: Client test_client already connected, closing old connection.
+1747577958: New client connected from 172.19.0.5:57641 as test_client (p2, c1, k60, u'admin').
+1747577959: New connection from 172.19.0.5:37129 on port 1883.
+1747577959: Client test_client already connected, closing old connection.
+1747577959: New client connected from 172.19.0.5:37129 as test_client (p2, c1, k60, u'admin').
+1747577960: New connection from 172.19.0.5:37685 on port 1883.
+1747577960: Client test_client already connected, closing old connection.
+1747577960: New client connected from 172.19.0.5:37685 as test_client (p2, c1, k60, u'admin').
+1747577960: New connection from 172.19.0.5:58753 on port 1883.
+1747577960: Client test_client already connected, closing old connection.
+1747577960: New client connected from 172.19.0.5:58753 as test_client (p2, c1, k60, u'admin').
+1747577961: New connection from 172.19.0.5:34005 on port 1883.
+1747577961: Client test_client already connected, closing old connection.
+1747577961: New client connected from 172.19.0.5:34005 as test_client (p2, c1, k60, u'admin').
+1747577962: New connection from 172.19.0.5:35873 on port 1883.
+1747577962: Client test_client closed its connection.
+1747577962: New client connected from 172.19.0.5:35873 as test_client (p2, c1, k60, u'admin').
+1747577962: New connection from 172.19.0.5:48179 on port 1883.
+1747577962: Client test_client already connected, closing old connection.
+1747577962: New client connected from 172.19.0.5:48179 as test_client (p2, c1, k60, u'admin').
+1747577963: New connection from 172.19.0.5:47097 on port 1883.
+1747577963: Client test_client already connected, closing old connection.
+1747577963: New client connected from 172.19.0.5:47097 as test_client (p2, c1, k60, u'admin').
+1747577964: New connection from 172.19.0.5:42827 on port 1883.
+1747577964: Client test_client already connected, closing old connection.
+1747577964: New client connected from 172.19.0.5:42827 as test_client (p2, c1, k60, u'admin').
+1747577964: New connection from 172.19.0.5:56301 on port 1883.
+1747577964: Client test_client already connected, closing old connection.
+1747577964: New client connected from 172.19.0.5:56301 as test_client (p2, c1, k60, u'admin').
+1747577965: New connection from 172.19.0.5:36553 on port 1883.
+1747577965: Client test_client already connected, closing old connection.
+1747577965: New client connected from 172.19.0.5:36553 as test_client (p2, c1, k60, u'admin').
+1747577966: New connection from 172.19.0.5:48205 on port 1883.
+1747577966: Client test_client already connected, closing old connection.
+1747577966: New client connected from 172.19.0.5:48205 as test_client (p2, c1, k60, u'admin').
+1747577966: New connection from 172.19.0.5:34613 on port 1883.
+1747577966: Client test_client already connected, closing old connection.
+1747577966: New client connected from 172.19.0.5:34613 as test_client (p2, c1, k60, u'admin').
+1747577967: New connection from 172.19.0.5:46963 on port 1883.
+1747577967: Client test_client already connected, closing old connection.
+1747577967: New client connected from 172.19.0.5:46963 as test_client (p2, c1, k60, u'admin').
+1747577968: New connection from 172.19.0.5:37783 on port 1883.
+1747577968: Client test_client closed its connection.
+1747577968: New client connected from 172.19.0.5:37783 as test_client (p2, c1, k60, u'admin').
+1747577968: New connection from 172.19.0.5:40101 on port 1883.
+1747577968: Client test_client already connected, closing old connection.
+1747577968: New client connected from 172.19.0.5:40101 as test_client (p2, c1, k60, u'admin').
+1747577969: New connection from 172.19.0.5:34693 on port 1883.
+1747577969: Client test_client already connected, closing old connection.
+1747577969: New client connected from 172.19.0.5:34693 as test_client (p2, c1, k60, u'admin').
+1747577970: New connection from 172.19.0.5:35565 on port 1883.
+1747577970: Client test_client closed its connection.
+1747577970: New client connected from 172.19.0.5:35565 as test_client (p2, c1, k60, u'admin').
+1747577970: New connection from 172.19.0.5:34367 on port 1883.
+1747577970: Client test_client already connected, closing old connection.
+1747577970: New client connected from 172.19.0.5:34367 as test_client (p2, c1, k60, u'admin').
+1747577971: New connection from 172.19.0.5:49609 on port 1883.
+1747577971: Client test_client already connected, closing old connection.
+1747577971: New client connected from 172.19.0.5:49609 as test_client (p2, c1, k60, u'admin').
+1747577972: New connection from 172.19.0.5:37315 on port 1883.
+1747577972: Client test_client already connected, closing old connection.
+1747577972: New client connected from 172.19.0.5:37315 as test_client (p2, c1, k60, u'admin').
+1747577973: New connection from 172.19.0.5:57697 on port 1883.
+1747577973: Client test_client already connected, closing old connection.
+1747577973: New client connected from 172.19.0.5:57697 as test_client (p2, c1, k60, u'admin').
+1747577974: New connection from 172.19.0.5:42567 on port 1883.
+1747577974: Client test_client already connected, closing old connection.
+1747577974: New client connected from 172.19.0.5:42567 as test_client (p2, c1, k60, u'admin').
+1747577975: New connection from 172.19.0.5:55353 on port 1883.
+1747577975: Client test_client already connected, closing old connection.
+1747577975: New client connected from 172.19.0.5:55353 as test_client (p2, c1, k60, u'admin').
+1747577975: New connection from 172.19.0.5:50147 on port 1883.
+1747577975: Client test_client already connected, closing old connection.
+1747577975: New client connected from 172.19.0.5:50147 as test_client (p2, c1, k60, u'admin').
+1747577976: New connection from 172.19.0.5:33277 on port 1883.
+1747577976: Client test_client already connected, closing old connection.
+1747577976: New client connected from 172.19.0.5:33277 as test_client (p2, c1, k60, u'admin').
+1747577977: New connection from 172.19.0.5:55575 on port 1883.
+1747577977: Client test_client closed its connection.
+1747577977: New client connected from 172.19.0.5:55575 as test_client (p2, c1, k60, u'admin').
+1747577977: New connection from 172.19.0.5:52039 on port 1883.
+1747577977: Client test_client already connected, closing old connection.
+1747577977: New client connected from 172.19.0.5:52039 as test_client (p2, c1, k60, u'admin').
+1747577978: New connection from 172.19.0.5:40363 on port 1883.
+1747577978: Client test_client already connected, closing old connection.
+1747577978: New client connected from 172.19.0.5:40363 as test_client (p2, c1, k60, u'admin').
+1747577979: New connection from 172.19.0.5:53899 on port 1883.
+1747577979: Client test_client already connected, closing old connection.
+1747577979: New client connected from 172.19.0.5:53899 as test_client (p2, c1, k60, u'admin').
+1747577979: New connection from 172.19.0.5:54317 on port 1883.
+1747577979: Client test_client already connected, closing old connection.
+1747577979: New client connected from 172.19.0.5:54317 as test_client (p2, c1, k60, u'admin').
+1747577980: New connection from 172.19.0.5:45463 on port 1883.
+1747577980: Client test_client already connected, closing old connection.
+1747577980: New client connected from 172.19.0.5:45463 as test_client (p2, c1, k60, u'admin').
+1747577981: New connection from 172.19.0.5:44501 on port 1883.
+1747577981: Client test_client closed its connection.
+1747577981: New client connected from 172.19.0.5:44501 as test_client (p2, c1, k60, u'admin').
+1747577981: New connection from 172.19.0.5:42589 on port 1883.
+1747577981: Client test_client already connected, closing old connection.
+1747577981: New client connected from 172.19.0.5:42589 as test_client (p2, c1, k60, u'admin').
+1747577982: New connection from 172.19.0.5:57115 on port 1883.
+1747577982: Client test_client already connected, closing old connection.
+1747577982: New client connected from 172.19.0.5:57115 as test_client (p2, c1, k60, u'admin').
+1747577983: New connection from 172.19.0.5:51931 on port 1883.
+1747577983: Client test_client already connected, closing old connection.
+1747577983: New client connected from 172.19.0.5:51931 as test_client (p2, c1, k60, u'admin').
+1747577983: New connection from 172.19.0.5:54303 on port 1883.
+1747577983: Client test_client already connected, closing old connection.
+1747577983: New client connected from 172.19.0.5:54303 as test_client (p2, c1, k60, u'admin').
+1747577984: New connection from 172.19.0.5:54001 on port 1883.
+1747577984: Client test_client already connected, closing old connection.
+1747577984: New client connected from 172.19.0.5:54001 as test_client (p2, c1, k60, u'admin').
+1747577985: New connection from 172.19.0.5:43983 on port 1883.
+1747577985: Client test_client already connected, closing old connection.
+1747577985: New client connected from 172.19.0.5:43983 as test_client (p2, c1, k60, u'admin').
+1747577985: New connection from 172.19.0.5:36161 on port 1883.
+1747577985: Client test_client already connected, closing old connection.
+1747577985: New client connected from 172.19.0.5:36161 as test_client (p2, c1, k60, u'admin').
+1747577986: New connection from 172.19.0.5:45693 on port 1883.
+1747577986: Client test_client already connected, closing old connection.
+1747577986: New client connected from 172.19.0.5:45693 as test_client (p2, c1, k60, u'admin').
+1747577987: New connection from 172.19.0.5:40431 on port 1883.
+1747577987: Client test_client already connected, closing old connection.
+1747577987: New client connected from 172.19.0.5:40431 as test_client (p2, c1, k60, u'admin').
+1747577987: New connection from 172.19.0.5:38919 on port 1883.
+1747577987: Client test_client already connected, closing old connection.
+1747577987: New client connected from 172.19.0.5:38919 as test_client (p2, c1, k60, u'admin').
+1747577988: New connection from 172.19.0.5:41399 on port 1883.
+1747577988: Client test_client already connected, closing old connection.
+1747577988: New client connected from 172.19.0.5:41399 as test_client (p2, c1, k60, u'admin').
+1747577989: New connection from 172.19.0.5:56219 on port 1883.
+1747577989: Client test_client already connected, closing old connection.
+1747577989: New client connected from 172.19.0.5:56219 as test_client (p2, c1, k60, u'admin').
+1747577989: New connection from 172.19.0.5:49473 on port 1883.
+1747577989: Client test_client already connected, closing old connection.
+1747577989: New client connected from 172.19.0.5:49473 as test_client (p2, c1, k60, u'admin').
+1747577990: New connection from 172.19.0.5:44389 on port 1883.
+1747577990: Client test_client already connected, closing old connection.
+1747577990: New client connected from 172.19.0.5:44389 as test_client (p2, c1, k60, u'admin').
+1747577991: New connection from 172.19.0.5:59663 on port 1883.
+1747577991: New connection from 172.19.0.5:36533 on port 1883.
+1747577991: Client test_client closed its connection.
+1747577991: New client connected from 172.19.0.5:59663 as test_client (p2, c1, k60, u'admin').
+1747577991: Client test_client already connected, closing old connection.
+1747577991: New client connected from 172.19.0.5:36533 as test_client (p2, c1, k60, u'admin').
+1747577992: New connection from 172.19.0.5:60901 on port 1883.
+1747577992: Client test_client already connected, closing old connection.
+1747577992: New client connected from 172.19.0.5:60901 as test_client (p2, c1, k60, u'admin').
+1747577993: New connection from 172.19.0.5:49319 on port 1883.
+1747577993: Client test_client already connected, closing old connection.
+1747577993: New client connected from 172.19.0.5:49319 as test_client (p2, c1, k60, u'admin').
+1747577993: Client test_client closed its connection.
+1747577993: New connection from 172.19.0.5:34821 on port 1883.
+1747577993: New client connected from 172.19.0.5:34821 as test_client (p2, c1, k60, u'admin').
+1747577994: New connection from 172.19.0.5:48047 on port 1883.
+1747577994: Client test_client already connected, closing old connection.
+1747577994: New client connected from 172.19.0.5:48047 as test_client (p2, c1, k60, u'admin').
+1747577995: New connection from 172.19.0.5:57433 on port 1883.
+1747577995: Client test_client closed its connection.
+1747577995: New client connected from 172.19.0.5:57433 as test_client (p2, c1, k60, u'admin').
+1747577995: Client test_client closed its connection.
+1747577995: New connection from 172.19.0.5:53041 on port 1883.
+1747577995: New client connected from 172.19.0.5:53041 as test_client (p2, c1, k60, u'admin').
+1747577996: New connection from 172.19.0.5:52837 on port 1883.
+1747577996: Client test_client already connected, closing old connection.
+1747577996: New client connected from 172.19.0.5:52837 as test_client (p2, c1, k60, u'admin').
+1747577997: New connection from 172.19.0.5:35413 on port 1883.
+1747577997: Client test_client closed its connection.
+1747577997: New client connected from 172.19.0.5:35413 as test_client (p2, c1, k60, u'admin').
+1747577997: New connection from 172.19.0.5:44697 on port 1883.
+1747577997: Client test_client already connected, closing old connection.
+1747577997: New client connected from 172.19.0.5:44697 as test_client (p2, c1, k60, u'admin').
+1747577998: New connection from 172.19.0.5:53911 on port 1883.
+1747577998: Client test_client already connected, closing old connection.
+1747577998: New client connected from 172.19.0.5:53911 as test_client (p2, c1, k60, u'admin').
+1747577999: New connection from 172.19.0.5:34983 on port 1883.
+1747577999: Client test_client already connected, closing old connection.
+1747577999: New client connected from 172.19.0.5:34983 as test_client (p2, c1, k60, u'admin').
+1747577999: New connection from 172.19.0.5:45931 on port 1883.
+1747577999: Client test_client already connected, closing old connection.
+1747577999: New client connected from 172.19.0.5:45931 as test_client (p2, c1, k60, u'admin').
+1747578000: New connection from 172.19.0.5:49719 on port 1883.
+1747578000: Client test_client already connected, closing old connection.
+1747578000: New client connected from 172.19.0.5:49719 as test_client (p2, c1, k60, u'admin').
+1747578001: New connection from 172.19.0.5:57697 on port 1883.
+1747578001: Client test_client already connected, closing old connection.
+1747578001: New client connected from 172.19.0.5:57697 as test_client (p2, c1, k60, u'admin').
+1747578001: New connection from 172.19.0.5:42025 on port 1883.
+1747578001: Client test_client already connected, closing old connection.
+1747578001: New client connected from 172.19.0.5:42025 as test_client (p2, c1, k60, u'admin').
+1747578002: New connection from 172.19.0.5:43543 on port 1883.
+1747578002: Client test_client already connected, closing old connection.
+1747578002: New client connected from 172.19.0.5:43543 as test_client (p2, c1, k60, u'admin').
+1747578003: New connection from 172.19.0.5:39351 on port 1883.
+1747578003: Client test_client already connected, closing old connection.
+1747578003: New client connected from 172.19.0.5:39351 as test_client (p2, c1, k60, u'admin').
+1747578003: New connection from 172.19.0.5:52617 on port 1883.
+1747578003: Client test_client closed its connection.
+1747578003: New client connected from 172.19.0.5:52617 as test_client (p2, c1, k60, u'admin').
+1747578004: New connection from 172.19.0.5:36131 on port 1883.
+1747578004: Client test_client already connected, closing old connection.
+1747578004: New client connected from 172.19.0.5:36131 as test_client (p2, c1, k60, u'admin').
+1747578005: New connection from 172.19.0.5:50145 on port 1883.
+1747578005: Client test_client closed its connection.
+1747578005: New client connected from 172.19.0.5:50145 as test_client (p2, c1, k60, u'admin').
+1747578005: New connection from 172.19.0.5:36723 on port 1883.
+1747578005: Client test_client already connected, closing old connection.
+1747578005: New client connected from 172.19.0.5:36723 as test_client (p2, c1, k60, u'admin').
+1747578006: New connection from 172.19.0.5:43853 on port 1883.
+1747578006: Client test_client already connected, closing old connection.
+1747578006: New client connected from 172.19.0.5:43853 as test_client (p2, c1, k60, u'admin').
+1747578007: New connection from 172.19.0.5:59515 on port 1883.
+1747578007: Client test_client already connected, closing old connection.
+1747578007: New client connected from 172.19.0.5:59515 as test_client (p2, c1, k60, u'admin').
+1747578007: New connection from 172.19.0.5:56277 on port 1883.
+1747578007: Client test_client already connected, closing old connection.
+1747578007: New client connected from 172.19.0.5:56277 as test_client (p2, c1, k60, u'admin').
+1747578008: New connection from 172.19.0.5:44179 on port 1883.
+1747578008: Client test_client already connected, closing old connection.
+1747578008: New client connected from 172.19.0.5:44179 as test_client (p2, c1, k60, u'admin').
+1747578009: New connection from 172.19.0.5:59859 on port 1883.
+1747578009: Client test_client closed its connection.
+1747578009: New client connected from 172.19.0.5:59859 as test_client (p2, c1, k60, u'admin').
+1747578009: New connection from 172.19.0.5:42953 on port 1883.
+1747578009: Client test_client already connected, closing old connection.
+1747578009: New client connected from 172.19.0.5:42953 as test_client (p2, c1, k60, u'admin').
+1747578010: New connection from 172.19.0.5:39253 on port 1883.
+1747578010: Client test_client already connected, closing old connection.
+1747578010: New client connected from 172.19.0.5:39253 as test_client (p2, c1, k60, u'admin').
+1747578011: New connection from 172.19.0.5:46977 on port 1883.
+1747578011: Client test_client already connected, closing old connection.
+1747578011: New client connected from 172.19.0.5:46977 as test_client (p2, c1, k60, u'admin').
+1747578011: New connection from 172.19.0.5:57287 on port 1883.
+1747578011: Client test_client already connected, closing old connection.
+1747578011: New client connected from 172.19.0.5:57287 as test_client (p2, c1, k60, u'admin').
+1747578012: New connection from 172.19.0.5:33739 on port 1883.
+1747578012: Client test_client already connected, closing old connection.
+1747578012: New client connected from 172.19.0.5:33739 as test_client (p2, c1, k60, u'admin').
+1747578013: New connection from 172.19.0.5:44175 on port 1883.
+1747578013: Client test_client already connected, closing old connection.
+1747578013: New client connected from 172.19.0.5:44175 as test_client (p2, c1, k60, u'admin').
+1747578013: New connection from 172.19.0.5:39649 on port 1883.
+1747578013: Client test_client already connected, closing old connection.
+1747578013: New client connected from 172.19.0.5:39649 as test_client (p2, c1, k60, u'admin').
+1747578014: New connection from 172.19.0.5:58177 on port 1883.
+1747578014: Client test_client already connected, closing old connection.
+1747578014: New client connected from 172.19.0.5:58177 as test_client (p2, c1, k60, u'admin').
+1747578015: New connection from 172.19.0.5:34511 on port 1883.
+1747578015: Client test_client already connected, closing old connection.
+1747578015: New client connected from 172.19.0.5:34511 as test_client (p2, c1, k60, u'admin').
+1747578015: New connection from 172.19.0.5:40803 on port 1883.
+1747578015: Client test_client already connected, closing old connection.
+1747578015: New client connected from 172.19.0.5:40803 as test_client (p2, c1, k60, u'admin').
+1747578016: New connection from 172.19.0.5:55119 on port 1883.
+1747578016: Client test_client already connected, closing old connection.
+1747578016: New client connected from 172.19.0.5:55119 as test_client (p2, c1, k60, u'admin').
+1747578017: New connection from 172.19.0.5:48235 on port 1883.
+1747578017: Client test_client already connected, closing old connection.
+1747578017: New client connected from 172.19.0.5:48235 as test_client (p2, c1, k60, u'admin').
+1747578017: New connection from 172.19.0.5:37503 on port 1883.
+1747578017: Client test_client already connected, closing old connection.
+1747578017: New client connected from 172.19.0.5:37503 as test_client (p2, c1, k60, u'admin').
+1747578018: New connection from 172.19.0.5:54777 on port 1883.
+1747578018: Client test_client already connected, closing old connection.
+1747578018: New client connected from 172.19.0.5:54777 as test_client (p2, c1, k60, u'admin').
+1747578019: New connection from 172.19.0.5:39685 on port 1883.
+1747578019: Client test_client already connected, closing old connection.
+1747578019: New client connected from 172.19.0.5:39685 as test_client (p2, c1, k60, u'admin').
+1747578019: New connection from 172.19.0.5:41697 on port 1883.
+1747578019: Client test_client already connected, closing old connection.
+1747578019: New client connected from 172.19.0.5:41697 as test_client (p2, c1, k60, u'admin').
+1747578020: New connection from 172.19.0.5:55261 on port 1883.
+1747578020: Client test_client already connected, closing old connection.
+1747578020: New client connected from 172.19.0.5:55261 as test_client (p2, c1, k60, u'admin').
+1747578021: New connection from 172.19.0.5:33913 on port 1883.
+1747578021: Client test_client closed its connection.
+1747578021: New client connected from 172.19.0.5:33913 as test_client (p2, c1, k60, u'admin').
+1747578021: New connection from 172.19.0.5:41989 on port 1883.
+1747578021: Client test_client already connected, closing old connection.
+1747578021: New client connected from 172.19.0.5:41989 as test_client (p2, c1, k60, u'admin').
+1747578022: New connection from 172.19.0.5:45459 on port 1883.
+1747578022: Client test_client already connected, closing old connection.
+1747578022: New client connected from 172.19.0.5:45459 as test_client (p2, c1, k60, u'admin').
+1747578023: New connection from 172.19.0.5:34873 on port 1883.
+1747578023: Client test_client closed its connection.
+1747578023: New client connected from 172.19.0.5:34873 as test_client (p2, c1, k60, u'admin').
+1747578023: New connection from 172.19.0.5:53053 on port 1883.
+1747578023: Client test_client already connected, closing old connection.
+1747578023: New client connected from 172.19.0.5:53053 as test_client (p2, c1, k60, u'admin').
+1747578024: New connection from 172.19.0.5:36147 on port 1883.
+1747578024: Client test_client already connected, closing old connection.
+1747578024: New client connected from 172.19.0.5:36147 as test_client (p2, c1, k60, u'admin').
+1747578025: New connection from 172.19.0.5:45059 on port 1883.
+1747578025: New connection from 172.19.0.5:48071 on port 1883.
+1747578025: Client test_client closed its connection.
+1747578025: New client connected from 172.19.0.5:45059 as test_client (p2, c1, k60, u'admin').
+1747578025: Client test_client already connected, closing old connection.
+1747578025: New client connected from 172.19.0.5:48071 as test_client (p2, c1, k60, u'admin').
+1747578026: New connection from 172.19.0.5:52323 on port 1883.
+1747578026: Client test_client already connected, closing old connection.
+1747578026: New client connected from 172.19.0.5:52323 as test_client (p2, c1, k60, u'admin').
+1747578027: New connection from 172.19.0.5:60851 on port 1883.
+1747578027: Client test_client closed its connection.
+1747578027: New client connected from 172.19.0.5:60851 as test_client (p2, c1, k60, u'admin').
+1747578027: New connection from 172.19.0.5:60449 on port 1883.
+1747578027: Client test_client already connected, closing old connection.
+1747578027: New client connected from 172.19.0.5:60449 as test_client (p2, c1, k60, u'admin').
+1747578028: New connection from 172.19.0.5:60349 on port 1883.
+1747578028: Client test_client already connected, closing old connection.
+1747578028: New client connected from 172.19.0.5:60349 as test_client (p2, c1, k60, u'admin').
+1747578029: New connection from 172.19.0.5:36743 on port 1883.
+1747578029: Client test_client closed its connection.
+1747578029: New client connected from 172.19.0.5:36743 as test_client (p2, c1, k60, u'admin').
+1747578029: New connection from 172.19.0.5:38251 on port 1883.
+1747578029: Client test_client already connected, closing old connection.
+1747578029: New client connected from 172.19.0.5:38251 as test_client (p2, c1, k60, u'admin').
+1747578030: New connection from 172.19.0.5:40375 on port 1883.
+1747578030: Client test_client already connected, closing old connection.
+1747578030: New client connected from 172.19.0.5:40375 as test_client (p2, c1, k60, u'admin').
+1747578030: Client test_client closed its connection.
+1747578030: Client 05169512-57be-4791-ac72-54276006bddc closed its connection.
+1747578031: mosquitto version 2.0.21 terminating
+1747578031: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747578111: mosquitto version 2.0.21 starting
+1747578111: Config loaded from /mosquitto/config/mosquitto.conf.
+1747578111: Opening ipv4 listen socket on port 1883.
+1747578111: mosquitto version 2.0.21 running
+1747578119: New connection from 172.19.0.4:33592 on port 1883.
+1747578119: New client connected from 172.19.0.4:33592 as 9c4bfc62-d09a-4a37-88f0-c10376a9146c (p2, c1, k60, u'admin').
+1747578119: 9c4bfc62-d09a-4a37-88f0-c10376a9146c 1 /vehicle/register
+1747578119: 9c4bfc62-d09a-4a37-88f0-c10376a9146c 1 /vehicle/health
+1747578119: 9c4bfc62-d09a-4a37-88f0-c10376a9146c 0 /telemetry
+1747578119: 9c4bfc62-d09a-4a37-88f0-c10376a9146c 1 /missions/status
+1747578132: New connection from 172.19.0.5:47895 on port 1883.
+1747578132: New client connected from 172.19.0.5:47895 as test_client (p2, c1, k60, u'admin').
+1747578132: New connection from 172.19.0.5:60561 on port 1883.
+1747578132: Client test_client already connected, closing old connection.
+1747578132: New client connected from 172.19.0.5:60561 as test_client (p2, c1, k60, u'admin').
+1747578132: New connection from 172.19.0.5:56579 on port 1883.
+1747578132: Client test_client already connected, closing old connection.
+1747578132: New client connected from 172.19.0.5:56579 as test_client (p2, c1, k60, u'admin').
+1747578132: test_client 1 /vehicle/register/response/vehicle-0
+1747578133: New connection from 172.19.0.5:33157 on port 1883.
+1747578133: Client test_client already connected, closing old connection.
+1747578133: New client connected from 172.19.0.5:33157 as test_client (p2, c1, k60, u'admin').
+1747578133: New connection from 172.19.0.5:54453 on port 1883.
+1747578133: Client test_client already connected, closing old connection.
+1747578133: New client connected from 172.19.0.5:54453 as test_client (p2, c1, k60, u'admin').
+1747578134: New connection from 172.19.0.5:47593 on port 1883.
+1747578134: New connection from 172.19.0.5:38213 on port 1883.
+1747578134: Client test_client already connected, closing old connection.
+1747578134: New client connected from 172.19.0.5:47593 as test_client (p2, c1, k60, u'admin').
+1747578134: Client test_client already connected, closing old connection.
+1747578134: New client connected from 172.19.0.5:38213 as test_client (p2, c1, k60, u'admin').
+1747578135: New connection from 172.19.0.5:44439 on port 1883.
+1747578135: New connection from 172.19.0.5:50249 on port 1883.
+1747578135: Client test_client already connected, closing old connection.
+1747578135: New client connected from 172.19.0.5:44439 as test_client (p2, c1, k60, u'admin').
+1747578135: Client test_client already connected, closing old connection.
+1747578135: New client connected from 172.19.0.5:50249 as test_client (p2, c1, k60, u'admin').
+1747578136: New connection from 172.19.0.5:59885 on port 1883.
+1747578136: Client test_client already connected, closing old connection.
+1747578136: New client connected from 172.19.0.5:59885 as test_client (p2, c1, k60, u'admin').
+1747578136: New connection from 172.19.0.5:39711 on port 1883.
+1747578136: Client test_client already connected, closing old connection.
+1747578136: New client connected from 172.19.0.5:39711 as test_client (p2, c1, k60, u'admin').
+1747578137: New connection from 172.19.0.5:40129 on port 1883.
+1747578137: Client test_client already connected, closing old connection.
+1747578137: New client connected from 172.19.0.5:40129 as test_client (p2, c1, k60, u'admin').
+1747578137: New connection from 172.19.0.5:40187 on port 1883.
+1747578137: Client test_client already connected, closing old connection.
+1747578137: New client connected from 172.19.0.5:40187 as test_client (p2, c1, k60, u'admin').
+1747578138: New connection from 172.19.0.5:46079 on port 1883.
+1747578138: Client test_client already connected, closing old connection.
+1747578138: New client connected from 172.19.0.5:46079 as test_client (p2, c1, k60, u'admin').
+1747578138: New connection from 172.19.0.5:54555 on port 1883.
+1747578138: Client test_client already connected, closing old connection.
+1747578138: New client connected from 172.19.0.5:54555 as test_client (p2, c1, k60, u'admin').
+1747578139: New connection from 172.19.0.5:39077 on port 1883.
+1747578139: Client test_client already connected, closing old connection.
+1747578139: New client connected from 172.19.0.5:39077 as test_client (p2, c1, k60, u'admin').
+1747578139: New connection from 172.19.0.5:60575 on port 1883.
+1747578139: Client test_client already connected, closing old connection.
+1747578139: New client connected from 172.19.0.5:60575 as test_client (p2, c1, k60, u'admin').
+1747578140: New connection from 172.19.0.5:47225 on port 1883.
+1747578140: New connection from 172.19.0.5:60627 on port 1883.
+1747578140: Client test_client already connected, closing old connection.
+1747578140: New client connected from 172.19.0.5:47225 as test_client (p2, c1, k60, u'admin').
+1747578140: Client test_client already connected, closing old connection.
+1747578140: New client connected from 172.19.0.5:60627 as test_client (p2, c1, k60, u'admin').
+1747578141: New connection from 172.19.0.5:44087 on port 1883.
+1747578141: New connection from 172.19.0.5:56935 on port 1883.
+1747578141: Client test_client already connected, closing old connection.
+1747578141: New client connected from 172.19.0.5:44087 as test_client (p2, c1, k60, u'admin').
+1747578141: Client test_client already connected, closing old connection.
+1747578141: New client connected from 172.19.0.5:56935 as test_client (p2, c1, k60, u'admin').
+1747578142: New connection from 172.19.0.5:60181 on port 1883.
+1747578142: New connection from 172.19.0.5:38199 on port 1883.
+1747578142: Client test_client already connected, closing old connection.
+1747578142: New client connected from 172.19.0.5:60181 as test_client (p2, c1, k60, u'admin').
+1747578142: Client test_client already connected, closing old connection.
+1747578142: New client connected from 172.19.0.5:38199 as test_client (p2, c1, k60, u'admin').
+1747578143: New connection from 172.19.0.5:36211 on port 1883.
+1747578143: Client test_client already connected, closing old connection.
+1747578143: New client connected from 172.19.0.5:36211 as test_client (p2, c1, k60, u'admin').
+1747578143: New connection from 172.19.0.5:50425 on port 1883.
+1747578143: Client test_client already connected, closing old connection.
+1747578143: New client connected from 172.19.0.5:50425 as test_client (p2, c1, k60, u'admin').
+1747578144: New connection from 172.19.0.5:45415 on port 1883.
+1747578144: Client test_client already connected, closing old connection.
+1747578144: New client connected from 172.19.0.5:45415 as test_client (p2, c1, k60, u'admin').
+1747578144: New connection from 172.19.0.5:42497 on port 1883.
+1747578144: Client test_client already connected, closing old connection.
+1747578144: New client connected from 172.19.0.5:42497 as test_client (p2, c1, k60, u'admin').
+1747578145: New connection from 172.19.0.5:35663 on port 1883.
+1747578145: New connection from 172.19.0.5:34443 on port 1883.
+1747578145: Client test_client already connected, closing old connection.
+1747578145: New client connected from 172.19.0.5:35663 as test_client (p2, c1, k60, u'admin').
+1747578145: Client test_client already connected, closing old connection.
+1747578145: New client connected from 172.19.0.5:34443 as test_client (p2, c1, k60, u'admin').
+1747578146: New connection from 172.19.0.5:48955 on port 1883.
+1747578146: New connection from 172.19.0.5:53517 on port 1883.
+1747578146: Client test_client already connected, closing old connection.
+1747578146: New client connected from 172.19.0.5:48955 as test_client (p2, c1, k60, u'admin').
+1747578146: Client test_client already connected, closing old connection.
+1747578146: New client connected from 172.19.0.5:53517 as test_client (p2, c1, k60, u'admin').
+1747578147: New connection from 172.19.0.5:41605 on port 1883.
+1747578147: New connection from 172.19.0.5:38785 on port 1883.
+1747578147: Client test_client already connected, closing old connection.
+1747578147: New client connected from 172.19.0.5:41605 as test_client (p2, c1, k60, u'admin').
+1747578147: Client test_client already connected, closing old connection.
+1747578147: New client connected from 172.19.0.5:38785 as test_client (p2, c1, k60, u'admin').
+1747578148: New connection from 172.19.0.5:41171 on port 1883.
+1747578148: Client test_client already connected, closing old connection.
+1747578148: New client connected from 172.19.0.5:41171 as test_client (p2, c1, k60, u'admin').
+1747578148: New connection from 172.19.0.5:41217 on port 1883.
+1747578148: Client test_client already connected, closing old connection.
+1747578148: New client connected from 172.19.0.5:41217 as test_client (p2, c1, k60, u'admin').
+1747578149: New connection from 172.19.0.5:33575 on port 1883.
+1747578149: Client test_client already connected, closing old connection.
+1747578149: New client connected from 172.19.0.5:33575 as test_client (p2, c1, k60, u'admin').
+1747578149: New connection from 172.19.0.5:53247 on port 1883.
+1747578149: Client test_client already connected, closing old connection.
+1747578149: New client connected from 172.19.0.5:53247 as test_client (p2, c1, k60, u'admin').
+1747578150: New connection from 172.19.0.5:43235 on port 1883.
+1747578150: Client test_client already connected, closing old connection.
+1747578150: New client connected from 172.19.0.5:43235 as test_client (p2, c1, k60, u'admin').
+1747578150: New connection from 172.19.0.5:43567 on port 1883.
+1747578150: Client test_client already connected, closing old connection.
+1747578150: New client connected from 172.19.0.5:43567 as test_client (p2, c1, k60, u'admin').
+1747578151: New connection from 172.19.0.5:36527 on port 1883.
+1747578151: Client test_client already connected, closing old connection.
+1747578151: New client connected from 172.19.0.5:36527 as test_client (p2, c1, k60, u'admin').
+1747578151: New connection from 172.19.0.5:48317 on port 1883.
+1747578151: Client test_client already connected, closing old connection.
+1747578151: New client connected from 172.19.0.5:48317 as test_client (p2, c1, k60, u'admin').
+1747578152: New connection from 172.19.0.5:49669 on port 1883.
+1747578152: Client test_client already connected, closing old connection.
+1747578152: New client connected from 172.19.0.5:49669 as test_client (p2, c1, k60, u'admin').
+1747578152: New connection from 172.19.0.5:56899 on port 1883.
+1747578152: Client test_client already connected, closing old connection.
+1747578152: New client connected from 172.19.0.5:56899 as test_client (p2, c1, k60, u'admin').
+1747578153: New connection from 172.19.0.5:50065 on port 1883.
+1747578153: Client test_client already connected, closing old connection.
+1747578153: New client connected from 172.19.0.5:50065 as test_client (p2, c1, k60, u'admin').
+1747578153: New connection from 172.19.0.5:54281 on port 1883.
+1747578153: Client test_client already connected, closing old connection.
+1747578153: New client connected from 172.19.0.5:54281 as test_client (p2, c1, k60, u'admin').
+1747578154: New connection from 172.19.0.5:44797 on port 1883.
+1747578154: Client test_client already connected, closing old connection.
+1747578154: New client connected from 172.19.0.5:44797 as test_client (p2, c1, k60, u'admin').
+1747578154: New connection from 172.19.0.5:59417 on port 1883.
+1747578154: Client test_client already connected, closing old connection.
+1747578154: New client connected from 172.19.0.5:59417 as test_client (p2, c1, k60, u'admin').
+1747578155: New connection from 172.19.0.5:53255 on port 1883.
+1747578155: Client test_client already connected, closing old connection.
+1747578155: New client connected from 172.19.0.5:53255 as test_client (p2, c1, k60, u'admin').
+1747578155: New connection from 172.19.0.5:50093 on port 1883.
+1747578155: Client test_client already connected, closing old connection.
+1747578155: New client connected from 172.19.0.5:50093 as test_client (p2, c1, k60, u'admin').
+1747578156: New connection from 172.19.0.5:56389 on port 1883.
+1747578156: Client test_client already connected, closing old connection.
+1747578156: New client connected from 172.19.0.5:56389 as test_client (p2, c1, k60, u'admin').
+1747578156: New connection from 172.19.0.5:55035 on port 1883.
+1747578156: Client test_client already connected, closing old connection.
+1747578156: New client connected from 172.19.0.5:55035 as test_client (p2, c1, k60, u'admin').
+1747578157: New connection from 172.19.0.5:41805 on port 1883.
+1747578157: Client test_client already connected, closing old connection.
+1747578157: New client connected from 172.19.0.5:41805 as test_client (p2, c1, k60, u'admin').
+1747578157: New connection from 172.19.0.5:52049 on port 1883.
+1747578157: Client test_client already connected, closing old connection.
+1747578157: New client connected from 172.19.0.5:52049 as test_client (p2, c1, k60, u'admin').
+1747578158: New connection from 172.19.0.5:34607 on port 1883.
+1747578158: Client test_client already connected, closing old connection.
+1747578158: New client connected from 172.19.0.5:34607 as test_client (p2, c1, k60, u'admin').
+1747578158: New connection from 172.19.0.5:37867 on port 1883.
+1747578158: Client test_client already connected, closing old connection.
+1747578158: New client connected from 172.19.0.5:37867 as test_client (p2, c1, k60, u'admin').
+1747578159: New connection from 172.19.0.5:58617 on port 1883.
+1747578159: Client test_client already connected, closing old connection.
+1747578159: New client connected from 172.19.0.5:58617 as test_client (p2, c1, k60, u'admin').
+1747578159: New connection from 172.19.0.5:47411 on port 1883.
+1747578159: Client test_client already connected, closing old connection.
+1747578159: New client connected from 172.19.0.5:47411 as test_client (p2, c1, k60, u'admin').
+1747578160: New connection from 172.19.0.5:35509 on port 1883.
+1747578160: Client test_client already connected, closing old connection.
+1747578160: New client connected from 172.19.0.5:35509 as test_client (p2, c1, k60, u'admin').
+1747578160: New connection from 172.19.0.5:58257 on port 1883.
+1747578160: Client test_client already connected, closing old connection.
+1747578160: New client connected from 172.19.0.5:58257 as test_client (p2, c1, k60, u'admin').
+1747578161: New connection from 172.19.0.5:41821 on port 1883.
+1747578161: Client test_client already connected, closing old connection.
+1747578161: New client connected from 172.19.0.5:41821 as test_client (p2, c1, k60, u'admin').
+1747578161: New connection from 172.19.0.5:46943 on port 1883.
+1747578161: Client test_client already connected, closing old connection.
+1747578161: New client connected from 172.19.0.5:46943 as test_client (p2, c1, k60, u'admin').
+1747578162: Client test_client disconnected.
+1747578162: New connection from 172.19.0.4:36202 on port 1883.
+1747578162: New client connected from 172.19.0.4:36202 as 1e526bee-ca66-4b0c-92e1-77cb2782dada (p2, c1, k60, u'admin').
+1747578273: Client 1e526bee-ca66-4b0c-92e1-77cb2782dada closed its connection.
+1747578273: Client 9c4bfc62-d09a-4a37-88f0-c10376a9146c closed its connection.
+1747578274: mosquitto version 2.0.21 terminating
+1747578274: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747578286: mosquitto version 2.0.21 starting
+1747578286: Config loaded from /mosquitto/config/mosquitto.conf.
+1747578286: Opening ipv4 listen socket on port 1883.
+1747578286: mosquitto version 2.0.21 running
+1747578293: New connection from 172.19.0.4:55746 on port 1883.
+1747578293: New client connected from 172.19.0.4:55746 as 22897464-88a5-4d1f-a35d-caf2beb48580 (p2, c1, k60, u'admin').
+1747578293: 22897464-88a5-4d1f-a35d-caf2beb48580 1 /vehicle/register
+1747578293: 22897464-88a5-4d1f-a35d-caf2beb48580 1 /vehicle/health
+1747578293: 22897464-88a5-4d1f-a35d-caf2beb48580 0 /telemetry
+1747578293: 22897464-88a5-4d1f-a35d-caf2beb48580 1 /missions/status
+1747578306: New connection from 172.19.0.5:49061 on port 1883.
+1747578306: New client connected from 172.19.0.5:49061 as test_client (p2, c1, k60, u'admin').
+1747578307: New connection from 172.19.0.5:47029 on port 1883.
+1747578307: Client test_client already connected, closing old connection.
+1747578307: New client connected from 172.19.0.5:47029 as test_client (p2, c1, k60, u'admin').
+1747578307: test_client 1 /vehicle/register/response/vehicle-0
+1747578308: New connection from 172.19.0.5:49303 on port 1883.
+1747578308: Client test_client already connected, closing old connection.
+1747578308: New client connected from 172.19.0.5:49303 as test_client (p2, c1, k60, u'admin').
+1747578309: New connection from 172.19.0.5:48795 on port 1883.
+1747578309: Client test_client already connected, closing old connection.
+1747578309: New client connected from 172.19.0.5:48795 as test_client (p2, c1, k60, u'admin').
+1747578310: New connection from 172.19.0.5:45249 on port 1883.
+1747578310: Client test_client already connected, closing old connection.
+1747578310: New client connected from 172.19.0.5:45249 as test_client (p2, c1, k60, u'admin').
+1747578311: New connection from 172.19.0.5:36699 on port 1883.
+1747578311: Client test_client already connected, closing old connection.
+1747578311: New client connected from 172.19.0.5:36699 as test_client (p2, c1, k60, u'admin').
+1747578312: New connection from 172.19.0.5:38915 on port 1883.
+1747578312: Client test_client already connected, closing old connection.
+1747578312: New client connected from 172.19.0.5:38915 as test_client (p2, c1, k60, u'admin').
+1747578313: New connection from 172.19.0.5:48417 on port 1883.
+1747578313: Client test_client already connected, closing old connection.
+1747578313: New client connected from 172.19.0.5:48417 as test_client (p2, c1, k60, u'admin').
+1747578314: New connection from 172.19.0.5:37621 on port 1883.
+1747578314: Client test_client already connected, closing old connection.
+1747578314: New client connected from 172.19.0.5:37621 as test_client (p2, c1, k60, u'admin').
+1747578315: New connection from 172.19.0.5:60313 on port 1883.
+1747578315: Client test_client already connected, closing old connection.
+1747578315: New client connected from 172.19.0.5:60313 as test_client (p2, c1, k60, u'admin').
+1747578316: New connection from 172.19.0.5:33191 on port 1883.
+1747578316: Client test_client already connected, closing old connection.
+1747578316: New client connected from 172.19.0.5:33191 as test_client (p2, c1, k60, u'admin').
+1747578317: New connection from 172.19.0.5:49611 on port 1883.
+1747578317: Client test_client already connected, closing old connection.
+1747578317: New client connected from 172.19.0.5:49611 as test_client (p2, c1, k60, u'admin').
+1747578318: New connection from 172.19.0.5:48773 on port 1883.
+1747578318: Client test_client already connected, closing old connection.
+1747578318: New client connected from 172.19.0.5:48773 as test_client (p2, c1, k60, u'admin').
+1747578319: New connection from 172.19.0.5:56505 on port 1883.
+1747578319: Client test_client already connected, closing old connection.
+1747578319: New client connected from 172.19.0.5:56505 as test_client (p2, c1, k60, u'admin').
+1747578320: New connection from 172.19.0.5:50023 on port 1883.
+1747578320: Client test_client already connected, closing old connection.
+1747578320: New client connected from 172.19.0.5:50023 as test_client (p2, c1, k60, u'admin').
+1747578321: New connection from 172.19.0.5:58125 on port 1883.
+1747578321: Client test_client already connected, closing old connection.
+1747578321: New client connected from 172.19.0.5:58125 as test_client (p2, c1, k60, u'admin').
+1747578322: New connection from 172.19.0.5:41955 on port 1883.
+1747578322: Client test_client already connected, closing old connection.
+1747578322: New client connected from 172.19.0.5:41955 as test_client (p2, c1, k60, u'admin').
+1747578323: New connection from 172.19.0.5:34315 on port 1883.
+1747578323: Client test_client already connected, closing old connection.
+1747578323: New client connected from 172.19.0.5:34315 as test_client (p2, c1, k60, u'admin').
+1747578324: New connection from 172.19.0.5:52857 on port 1883.
+1747578324: Client test_client already connected, closing old connection.
+1747578324: New client connected from 172.19.0.5:52857 as test_client (p2, c1, k60, u'admin').
+1747578325: New connection from 172.19.0.5:54573 on port 1883.
+1747578325: Client test_client already connected, closing old connection.
+1747578325: New client connected from 172.19.0.5:54573 as test_client (p2, c1, k60, u'admin').
+1747578326: New connection from 172.19.0.5:49693 on port 1883.
+1747578326: Client test_client already connected, closing old connection.
+1747578326: New client connected from 172.19.0.5:49693 as test_client (p2, c1, k60, u'admin').
+1747578327: New connection from 172.19.0.5:39021 on port 1883.
+1747578327: Client test_client already connected, closing old connection.
+1747578327: New client connected from 172.19.0.5:39021 as test_client (p2, c1, k60, u'admin').
+1747578328: New connection from 172.19.0.5:38883 on port 1883.
+1747578328: Client test_client already connected, closing old connection.
+1747578328: New client connected from 172.19.0.5:38883 as test_client (p2, c1, k60, u'admin').
+1747578329: New connection from 172.19.0.5:58535 on port 1883.
+1747578329: Client test_client already connected, closing old connection.
+1747578329: New client connected from 172.19.0.5:58535 as test_client (p2, c1, k60, u'admin').
+1747578330: New connection from 172.19.0.5:32769 on port 1883.
+1747578330: Client test_client already connected, closing old connection.
+1747578330: New client connected from 172.19.0.5:32769 as test_client (p2, c1, k60, u'admin').
+1747578331: New connection from 172.19.0.5:55991 on port 1883.
+1747578331: Client test_client already connected, closing old connection.
+1747578331: New client connected from 172.19.0.5:55991 as test_client (p2, c1, k60, u'admin').
+1747578332: New connection from 172.19.0.5:34093 on port 1883.
+1747578332: Client test_client already connected, closing old connection.
+1747578332: New client connected from 172.19.0.5:34093 as test_client (p2, c1, k60, u'admin').
+1747578333: New connection from 172.19.0.5:35773 on port 1883.
+1747578333: Client test_client already connected, closing old connection.
+1747578333: New client connected from 172.19.0.5:35773 as test_client (p2, c1, k60, u'admin').
+1747578334: New connection from 172.19.0.5:58459 on port 1883.
+1747578334: Client test_client already connected, closing old connection.
+1747578334: New client connected from 172.19.0.5:58459 as test_client (p2, c1, k60, u'admin').
+1747578335: New connection from 172.19.0.5:50881 on port 1883.
+1747578335: Client test_client already connected, closing old connection.
+1747578335: New client connected from 172.19.0.5:50881 as test_client (p2, c1, k60, u'admin').
+1747578336: New connection from 172.19.0.5:47729 on port 1883.
+1747578336: Client test_client already connected, closing old connection.
+1747578336: New client connected from 172.19.0.5:47729 as test_client (p2, c1, k60, u'admin').
+1747578337: Client test_client closed its connection.
+1747578732: Client 22897464-88a5-4d1f-a35d-caf2beb48580 closed its connection.
+1747578733: mosquitto version 2.0.21 terminating
+1747578733: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747578748: mosquitto version 2.0.21 starting
+1747578748: Config loaded from /mosquitto/config/mosquitto.conf.
+1747578748: Opening ipv4 listen socket on port 1883.
+1747578748: mosquitto version 2.0.21 running
+1747578756: New connection from 172.19.0.4:55498 on port 1883.
+1747578756: New client connected from 172.19.0.4:55498 as 7ccf5695-1f62-4653-ab57-21464973ea5d (p2, c1, k60, u'admin').
+1747578756: 7ccf5695-1f62-4653-ab57-21464973ea5d 1 /vehicle/register
+1747578756: 7ccf5695-1f62-4653-ab57-21464973ea5d 1 /vehicle/health
+1747578756: 7ccf5695-1f62-4653-ab57-21464973ea5d 0 /telemetry
+1747578756: 7ccf5695-1f62-4653-ab57-21464973ea5d 1 /missions/status
+1747578769: New connection from 172.19.0.5:60157 on port 1883.
+1747578769: New client connected from 172.19.0.5:60157 as test_client (p2, c1, k60, u'admin').
+1747578769: New connection from 172.19.0.5:51141 on port 1883.
+1747578769: Client test_client already connected, closing old connection.
+1747578769: New client connected from 172.19.0.5:51141 as test_client (p2, c1, k60, u'admin').
+1747578769: test_client 0 /vehicle/register/response/vehicle-0
+1747578770: New connection from 172.19.0.5:43653 on port 1883.
+1747578770: Client test_client already connected, closing old connection.
+1747578770: New client connected from 172.19.0.5:43653 as test_client (p2, c1, k60, u'admin').
+1747578771: New connection from 172.19.0.5:51183 on port 1883.
+1747578771: Client test_client already connected, closing old connection.
+1747578771: New client connected from 172.19.0.5:51183 as test_client (p2, c1, k60, u'admin').
+1747578772: New connection from 172.19.0.5:37987 on port 1883.
+1747578772: Client test_client already connected, closing old connection.
+1747578772: New client connected from 172.19.0.5:37987 as test_client (p2, c1, k60, u'admin').
+1747578773: New connection from 172.19.0.5:59637 on port 1883.
+1747578773: Client test_client already connected, closing old connection.
+1747578773: New client connected from 172.19.0.5:59637 as test_client (p2, c1, k60, u'admin').
+1747578774: New connection from 172.19.0.5:45939 on port 1883.
+1747578774: Client test_client already connected, closing old connection.
+1747578774: New client connected from 172.19.0.5:45939 as test_client (p2, c1, k60, u'admin').
+1747578775: New connection from 172.19.0.5:40821 on port 1883.
+1747578775: Client test_client already connected, closing old connection.
+1747578775: New client connected from 172.19.0.5:40821 as test_client (p2, c1, k60, u'admin').
+1747578776: New connection from 172.19.0.5:50275 on port 1883.
+1747578776: Client test_client already connected, closing old connection.
+1747578776: New client connected from 172.19.0.5:50275 as test_client (p2, c1, k60, u'admin').
+1747578777: New connection from 172.19.0.5:45165 on port 1883.
+1747578777: Client test_client already connected, closing old connection.
+1747578777: New client connected from 172.19.0.5:45165 as test_client (p2, c1, k60, u'admin').
+1747578778: New connection from 172.19.0.5:41889 on port 1883.
+1747578778: Client test_client already connected, closing old connection.
+1747578778: New client connected from 172.19.0.5:41889 as test_client (p2, c1, k60, u'admin').
+1747578779: New connection from 172.19.0.5:32779 on port 1883.
+1747578779: Client test_client already connected, closing old connection.
+1747578779: New client connected from 172.19.0.5:32779 as test_client (p2, c1, k60, u'admin').
+1747578780: New connection from 172.19.0.5:59385 on port 1883.
+1747578780: Client test_client already connected, closing old connection.
+1747578780: New client connected from 172.19.0.5:59385 as test_client (p2, c1, k60, u'admin').
+1747578781: New connection from 172.19.0.5:58557 on port 1883.
+1747578781: Client test_client already connected, closing old connection.
+1747578781: New client connected from 172.19.0.5:58557 as test_client (p2, c1, k60, u'admin').
+1747578782: New connection from 172.19.0.5:57523 on port 1883.
+1747578782: Client test_client already connected, closing old connection.
+1747578782: New client connected from 172.19.0.5:57523 as test_client (p2, c1, k60, u'admin').
+1747578783: New connection from 172.19.0.5:57285 on port 1883.
+1747578783: Client test_client already connected, closing old connection.
+1747578783: New client connected from 172.19.0.5:57285 as test_client (p2, c1, k60, u'admin').
+1747578784: New connection from 172.19.0.5:38943 on port 1883.
+1747578784: Client test_client already connected, closing old connection.
+1747578784: New client connected from 172.19.0.5:38943 as test_client (p2, c1, k60, u'admin').
+1747578785: New connection from 172.19.0.5:39349 on port 1883.
+1747578785: Client test_client already connected, closing old connection.
+1747578785: New client connected from 172.19.0.5:39349 as test_client (p2, c1, k60, u'admin').
+1747578786: New connection from 172.19.0.5:51713 on port 1883.
+1747578786: Client test_client already connected, closing old connection.
+1747578786: New client connected from 172.19.0.5:51713 as test_client (p2, c1, k60, u'admin').
+1747578787: New connection from 172.19.0.5:46493 on port 1883.
+1747578787: Client test_client already connected, closing old connection.
+1747578787: New client connected from 172.19.0.5:46493 as test_client (p2, c1, k60, u'admin').
+1747578788: New connection from 172.19.0.5:32909 on port 1883.
+1747578788: Client test_client already connected, closing old connection.
+1747578788: New client connected from 172.19.0.5:32909 as test_client (p2, c1, k60, u'admin').
+1747578789: New connection from 172.19.0.5:57859 on port 1883.
+1747578789: Client test_client already connected, closing old connection.
+1747578789: New client connected from 172.19.0.5:57859 as test_client (p2, c1, k60, u'admin').
+1747578790: New connection from 172.19.0.5:59449 on port 1883.
+1747578790: Client test_client already connected, closing old connection.
+1747578790: New client connected from 172.19.0.5:59449 as test_client (p2, c1, k60, u'admin').
+1747578791: New connection from 172.19.0.5:44343 on port 1883.
+1747578791: Client test_client already connected, closing old connection.
+1747578791: New client connected from 172.19.0.5:44343 as test_client (p2, c1, k60, u'admin').
+1747578792: New connection from 172.19.0.5:60197 on port 1883.
+1747578792: Client test_client already connected, closing old connection.
+1747578792: New client connected from 172.19.0.5:60197 as test_client (p2, c1, k60, u'admin').
+1747578793: New connection from 172.19.0.5:38213 on port 1883.
+1747578793: Client test_client already connected, closing old connection.
+1747578793: New client connected from 172.19.0.5:38213 as test_client (p2, c1, k60, u'admin').
+1747578794: New connection from 172.19.0.5:57965 on port 1883.
+1747578794: Client test_client already connected, closing old connection.
+1747578794: New client connected from 172.19.0.5:57965 as test_client (p2, c1, k60, u'admin').
+1747578795: New connection from 172.19.0.5:33909 on port 1883.
+1747578795: Client test_client already connected, closing old connection.
+1747578795: New client connected from 172.19.0.5:33909 as test_client (p2, c1, k60, u'admin').
+1747578796: New connection from 172.19.0.5:56703 on port 1883.
+1747578796: Client test_client already connected, closing old connection.
+1747578796: New client connected from 172.19.0.5:56703 as test_client (p2, c1, k60, u'admin').
+1747578797: New connection from 172.19.0.5:41855 on port 1883.
+1747578797: Client test_client already connected, closing old connection.
+1747578797: New client connected from 172.19.0.5:41855 as test_client (p2, c1, k60, u'admin').
+1747578798: New connection from 172.19.0.5:55743 on port 1883.
+1747578798: Client test_client already connected, closing old connection.
+1747578798: New client connected from 172.19.0.5:55743 as test_client (p2, c1, k60, u'admin').
+1747578799: Client test_client closed its connection.
+1747578910: Client 7ccf5695-1f62-4653-ab57-21464973ea5d closed its connection.
+1747578911: mosquitto version 2.0.21 terminating
+1747578911: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747578922: mosquitto version 2.0.21 starting
+1747578922: Config loaded from /mosquitto/config/mosquitto.conf.
+1747578922: Opening ipv4 listen socket on port 1883.
+1747578922: mosquitto version 2.0.21 running
+1747578929: New connection from 172.19.0.4:55898 on port 1883.
+1747578929: New client connected from 172.19.0.4:55898 as 71400944-4ded-40dc-b0e5-8466c7a86d9e (p2, c1, k60, u'admin').
+1747578929: 71400944-4ded-40dc-b0e5-8466c7a86d9e 1 /vehicle/register
+1747578929: 71400944-4ded-40dc-b0e5-8466c7a86d9e 1 /vehicle/health
+1747578929: 71400944-4ded-40dc-b0e5-8466c7a86d9e 0 /telemetry
+1747578929: 71400944-4ded-40dc-b0e5-8466c7a86d9e 1 /missions/status
+1747578943: New connection from 172.19.0.5:35437 on port 1883.
+1747578943: New client connected from 172.19.0.5:35437 as test_client (p2, c1, k60, u'admin').
+1747578943: New connection from 172.19.0.5:43423 on port 1883.
+1747578943: Client test_client already connected, closing old connection.
+1747578943: New client connected from 172.19.0.5:43423 as test_client (p2, c1, k60, u'admin').
+1747578943: test_client 0 /vehicle/register/response/vehicle-0
+1747578944: New connection from 172.19.0.5:55099 on port 1883.
+1747578944: Client test_client already connected, closing old connection.
+1747578944: New client connected from 172.19.0.5:55099 as test_client (p2, c1, k60, u'admin').
+1747578945: New connection from 172.19.0.5:33477 on port 1883.
+1747578945: Client test_client already connected, closing old connection.
+1747578945: New client connected from 172.19.0.5:33477 as test_client (p2, c1, k60, u'admin').
+1747578946: New connection from 172.19.0.5:51413 on port 1883.
+1747578946: Client test_client already connected, closing old connection.
+1747578946: New client connected from 172.19.0.5:51413 as test_client (p2, c1, k60, u'admin').
+1747578947: New connection from 172.19.0.5:37105 on port 1883.
+1747578947: Client test_client already connected, closing old connection.
+1747578947: New client connected from 172.19.0.5:37105 as test_client (p2, c1, k60, u'admin').
+1747578948: New connection from 172.19.0.5:40919 on port 1883.
+1747578948: Client test_client already connected, closing old connection.
+1747578948: New client connected from 172.19.0.5:40919 as test_client (p2, c1, k60, u'admin').
+1747578949: New connection from 172.19.0.5:38873 on port 1883.
+1747578949: Client test_client already connected, closing old connection.
+1747578949: New client connected from 172.19.0.5:38873 as test_client (p2, c1, k60, u'admin').
+1747578950: New connection from 172.19.0.5:47623 on port 1883.
+1747578950: Client test_client already connected, closing old connection.
+1747578950: New client connected from 172.19.0.5:47623 as test_client (p2, c1, k60, u'admin').
+1747578951: New connection from 172.19.0.5:42827 on port 1883.
+1747578951: Client test_client already connected, closing old connection.
+1747578951: New client connected from 172.19.0.5:42827 as test_client (p2, c1, k60, u'admin').
+1747578952: New connection from 172.19.0.5:48681 on port 1883.
+1747578952: Client test_client already connected, closing old connection.
+1747578952: New client connected from 172.19.0.5:48681 as test_client (p2, c1, k60, u'admin').
+1747578953: New connection from 172.19.0.5:52123 on port 1883.
+1747578953: Client test_client already connected, closing old connection.
+1747578953: New client connected from 172.19.0.5:52123 as test_client (p2, c1, k60, u'admin').
+1747578954: New connection from 172.19.0.5:37843 on port 1883.
+1747578954: Client test_client already connected, closing old connection.
+1747578954: New client connected from 172.19.0.5:37843 as test_client (p2, c1, k60, u'admin').
+1747578955: New connection from 172.19.0.5:52627 on port 1883.
+1747578955: Client test_client already connected, closing old connection.
+1747578955: New client connected from 172.19.0.5:52627 as test_client (p2, c1, k60, u'admin').
+1747578956: New connection from 172.19.0.5:35827 on port 1883.
+1747578956: Client test_client already connected, closing old connection.
+1747578956: New client connected from 172.19.0.5:35827 as test_client (p2, c1, k60, u'admin').
+1747578957: New connection from 172.19.0.5:41921 on port 1883.
+1747578957: Client test_client already connected, closing old connection.
+1747578957: New client connected from 172.19.0.5:41921 as test_client (p2, c1, k60, u'admin').
+1747578958: New connection from 172.19.0.5:56921 on port 1883.
+1747578958: Client test_client already connected, closing old connection.
+1747578958: New client connected from 172.19.0.5:56921 as test_client (p2, c1, k60, u'admin').
+1747578959: New connection from 172.19.0.5:34931 on port 1883.
+1747578959: Client test_client already connected, closing old connection.
+1747578959: New client connected from 172.19.0.5:34931 as test_client (p2, c1, k60, u'admin').
+1747578960: New connection from 172.19.0.5:51515 on port 1883.
+1747578960: Client test_client already connected, closing old connection.
+1747578960: New client connected from 172.19.0.5:51515 as test_client (p2, c1, k60, u'admin').
+1747578961: New connection from 172.19.0.5:59671 on port 1883.
+1747578961: Client test_client already connected, closing old connection.
+1747578961: New client connected from 172.19.0.5:59671 as test_client (p2, c1, k60, u'admin').
+1747578962: New connection from 172.19.0.5:46917 on port 1883.
+1747578962: Client test_client already connected, closing old connection.
+1747578962: New client connected from 172.19.0.5:46917 as test_client (p2, c1, k60, u'admin').
+1747578963: New connection from 172.19.0.5:60823 on port 1883.
+1747578963: Client test_client already connected, closing old connection.
+1747578963: New client connected from 172.19.0.5:60823 as test_client (p2, c1, k60, u'admin').
+1747578964: New connection from 172.19.0.5:44335 on port 1883.
+1747578964: Client test_client already connected, closing old connection.
+1747578964: New client connected from 172.19.0.5:44335 as test_client (p2, c1, k60, u'admin').
+1747578965: New connection from 172.19.0.5:58559 on port 1883.
+1747578965: Client test_client already connected, closing old connection.
+1747578965: New client connected from 172.19.0.5:58559 as test_client (p2, c1, k60, u'admin').
+1747578966: New connection from 172.19.0.5:36461 on port 1883.
+1747578966: Client test_client already connected, closing old connection.
+1747578966: New client connected from 172.19.0.5:36461 as test_client (p2, c1, k60, u'admin').
+1747578967: New connection from 172.19.0.5:55181 on port 1883.
+1747578967: Client test_client already connected, closing old connection.
+1747578967: New client connected from 172.19.0.5:55181 as test_client (p2, c1, k60, u'admin').
+1747578968: New connection from 172.19.0.5:41507 on port 1883.
+1747578968: Client test_client already connected, closing old connection.
+1747578968: New client connected from 172.19.0.5:41507 as test_client (p2, c1, k60, u'admin').
+1747578969: New connection from 172.19.0.5:39393 on port 1883.
+1747578969: Client test_client already connected, closing old connection.
+1747578969: New client connected from 172.19.0.5:39393 as test_client (p2, c1, k60, u'admin').
+1747578970: New connection from 172.19.0.5:40643 on port 1883.
+1747578970: Client test_client already connected, closing old connection.
+1747578970: New client connected from 172.19.0.5:40643 as test_client (p2, c1, k60, u'admin').
+1747578971: New connection from 172.19.0.5:60525 on port 1883.
+1747578971: Client test_client already connected, closing old connection.
+1747578971: New client connected from 172.19.0.5:60525 as test_client (p2, c1, k60, u'admin').
+1747578972: New connection from 172.19.0.5:56449 on port 1883.
+1747578972: Client test_client already connected, closing old connection.
+1747578972: New client connected from 172.19.0.5:56449 as test_client (p2, c1, k60, u'admin').
+1747578973: Client test_client closed its connection.
+1747579176: Client 71400944-4ded-40dc-b0e5-8466c7a86d9e closed its connection.
+1747579177: mosquitto version 2.0.21 terminating
+1747579177: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747579244: mosquitto version 2.0.21 starting
+1747579244: Config loaded from /mosquitto/config/mosquitto.conf.
+1747579244: Opening ipv4 listen socket on port 1883.
+1747579244: mosquitto version 2.0.21 running
+1747579251: New connection from 172.19.0.4:49400 on port 1883.
+1747579251: New client connected from 172.19.0.4:49400 as d78a2149-aa45-48ce-8dfc-b0dc8f66ac97 (p2, c1, k60, u'admin').
+1747579251: d78a2149-aa45-48ce-8dfc-b0dc8f66ac97 1 /vehicle/register
+1747579251: d78a2149-aa45-48ce-8dfc-b0dc8f66ac97 1 /vehicle/health
+1747579251: d78a2149-aa45-48ce-8dfc-b0dc8f66ac97 0 /telemetry
+1747579251: d78a2149-aa45-48ce-8dfc-b0dc8f66ac97 1 /missions/status
+1747579265: New connection from 172.19.0.5:54367 on port 1883.
+1747579265: New client connected from 172.19.0.5:54367 as test_client (p2, c1, k60, u'admin').
+1747579265: Client test_client closed its connection.
+1747579266: New connection from 172.19.0.5:48125 on port 1883.
+1747579266: New client connected from 172.19.0.5:48125 as test_client (p2, c1, k60, u'admin').
+1747579266: Client test_client closed its connection.
+1747579267: New connection from 172.19.0.5:50287 on port 1883.
+1747579267: New client connected from 172.19.0.5:50287 as test_client (p2, c1, k60, u'admin').
+1747579267: Client test_client closed its connection.
+1747579268: New connection from 172.19.0.5:47539 on port 1883.
+1747579268: New client connected from 172.19.0.5:47539 as test_client (p2, c1, k60, u'admin').
+1747579268: Client test_client closed its connection.
+1747579269: New connection from 172.19.0.5:49063 on port 1883.
+1747579269: New client connected from 172.19.0.5:49063 as test_client (p2, c1, k60, u'admin').
+1747579269: Client test_client closed its connection.
+1747579270: New connection from 172.19.0.5:52961 on port 1883.
+1747579270: New client connected from 172.19.0.5:52961 as test_client (p2, c1, k60, u'admin').
+1747579270: Client test_client closed its connection.
+1747579422: Client d78a2149-aa45-48ce-8dfc-b0dc8f66ac97 closed its connection.
+1747579423: mosquitto version 2.0.21 terminating
+1747579423: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747579761: mosquitto version 2.0.21 starting
+1747579761: Config loaded from /mosquitto/config/mosquitto.conf.
+1747579761: Opening ipv4 listen socket on port 1883.
+1747579761: mosquitto version 2.0.21 running
+1747579768: New connection from 172.19.0.4:42474 on port 1883.
+1747579769: New client connected from 172.19.0.4:42474 as a0e3dff6-7993-40fc-9bcb-df84bb806ee0 (p2, c1, k60, u'admin').
+1747579769: a0e3dff6-7993-40fc-9bcb-df84bb806ee0 1 /vehicle/register
+1747579769: a0e3dff6-7993-40fc-9bcb-df84bb806ee0 1 /vehicle/health
+1747579769: a0e3dff6-7993-40fc-9bcb-df84bb806ee0 0 /telemetry
+1747579769: a0e3dff6-7993-40fc-9bcb-df84bb806ee0 1 /missions/status
+1747579782: New connection from 172.19.0.5:35125 on port 1883.
+1747579782: New client connected from 172.19.0.5:35125 as test_client (p2, c1, k60, u'admin').
+1747579782: Client test_client disconnected.
+1747579782: New connection from 172.19.0.5:57773 on port 1883.
+1747579782: New client connected from 172.19.0.5:57773 as test_client (p2, c1, k60, u'admin').
+1747579782: test_client 0 /vehicle/register/response/vehicle-0
+1747579782: Client test_client disconnected: Broken pipe.
+1747580054: Client a0e3dff6-7993-40fc-9bcb-df84bb806ee0 closed its connection.
+1747580055: mosquitto version 2.0.21 terminating
+1747580055: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747580068: mosquitto version 2.0.21 starting
+1747580068: Config loaded from /mosquitto/config/mosquitto.conf.
+1747580068: Opening ipv4 listen socket on port 1883.
+1747580068: mosquitto version 2.0.21 running
+1747580076: New connection from 172.19.0.4:51494 on port 1883.
+1747580076: New client connected from 172.19.0.4:51494 as af2b4603-3ff0-47d9-bcca-31ee5bc580c1 (p2, c1, k60, u'admin').
+1747580076: af2b4603-3ff0-47d9-bcca-31ee5bc580c1 1 /vehicle/register
+1747580076: af2b4603-3ff0-47d9-bcca-31ee5bc580c1 1 /vehicle/health
+1747580076: af2b4603-3ff0-47d9-bcca-31ee5bc580c1 0 /telemetry
+1747580076: af2b4603-3ff0-47d9-bcca-31ee5bc580c1 1 /missions/status
+1747580089: New connection from 172.19.0.5:51969 on port 1883.
+1747580089: New client connected from 172.19.0.5:51969 as test_client (p2, c1, k60, u'admin').
+1747580092: Client test_client disconnected.
+1747580092: New connection from 172.19.0.5:45341 on port 1883.
+1747580092: New client connected from 172.19.0.5:45341 as test_client (p2, c1, k60, u'admin').
+1747580095: test_client 0 /vehicle/register/response/vehicle-0
+1747580100: Client test_client disconnected.
+1747580124: Client af2b4603-3ff0-47d9-bcca-31ee5bc580c1 closed its connection.
+1747580125: mosquitto version 2.0.21 terminating
+1747580125: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747580613: mosquitto version 2.0.21 starting
+1747580613: Config loaded from /mosquitto/config/mosquitto.conf.
+1747580613: Opening ipv4 listen socket on port 1883.
+1747580613: mosquitto version 2.0.21 running
+1747580621: New connection from 172.19.0.4:45324 on port 1883.
+1747580621: New client connected from 172.19.0.4:45324 as 353f45ab-d967-4ff8-b2fa-818dae4f14e3 (p2, c1, k60, u'admin').
+1747580621: 353f45ab-d967-4ff8-b2fa-818dae4f14e3 1 /vehicle/register
+1747580621: 353f45ab-d967-4ff8-b2fa-818dae4f14e3 1 /vehicle/health
+1747580621: 353f45ab-d967-4ff8-b2fa-818dae4f14e3 0 /telemetry
+1747580621: 353f45ab-d967-4ff8-b2fa-818dae4f14e3 1 /missions/status
+1747580634: New connection from 172.19.0.5:58753 on port 1883.
+1747580634: New client connected from 172.19.0.5:58753 as test_client (p2, c1, k60, u'admin').
+1747580637: Client test_client disconnected.
+1747580637: New connection from 172.19.0.5:58051 on port 1883.
+1747580637: New client connected from 172.19.0.5:58051 as test_client (p2, c1, k60, u'admin').
+1747580640: test_client 0 /vehicle/register/response/vehicle-0
+1747580640: New connection from 172.19.0.4:33704 on port 1883.
+1747580640: New client connected from 172.19.0.4:33704 as f489456e-c7c7-4821-bbe4-f1ca23ec7a6c (p2, c1, k60, u'admin').
+1747580640: Client test_client disconnected.
+1747580997: Client f489456e-c7c7-4821-bbe4-f1ca23ec7a6c closed its connection.
+1747580997: Client 353f45ab-d967-4ff8-b2fa-818dae4f14e3 closed its connection.
+1747580998: mosquitto version 2.0.21 terminating
+1747580998: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747581011: mosquitto version 2.0.21 starting
+1747581011: Config loaded from /mosquitto/config/mosquitto.conf.
+1747581011: Opening ipv4 listen socket on port 1883.
+1747581011: mosquitto version 2.0.21 running
+1747581020: New connection from 172.19.0.4:56218 on port 1883.
+1747581020: New client connected from 172.19.0.4:56218 as e5c5a7c6-19f0-49b5-be3b-9b107211f6f1 (p2, c1, k60, u'admin').
+1747581020: e5c5a7c6-19f0-49b5-be3b-9b107211f6f1 1 /vehicle/register
+1747581020: e5c5a7c6-19f0-49b5-be3b-9b107211f6f1 1 /vehicle/health
+1747581020: e5c5a7c6-19f0-49b5-be3b-9b107211f6f1 0 /telemetry
+1747581020: e5c5a7c6-19f0-49b5-be3b-9b107211f6f1 1 /missions/status
+1747581032: New connection from 172.19.0.5:32919 on port 1883.
+1747581032: New client connected from 172.19.0.5:32919 as test_client (p2, c1, k60, u'admin').
+1747581035: Client test_client disconnected.
+1747581035: New connection from 172.19.0.5:42215 on port 1883.
+1747581035: New client connected from 172.19.0.5:42215 as test_client (p2, c1, k60, u'admin').
+1747581038: test_client 0 /vehicle/register/response/vehicle-0
+1747581038: New connection from 172.19.0.4:54258 on port 1883.
+1747581038: New client connected from 172.19.0.4:54258 as 71057bc1-236e-4a11-884a-2f2fb41b6bdc (p2, c1, k60, u'admin').
+1747581041: Client test_client disconnected.
+1747581192: Client 71057bc1-236e-4a11-884a-2f2fb41b6bdc closed its connection.
+1747581192: Client e5c5a7c6-19f0-49b5-be3b-9b107211f6f1 closed its connection.
+1747581193: mosquitto version 2.0.21 terminating
+1747581193: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747582530: mosquitto version 2.0.21 starting
+1747582530: Config loaded from /mosquitto/config/mosquitto.conf.
+1747582530: Opening ipv4 listen socket on port 1883.
+1747582530: mosquitto version 2.0.21 running
+1747582537: New connection from 172.19.0.4:36782 on port 1883.
+1747582537: New client connected from 172.19.0.4:36782 as 28413995-18ee-4f7e-8dcb-868e26766449 (p2, c1, k60, u'admin').
+1747582537: 28413995-18ee-4f7e-8dcb-868e26766449 1 /vehicle/register
+1747582537: 28413995-18ee-4f7e-8dcb-868e26766449 1 /vehicle/health
+1747582537: 28413995-18ee-4f7e-8dcb-868e26766449 0 /telemetry
+1747582537: 28413995-18ee-4f7e-8dcb-868e26766449 1 /missions/status
+1747582551: New connection from 172.19.0.5:34949 on port 1883.
+1747582551: New client connected from 172.19.0.5:34949 as test_client (p2, c1, k60, u'admin').
+1747582554: Client test_client disconnected.
+1747582554: New connection from 172.19.0.5:54663 on port 1883.
+1747582554: New client connected from 172.19.0.5:54663 as test_client (p2, c1, k60, u'admin').
+1747582557: test_client 0 /vehicle/register/response/vehicle-0
+1747582557: New connection from 172.19.0.4:42356 on port 1883.
+1747582557: New client connected from 172.19.0.4:42356 as 04651471-a8dd-4975-b47b-f70230cd019e (p2, c1, k60, u'admin').
+1747582560: Client test_client disconnected.
+1747583039: Client 04651471-a8dd-4975-b47b-f70230cd019e closed its connection.
+1747583039: Client 28413995-18ee-4f7e-8dcb-868e26766449 closed its connection.
+1747583040: mosquitto version 2.0.21 terminating
+1747583040: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747583053: mosquitto version 2.0.21 starting
+1747583053: Config loaded from /mosquitto/config/mosquitto.conf.
+1747583053: Opening ipv4 listen socket on port 1883.
+1747583053: mosquitto version 2.0.21 running
+1747583060: New connection from 172.19.0.4:44078 on port 1883.
+1747583060: New client connected from 172.19.0.4:44078 as c283050d-4bc9-40c4-9cd2-20712c903b52 (p2, c1, k60, u'admin').
+1747583060: c283050d-4bc9-40c4-9cd2-20712c903b52 1 /vehicle/register
+1747583060: c283050d-4bc9-40c4-9cd2-20712c903b52 1 /vehicle/health
+1747583060: c283050d-4bc9-40c4-9cd2-20712c903b52 0 /telemetry
+1747583060: c283050d-4bc9-40c4-9cd2-20712c903b52 1 /missions/status
+1747583074: New connection from 172.19.0.5:48809 on port 1883.
+1747583074: New client connected from 172.19.0.5:48809 as test_client (p2, c1, k60, u'admin').
+1747583077: Client test_client disconnected.
+1747583077: New connection from 172.19.0.5:53217 on port 1883.
+1747583077: New client connected from 172.19.0.5:53217 as test_client (p2, c1, k60, u'admin').
+1747583080: test_client 0 /vehicle/register/response/vehicle-0
+1747583080: New connection from 172.19.0.4:52810 on port 1883.
+1747583080: New client connected from 172.19.0.4:52810 as 04c4fb7c-33a8-4db0-9e4f-1958b1cb804d (p2, c1, k60, u'admin').
+1747583080: New connection from 172.19.0.4:52826 on port 1883.
+1747583080: New client connected from 172.19.0.4:52826 as 083ecd09-6cac-438d-99cf-b3c7ca5928d9 (p2, c1, k60, u'admin').
+1747583083: Client test_client disconnected.
+1747583768: Client 083ecd09-6cac-438d-99cf-b3c7ca5928d9 closed its connection.
+1747583768: Client 04c4fb7c-33a8-4db0-9e4f-1958b1cb804d closed its connection.
+1747583768: Client c283050d-4bc9-40c4-9cd2-20712c903b52 closed its connection.
+1747583769: mosquitto version 2.0.21 terminating
+1747583769: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747583781: mosquitto version 2.0.21 starting
+1747583781: Config loaded from /mosquitto/config/mosquitto.conf.
+1747583781: Opening ipv4 listen socket on port 1883.
+1747583781: mosquitto version 2.0.21 running
+1747583788: New connection from 172.19.0.4:37452 on port 1883.
+1747583788: New client connected from 172.19.0.4:37452 as 4bef6f06-8e69-452e-841d-c38fc8fe04ea (p2, c1, k60, u'admin').
+1747583788: 4bef6f06-8e69-452e-841d-c38fc8fe04ea 1 /vehicle/register
+1747583788: 4bef6f06-8e69-452e-841d-c38fc8fe04ea 1 /vehicle/health
+1747583788: 4bef6f06-8e69-452e-841d-c38fc8fe04ea 0 /telemetry
+1747583788: 4bef6f06-8e69-452e-841d-c38fc8fe04ea 1 /missions/status
+1747583802: New connection from 172.19.0.5:36915 on port 1883.
+1747583802: New client connected from 172.19.0.5:36915 as test_client (p2, c1, k60, u'admin').
+1747583805: Client test_client disconnected.
+1747583805: New connection from 172.19.0.5:34991 on port 1883.
+1747583805: New client connected from 172.19.0.5:34991 as test_client (p2, c1, k60, u'admin').
+1747583808: test_client 0 /vehicle/register/response/vehicle-0
+1747583808: New connection from 172.19.0.4:54530 on port 1883.
+1747583808: New client connected from 172.19.0.4:54530 as 17990201-709b-4d89-9de5-590cbdb22928 (p2, c1, k60, u'admin').
+1747583808: New connection from 172.19.0.4:54532 on port 1883.
+1747583808: New client connected from 172.19.0.4:54532 as 67cb4ec4-3709-4e38-9f71-968964a3f191 (p2, c1, k60, u'admin').
+1747583808: Client test_client disconnected.
+1747585582: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747586061: Client 4bef6f06-8e69-452e-841d-c38fc8fe04ea has exceeded timeout, disconnecting.
+1747586061: Client 17990201-709b-4d89-9de5-590cbdb22928 has exceeded timeout, disconnecting.
+1747586061: Client 67cb4ec4-3709-4e38-9f71-968964a3f191 has exceeded timeout, disconnecting.
+1747586062: New connection from 172.19.0.4:53066 on port 1883.
+1747586062: New client connected from 172.19.0.4:53066 as 4bef6f06-8e69-452e-841d-c38fc8fe04ea (p2, c1, k60, u'admin').
+1747586062: 4bef6f06-8e69-452e-841d-c38fc8fe04ea 1 /vehicle/register
+1747586062: 4bef6f06-8e69-452e-841d-c38fc8fe04ea 1 /vehicle/health
+1747586062: 4bef6f06-8e69-452e-841d-c38fc8fe04ea 0 /telemetry
+1747586062: 4bef6f06-8e69-452e-841d-c38fc8fe04ea 1 /missions/status
+1747586062: New connection from 172.19.0.4:53080 on port 1883.
+1747586062: New client connected from 172.19.0.4:53080 as 17990201-709b-4d89-9de5-590cbdb22928 (p2, c1, k60, u'admin').
+1747586062: New connection from 172.19.0.4:53084 on port 1883.
+1747586062: New client connected from 172.19.0.4:53084 as 67cb4ec4-3709-4e38-9f71-968964a3f191 (p2, c1, k60, u'admin').
+1747587222: Client 67cb4ec4-3709-4e38-9f71-968964a3f191 closed its connection.
+1747587222: Client 17990201-709b-4d89-9de5-590cbdb22928 closed its connection.
+1747587222: Client 4bef6f06-8e69-452e-841d-c38fc8fe04ea closed its connection.
+1747587223: mosquitto version 2.0.21 terminating
+1747587223: Saving in-memory database to /mosquitto/data//mosquitto.db.
