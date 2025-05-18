@@ -36,3 +36,8 @@ This is the design and implementation of vehicle fleet simulation using MQTT, an
         - telemetry ingestion
         - creating a sample mission
     - you can uncomment any test before running the containers if you wish.
+
+# Testing the system:
+- Run the docker command which will run the test app and print the results
+- use the attached postman collections for manual testing
+- create in postman an mqtt request and use the test data available in the file mentioned above to generate publishing and subscribing commands. you can find all topics to define in the decision log file.
