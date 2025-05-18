@@ -17,7 +17,7 @@ This is the design and implementation of vehicle fleet simulation using MQTT, an
 # How to understand the structure best'
 - for convenience I have attached an [Excalidraw](https://excalidraw.com/) design which you can import into the website and view
     - The design includes a version that was implemented (right) and a version at scale for the future (left)
-![overview of the design](/current_design.png)
+![overview of the design](/current_design.PNG)
 - The decision_log.md file includes to the best of my abilities the documentation of the design choices i made thus far. Please feel free to contact me for any design relates questions.
 - The apis are exported as a postman collection and saved with the repo. please note: the test/sample_test_data.txt file includes any required test data for all tests
 - The mqtt requests can just be tested using a postman mqtt request with the sample data present in the test/sample_test_data.txt file.
